@@ -1,6 +1,7 @@
 {
   "name": "noeyislearning",
   "version": "0.1.0",
+  "author": "Noey Ignacio",
   "private": true,
   "scripts": {
     "dev": "next dev",
