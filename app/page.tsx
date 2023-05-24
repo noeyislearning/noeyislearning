@@ -1,16 +1,16 @@
 import React from 'react'
 
 /** --- Components --- */
-import Hero from "@/components/layouts/Hero/Hero";
-import Projects from "@/components/layouts/Sections/Home/Projects/Projects";
-import Blogs from "@/components/layouts/Sections/Home/Blogs/Blogs";
+import LandingPageHero from "@/components/layouts/Hero/LandingPageHero";
+import RecentProjects from "@/components/layouts/Sections/Home/Projects/RecentProjects";
+import LatestBlogs from "@/components/layouts/Sections/Home/Blogs/LatestBlogs";
 
 export default function Home() {
   return (
     <>
-      <Hero />
-      <Projects />
-      <Blogs />
+      <LandingPageHero />
+      <RecentProjects />
+      <LatestBlogs />
     </>
   )
 };
