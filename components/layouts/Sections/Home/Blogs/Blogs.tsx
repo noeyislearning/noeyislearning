@@ -4,7 +4,7 @@ import Link from "next/link";
 /** --- Components --- */
 import BlogCard from "@/components/common/Cards/BlogCard";
 
-export default function LatestBlogs() {
+export default function Blogs() {
   return (
     <>
       <section className="px-6 md:px-12 lg:px-36 pt-12 pb-24">
@@ -17,10 +17,7 @@ export default function LatestBlogs() {
               </Link>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
+          <div className="grid grid-cols-4 gap-6">
             <BlogCard />
           </div>
         </div>

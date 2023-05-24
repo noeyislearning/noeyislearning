@@ -5,13 +5,13 @@ import Link from "next/link"
 export default function BlogCard() {
   return (
     <>
-      <div className="max-w-screen lg:max-w-sm bg-white border border-gray-200 rounded-lg">
+      <div className="max-w-sm bg-white border border-gray-200 rounded-lg">
         <Image
             className="h-48 object-cover rounded-t-lg"
             src="https://i.imgur.com/WuIODHa.jpg"
             alt=""
-            width={1000}
-            height={1000}
+            width={500}
+            height={500}
             priority
         />
         <div className="p-5">
