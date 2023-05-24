@@ -11,7 +11,7 @@ export default function Menu() {
           </Link>
         </li>
         <li>
-          <Link href={"/"}>
+          <Link href={"/blogs"}>
             <div className="block py-2 pl-3 pr-4 lg:p-0 text-black hover:underline underline-offset-4">Blogs</div>
           </Link>
         </li>
