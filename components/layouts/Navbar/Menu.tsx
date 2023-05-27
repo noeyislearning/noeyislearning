@@ -6,8 +6,8 @@ export default function Menu() {
     <>
       <ul className="flex flex-col text-sm font-base mt-4 lg:mt-0 md:flex-row lg:space-x-8">
         <li>
-          <Link href={"/"}>
-            <div className="block py-2 pl-3 pr-4 lg:p-0 text-black hover:underline underline-offset-4">Works</div>
+          <Link href={"/works"}>
+            <div className="block py-2 pl-3 pr-4 lg:p-0 text-black hover:underline underline-offset-4">More works</div>
           </Link>
         </li>
         <li>
