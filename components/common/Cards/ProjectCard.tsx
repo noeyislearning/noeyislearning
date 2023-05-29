@@ -9,7 +9,7 @@ export default function ProjectCard() {
         <div className="flex flex-col gap-5">
           <Link href={"https://kittohau.com/"} target={"_blank"}>
             <Image
-                className="h-72 w-full object-cover rounded-lg"
+                className="w-full object-cover rounded-lg"
                 src={"https://i.imgur.com/IBlcNs0.png"}
                 alt="blog-photo"
                 width={500}
