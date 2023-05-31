@@ -15,7 +15,7 @@ export default function LatestBlogs() {
           <div className="pb-12">
             <div className="flex justify-between items-center">
               <SectionTitleTexts title={"Latest Blogs"}/>
-              <Link href={"/"}>
+              <Link href={"/blogs"}>
                 <div className="text-sm font-base underline underline-offset-4">Read more</div>
               </Link>
             </div>
