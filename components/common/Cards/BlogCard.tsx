@@ -5,10 +5,10 @@ import Link from "next/link"
 export default function BlogCard() {
   return (
     <>
-      <div className="max-w-screen lg:max-w-sm bg-white border border-gray-200 rounded-lg">
+      <div className="max-w-screen bg-white border border-gray-200 rounded-lg">
         <Image
             className="h-48 object-cover rounded-t-lg"
-            src="https://i.imgur.com/WuIODHa.jpg"
+            src="https://i.imgur.com/ZhrGCGY.png"
             alt=""
             width={1000}
             height={1000}
@@ -21,6 +21,20 @@ export default function BlogCard() {
               <h5 className="text-xl font-medium tracking-tight text-gray-900 line-clamp-2">Noteworthy technology acquisitions 2021</h5>
             </a>
             <p className="text-sm text-gray-400 line-clamp-3">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+            <div className="flex flex-row flex-wrap gap-2">
+              <p className="text-sm text-blue-500">
+                /noteworthy
+              </p>
+              <p className="text-sm text-blue-500">
+                /noteworthy
+              </p>
+              <p className="text-sm text-blue-500">
+                /noteworthy
+              </p>
+              <p className="text-sm text-blue-500">
+                /noteworthy
+              </p>
+            </div>
           </div>
         </div>
       </div>

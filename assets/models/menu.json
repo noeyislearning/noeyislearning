@@ -1,16 +1,34 @@
 {
   "menu": [
     {
-      "name": "Home",
-      "link": "/"
+      "name": "home",
+      "link": "/",
+      "isAvailable": true,
+      "isEmail": false
     },
     {
-      "name": "About",
-      "link": "/about"
+      "name": "works",
+      "link": "/works",
+      "isAvailable": true,
+      "isEmail": false
     },
     {
-      "name": "Contact",
-      "link": "/contact"
+      "name": "blogs",
+      "link": "/blogs",
+      "isAvailable": true,
+      "isEmail": false
+    },
+    {
+      "name": "resume",
+      "link": "/resume",
+      "isAvailable": false,
+      "isEmail": false
+    },
+    {
+      "name": "email",
+      "link": "hello@noeyislearning.dev",
+      "isAvailable": true,
+      "isEmail": true
     }
   ]
 }
