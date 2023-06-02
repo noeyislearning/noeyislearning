@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className="px-6 md:px-12 lg:px-36 py-4 flex flex-wrap items-center justify-between mx-auto">
           <Logo />
           <div className="hidden w-full md:block md:w-auto">
-            <Menu />
+            <Menu menu={[]}/>
           </div>
         </div>
       </nav>
