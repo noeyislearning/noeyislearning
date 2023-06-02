@@ -1,10 +1,18 @@
-export interface MenuItemProps {
+export interface NavMenuItemProps {
   name: string;
   link: string;
   isAvailable: boolean;
-  isEmail: boolean;
 }
 
-export interface MenuProps {
-  menu: MenuItemProps[];
+export interface NavMenuProps {
+  menu: NavMenuItemProps[];
+}
+
+export interface FooterMenuItemProps {
+  name: string;
+  link: string;
+}
+
+export interface FooterMenuProps {
+  menu: FooterMenuItemProps[];
 }
