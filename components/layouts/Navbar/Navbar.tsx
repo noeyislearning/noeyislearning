@@ -9,7 +9,7 @@ import ContactButton from "@/components/common/Buttons/ContactButton";
 export default function Navbar() {
   return (
     <>
-      <nav className="fixed w-full z-20 top-0 left-0 border-b border-slate-600">
+      <nav className="fixed w-full z-20 top-0 left-0 bg-black border-b border-slate-600">
         <div className="p-4 max-w-screen-3xl flex flex-wrap items-center justify-between mx-auto">
           <div className="flex flex-row gap-4 items-baseline">
             <Logo />
