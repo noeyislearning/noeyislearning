@@ -1,7 +1,13 @@
 import React from "react";
 import Link from "next/link";
 
+/** Heroicons */
+import { EnvelopeIcon } from "@heroicons/react/24/outline";
+
 export default function Footer() {
+
+  const currentYear = new Date().getFullYear();
+
   return (
     <>
       <footer className="my-36 max-w-screen-sm mx-auto text-white justify-center">
@@ -96,9 +102,12 @@ export default function Footer() {
             </div>
             <div className="flex">
               <div className="flex flex-col gap-2 items-end">
-                <div>Noey Ignacio</div>
-                <Link href={"/"}>
-                  <p className="mb-6 text-xs font-medium text-gray-500 hover:text-white">hello@noeyislearning.dev</p>
+                <div className="text-sm">&copy; {currentYear} Noey Ignacio</div>
+                <Link href={"mailto:hello@noeyislearning.dev"}>
+                  <div className="flex flex-row gap-2 items-center text-gray-500 hover:text-white">
+                    <EnvelopeIcon className="w-3 h-3"/>
+                    <p className="text-xs font-medium">hello@noeyislearning.dev</p>
+                  </div>
                 </Link>
               </div>
             </div>
