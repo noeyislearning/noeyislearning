@@ -1,0 +1,52 @@
+{
+  "works": [
+    {
+      "id": 1,
+      "name": "Zoiquery",
+      "description": "Artificial Intelligience SQL Generator",
+      "imgURL": "https://i.imgur.com/3GPl4pV.png",
+      "technologyUsed": [
+        "TypeScript", 
+        "NextJS", 
+        "OpenAI"
+      ],
+      "redirectURL": "https://github.com/noeyislearning/zoiquery"
+    }, 
+    {
+      "id": 2,
+      "name": "KITTOHAU",
+      "description": "Discord Bot",
+      "imgURL": "https://i.imgur.com/0xeOuu1.png",
+      "technologyUsed": [
+        "TypeScript", 
+        "DiscordJS", 
+        "OpenAI"
+      ],
+      "redirectURL": ""
+    },
+    {
+      "id": 3,
+      "name": "Zoibot",
+      "description": "Discord Bot",
+      "imgURL": "https://i.imgur.com/3GPl4pV.png",
+      "technologyUsed": [
+        "TypeScript", 
+        "DiscordJS", 
+        "OpenAI"
+      ],
+      "redirectURL": "https://github.com/noeyislearning/zoiquery"
+    },
+    {
+      "id": 4,
+      "name": "Zoibot",
+      "description": "Discord Bot",
+      "imgURL": "https://i.imgur.com/3GPl4pV.png",
+      "technologyUsed": [
+        "TypeScript", 
+        "DiscordJS", 
+        "OpenAI"
+      ],
+      "redirectURL": "https://github.com/noeyislearning/zoiquery"
+    }
+  ]
+}
