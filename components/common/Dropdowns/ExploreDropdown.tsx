@@ -2,11 +2,14 @@
 import React from "react";
 import Link from "next/link";
 
-/** React Icons */
-import { IoChevronDown } from "react-icons/io5";
-import { BiUser, BiGitRepoForked } from "react-icons/bi";
-import { TbTextColor } from "react-icons/tb";
-import { MdWorkOutline } from "react-icons/md";
+/** Heroicons */
+import { 
+  BookOpenIcon, 
+  BriefcaseIcon, 
+  ChatBubbleBottomCenterTextIcon, 
+  UserIcon, 
+  ChevronDownIcon
+} from "@heroicons/react/24/outline";
 
 /** Headless UI */
 import { Menu, Transition } from '@headlessui/react'
@@ -18,7 +21,7 @@ export default function ExploreDropdown() {
         <Menu as="div" className="relative inline-block">
           <Menu.Button className="px-4 py-2 flex flex-row gap-2 text-gray-500 hover:text-gray-100 items-center hover:bg-gray-900 rounded-xl">
             <div className="text-sm">Explore</div>
-            <IoChevronDown />
+            <ChevronDownIcon className="w-4 h-4"/>
           </Menu.Button>
 
           <Transition
@@ -35,7 +38,7 @@ export default function ExploreDropdown() {
                   <Link href={""}>
                     <div className="px-4 py-2 text-sm hover:bg-gray-900 text-white group rounded-lg">
                       <div className="flex flex-row gap-2 items-center">
-                        <BiUser className="w-4 h-4"/>
+                        <UserIcon className="w-4 h-4"/>
                         <span className="whitespace-nowrap">About</span>
                       </div>
                     </div>
@@ -45,7 +48,7 @@ export default function ExploreDropdown() {
                   <Link href={""}>
                     <div className="px-4 py-2 text-sm hover:bg-gray-900 text-white group rounded-lg">
                       <div className="flex flex-row gap-2 items-center">
-                        <TbTextColor className="w-4 h-4"/>
+                        <ChatBubbleBottomCenterTextIcon className="w-4 h-4"/>
                         <div className="flex flex-row gap-2 items-center">
                           <span className="whitespace-nowrap">Blogs</span>
                           <span className="px-2 py-0.5 text-blue-600 text-xs font-light border border-blue-600 rounded-lg">Soon</span>
@@ -58,7 +61,7 @@ export default function ExploreDropdown() {
                   <Link href={""}>
                     <div className="px-4 py-2 text-sm hover:bg-gray-900 text-white group rounded-lg">
                       <div className="flex flex-row gap-2 items-center">
-                        <MdWorkOutline className="w-4 h-4"/>
+                        <BriefcaseIcon className="w-4 h-4"/>
                         <div className="flex flex-row gap-2 items-center">
                           <span className="whitespace-nowrap">Works</span>
                           <span className="px-2 py-0.5 text-blue-600 text-xs font-light border border-blue-600 rounded-lg">Soon</span>
@@ -71,7 +74,7 @@ export default function ExploreDropdown() {
                   <Link href={""}>
                     <div className="px-4 py-2 text-sm hover:bg-gray-900 text-white group rounded-lg">
                       <div className="flex flex-row gap-2 items-center">
-                        <BiGitRepoForked className="w-4 h-4"/>
+                        <BookOpenIcon className="w-4 h-4"/>
                         <div className="flex flex-row gap-2 items-center">
                           <span className="whitespace-nowrap">Open Sources</span>
                           <span className="px-2 py-0.5 text-blue-600 text-xs font-light border border-blue-600 rounded-lg">Soon</span>

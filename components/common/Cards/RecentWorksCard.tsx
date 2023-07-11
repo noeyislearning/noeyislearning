@@ -2,8 +2,10 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-/** React Icons */
-import { AiOutlineLink } from "react-icons/ai";
+/** Heroicons */
+import { 
+  LinkIcon
+} from "@heroicons/react/24/outline";
 
 export default function RecentWorksCard() {
   return (
@@ -36,7 +38,7 @@ export default function RecentWorksCard() {
             <div className="text-sm text-gray-500 group-hover:text-white">
               <Link href={"/"}>
                 <div className="flex flex-row gap-1 items-center">
-                  <AiOutlineLink />
+                  <LinkIcon className="w-3 h-3"/>
                   <span className="text-xs">github.com/noeyislearning/zoiquery</span>
                 </div>
               </Link>
