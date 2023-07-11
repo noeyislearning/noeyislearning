@@ -1,20 +1,28 @@
-import React from 'react'
+"use client";
+import React from "react";
 
-/** --- Components --- */
-import Menu from "@/components/layouts/Navbar/Menu";
-import Logo from "@/components/common/Logo/Logo";
+/** Components */
+import Logo from "@/components/common/Logos/Logo";
+import ExploreDropdown from "@/components/common/Dropdowns/ExploreDropdown";
+import ContactButton from "@/components/common/Buttons/ContactButton";
 
 export default function Navbar() {
   return (
     <>
-      <nav className="fixed top-0 left-0 w-full bg-white border-b border-black">
-        <div className="px-6 md:px-12 lg:px-36 py-4 flex flex-wrap items-center justify-between mx-auto">
-          <Logo />
-          <div className="hidden w-full md:block md:w-auto">
-            <Menu menu={[]}/>
+      <nav className="fixed w-full z-20 top-0 left-0 border-b border-slate-600">
+        <div className="p-4 max-w-screen-3xl flex flex-wrap items-center justify-between mx-auto">
+          <div className="flex flex-row gap-4 items-baseline">
+            <Logo />
+            <div className="flex">
+              <ExploreDropdown />
+            </div>
+          </div>
+          <div className="flex">
+            <ContactButton />
           </div>
         </div>
       </nav>
     </>
   )
 }
+
