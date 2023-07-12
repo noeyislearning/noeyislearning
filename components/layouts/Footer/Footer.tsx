@@ -10,39 +10,12 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="my-36 max-w-screen-sm mx-auto text-white justify-center">
+      <footer className="mb-24 max-w-screen-sm mx-auto text-white justify-center">
         <hr className="my-6 border-gray-500 mx-auto" />
         <div className="flex flex-col">
           <div className="flex justify-between">
             <div className="grid grid-cols-3 gap-4">
-              {/* Social Links */}
-              <div>
-                <h2 className="mb-6 text-sm font-medium text-white">Socials</h2>
-                <ul className="flex flex-col gap-2 text-gray-500">
-                  <li>
-                    <Link href={"/"} >
-                      <div className="hover:underline">
-                        Instagram
-                      </div>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={"/"} >
-                      <div className="hover:underline">
-                        Threads
-                      </div>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={"/"} >
-                      <div className="hover:underline">
-                        Twitter
-                      </div>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-
+            
               {/* Explore (Menu) */}
               <div>
                 <h2 className="mb-6 text-sm font-medium text-white">Explore</h2>
