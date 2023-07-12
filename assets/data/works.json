@@ -7,46 +7,66 @@
       "imgURL": "https://i.imgur.com/3GPl4pV.png",
       "technologyUsed": [
         "TypeScript", 
-        "NextJS", 
+        "NextJS",
+        "TailwindCSS",
         "OpenAI"
       ],
       "redirectURL": "https://github.com/noeyislearning/zoiquery"
     }, 
     {
       "id": 2,
-      "name": "KITTOHAU",
-      "description": "Discord Bot",
-      "imgURL": "https://i.imgur.com/0xeOuu1.png",
+      "name": "DBuilders Construction",
+      "description": "UAE-based Construction Agency",
+      "imgURL": "https://i.imgur.com/hzFmpHW.png",
       "technologyUsed": [
         "TypeScript", 
-        "DiscordJS", 
-        "OpenAI"
+        "NextJS",
+        "TailwindCSS",
+        "Redux"
       ],
       "redirectURL": ""
     },
     {
       "id": 3,
-      "name": "Zoibot",
-      "description": "Discord Bot",
-      "imgURL": "https://i.imgur.com/3GPl4pV.png",
+      "name": "KITTOHAU",
+      "description": "IP Management Platform",
+      "imgURL": "https://i.imgur.com/0xeOuu1.png",
       "technologyUsed": [
-        "TypeScript", 
-        "DiscordJS", 
-        "OpenAI"
+        "Python", 
+        "JavaScript", 
+        "HTML/CSS",
+        "Django",
+        "PostgreSQL"
       ],
-      "redirectURL": "https://github.com/noeyislearning/zoiquery"
+      "redirectURL": ""
     },
     {
       "id": 4,
-      "name": "Zoibot",
-      "description": "Discord Bot",
-      "imgURL": "https://i.imgur.com/3GPl4pV.png",
+      "name": "NSTW DOST III",
+      "description": "Showcase Website",
+      "imgURL": "https://i.imgur.com/nN6IZEO.png",
       "technologyUsed": [
-        "TypeScript", 
-        "DiscordJS", 
-        "OpenAI"
+        "Python", 
+        "JavaScript", 
+        "HTML/CSS",
+        "Django",
+        "PostgreSQL"
       ],
-      "redirectURL": "https://github.com/noeyislearning/zoiquery"
+      "redirectURL": ""
+    },
+    {
+      "id": 5,
+      "name": "ICpEP Oman Conference",
+      "description": "Conference Website",
+      "imgURL": "https://i.imgur.com/PnVbLyS.png",
+      "technologyUsed": [
+        "Python", 
+        "JavaScript", 
+        "HTML/CSS",
+        "Django",
+        "PostgreSQL"
+      ],
+      "redirectURL": ""
     }
   ]
 }
