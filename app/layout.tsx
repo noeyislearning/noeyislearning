@@ -101,12 +101,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${globalFont.className} bg-black`}>
-        <Navbar />
-          <Providers>
-            {children}
-            <ConnectWithMe />
-          </Providers>
-        <Footer />
+        <Providers>
+          <Navbar />
+          {children}
+          <ConnectWithMe />
+          <Footer />
+        </Providers>
       </body>
     </html>
   )
