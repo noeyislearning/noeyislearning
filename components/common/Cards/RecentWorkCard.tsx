@@ -8,13 +8,13 @@ import {
   LinkIcon
 } from "@heroicons/react/24/outline";
 
-import type { Work } from "@/redux/works/workSlice";
+import type { Work } from "@/redux/works/reducer";
 
 interface Props {
   work: Work;
 }
 
-export default function RecentWorksCard({ work }: Props) {
+export default function RecentWorkCard({ work }: Props) {
 
   const trimURLPrefix = (url: string) => {
     const urlPrefix = "https://";
@@ -24,13 +24,13 @@ export default function RecentWorksCard({ work }: Props) {
 
   return (
     <figure className="max-w-screen group">
-      <Link href={"/"}>
+      <Link href={work.redirectURL}>
         <Image 
           src={work.imgURL}
           alt="Project Image"
           width={1000}
           height={1000}
-          className="h-96 mx-auto max-w-screen rounded-lg object-cover  duration-500 ease-in-out transform hover:scale-105" 
+          className="h-96 mx-auto max-w-screen rounded-lg object-cover duration-500 ease-in-out transform hover:scale-105" 
           priority
         />
       </Link>
@@ -50,7 +50,7 @@ export default function RecentWorksCard({ work }: Props) {
           </div>
           <div className="flex flex-row gap-2 items-center">
           {work.redirectURL ? (
-              <div className="text-sm text-gray-500 group-hover:text-white">
+              <div className="text-sm text-gray-500 group-hover:text-white duration-500">
                 <Link href={trimURLPrefix(work.redirectURL)}>
                   <div className="flex flex-row gap-1 items-center">
                     <LinkIcon className="w-3 h-3"/>

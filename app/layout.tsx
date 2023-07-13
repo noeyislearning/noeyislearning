@@ -88,7 +88,7 @@ export const metadata: Metadata = {
 /** Components */
 import Navbar from "@/components/layouts/Navbar/Navbar";
 import Footer from "@/components/layouts/Footer/Footer";
-import ConnectWithMe from "@/components/layouts/CTA/ConnectWithMe";
+
 
 /** Providers */
 import { Providers } from "@/redux/Provider";
@@ -101,12 +101,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${globalFont.className} bg-black`}>
-        <Navbar />
-          <Providers>
-            {children}
-            <ConnectWithMe />
-          </Providers>
-        <Footer />
+        <Providers>
+          <Navbar />
+          {children}
+          <Footer />
+        </Providers>
       </body>
     </html>
   )
