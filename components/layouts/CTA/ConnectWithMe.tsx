@@ -15,7 +15,7 @@ export default function ConnectWithMe() {
 
   return (
     <>
-      <div className="my-24 max-w-screen-sm mx-auto text-white justify-center">
+      <div className="mt-24 max-w-screen-sm mx-auto text-white justify-center">
         <div className="flex flex-col gap-4 items-start">
           <p className="text-base text-gray-500">{connectWithMeCTA}</p>
           <div className="flex flex-row gap-2 items-center">
