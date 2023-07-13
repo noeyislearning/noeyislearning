@@ -9,6 +9,7 @@ import { useSelector } from "react-redux";
 import RecentWorksCard from '@/components/common/Cards/RecentWorksCard';
 
 export default function RecentWorks() {
+  
   const works = useSelector((state: RootState) => state.work.works);
 
   return (

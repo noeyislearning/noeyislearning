@@ -8,7 +8,7 @@ import {
   LinkIcon
 } from "@heroicons/react/24/outline";
 
-import type { Work } from "@/redux/works/workSlice";
+import type { Work } from "@/redux/works/reducer";
 
 interface Props {
   work: Work;
