@@ -1,0 +1,112 @@
+{
+  "experiences": [
+    {
+      "id": 1,
+      "company": "Kooest",
+      "location": "Central Luzon, Philippines",
+      "title": "Full-stack Developer",
+      "employmentType": "Self-employed",
+      "dates": {
+        "started": "Jun 2023",
+        "ended": ""
+      },
+      "description": "As the principal full-stack developer at Kooest, a custom digital solutions agency, I recently designed a high-performing, secure website for a UAE-based construction agency using TypeScript and Next.js, leveraged Vercel for global reach, integrated unique open-source packages for a bespoke user experience, and am committed to consistently delivering a perfect blend of aesthetics and functionality while incorporating advanced technologies for scalable, future-ready solutions.",
+      "skills": [
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "Vercel",
+        "Prisma",
+        "PostgreSQL",
+        "Vercel",
+        "Web Development",
+        "Full-stack Development"
+      ]
+    },
+    {
+      "id": 2,
+      "company": "Holy Angel University",
+      "location": "Central Luzon, Philippines",
+      "title": "Technical Associate",
+      "employmentType": "Contract",
+      "dates": {
+        "started": "Sept 2021",
+        "ended": "Dec 2022"
+      },
+      "description": "Securing ₱17.9 million in funding for tech transfer and R&D, orchestrated marketing initiatives that boosted brand recognition and engagement, and provided key technical support for unit projects. My work in enhancing communication resulted in increased customer satisfaction, and the development of an efficient database management system boosted idea protection by 25%. I also created a Django and PostgreSQL-powered website, improving user engagement by 45% and decreased downtime by 90% through effective deployment on Digital Ocean, leading to a 30% boost in user satisfaction.",
+      "skills": [
+        "Relational Database",
+        "Django",
+        "Python",
+        "PostgreSQL",
+        "Digital Ocean",
+        "Project Management",
+        "Web Development",
+        "Full-stack Development",
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "Team Leadership"
+      ]
+    },
+    {
+      "id": 3,
+      "company": "Encephalon Holy Angel University - Technology Business Incubator",
+      "location": "Central Luzon, Philippines",
+      "title": "Back End Developer",
+      "employmentType": "Freelance",
+      "dates": {
+        "started": "Oct 2020",
+        "ended": "Feb 2022  "
+      },
+      "description": "Successfully developed two government websites, served thousands of users, deployed projects via AWS and Digital Ocean with 99.9% uptime, and enhanced team productivity by 20% using best software development practices. As a team leader. Coordinated with engineers, programmers, and designers to deliver high-standard projects on time, reaching a customer satisfaction rate of 95%.",
+      "skills": [
+        "Relational Database",
+        "Django",
+        "Python",
+        "JavaScript",
+        "PostgreSQL",
+        "Digital Ocean",
+        "Amazon Web Services",
+        "Web Development",
+        "Full-stack Development",
+        "Team Leadership"
+      ]
+    },
+    {
+      "id": 4,
+      "company": "JDEV Office Solution Incorporated",
+      "location": "Central Luzon, Philippines",
+      "title": "Junior Software Engineer",
+      "employmentType": "Full-time",
+      "dates": {
+        "started": "Jun 2021",
+        "ended": "Sep 2021"
+      },
+      "description": "As part of a multidisciplinary team, I designed and developed a contemporary, user-friendly website for a car services company, leveraging VueJS, TailwindCSS, and JavaScript. Our collaborative efforts, following industry best practices, led to a 20% surge in website traffic, a 15% boost in customer conversions, and ensured on-time, high-quality project completion.",
+      "skills": [
+        "User Interface Design",
+        "JavaScript",
+        "VueJS",
+        "Tailwind CSS",
+        "Web Development"
+      ]
+    },
+    {
+      "id": 5,
+      "company": "JDEV Office Solution Incorporated",
+      "location": "Central Luzon, Philippines",
+      "title": "Software Quality Assurance Intern",
+      "employmentType": "Intership",
+      "dates": {
+        "started": "May 2019",
+        "ended": "Oct 2019"
+      },
+      "description": "Streamlined a user interface review process scrutinizing over 50 designs for functionality and guidelines adherence, tested various web and standalone apps including custom client-server solutions, crafted frontend web applications' interfaces now employed company-wide enhancing user experience and functionality.",
+      "skills": [
+        "User Interface Design",
+        "Quality Assurance",
+        "Teamwork"
+      ]
+    }
+  ]
+}
