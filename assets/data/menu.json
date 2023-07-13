@@ -1,0 +1,63 @@
+{
+  "menu": {
+    "explore": [
+      {
+        "id": 1,
+        "name": "About",
+        "url": "/about",
+        "isAllowed": true,
+        "icon": "UserIcon",
+        "status": ""
+      },
+      {
+        "id": 2,
+        "name": "Blogs",
+        "url": "/blogs",
+        "isAllowed": false,
+        "icon": "ChatBubbleBottomCenterTextIcon",
+        "status": ""
+      },
+      {
+        "id": 3,
+        "name": "Works",
+        "url": "/works",
+        "isAllowed": false,
+        "icon": "BriefcaseIcon",
+        "status": ""
+      },
+      {
+        "id": 4,
+        "name": "Projects",
+        "url": "/projects",
+        "isAllowed": false,
+        "icon": "CodeBracketIcon",
+        "status": ""
+      },
+      {
+        "id": 5,
+        "name": "Open Source",
+        "url": "/open-source",
+        "isAllowed": false,
+        "icon": "BookOpenIcon",
+        "status": ""
+      }
+    ],
+    "legal": [
+      {
+        "id": 1,
+        "name": "Legal Notice",
+        "url": "/ln",
+        "isAllowed": false,
+        "status": ""
+      },
+      {
+        "id": 2,
+        "name": "Terms & Conditions",
+        "url": "/tac",
+        "isAllowed": false,
+        "status": ""
+      }
+    ]
+  }
+  
+}
