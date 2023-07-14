@@ -22,7 +22,7 @@ export default function Footer() {
       <footer className="p-4 mb-12 lg:mb-24 max-w-screen-sm mx-auto text-white justify-center">
         <hr className="my-6 border-gray-500 mx-auto" />
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-0 justify-between">
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-3 gap-4">
           
             {/* Explore Tab */}
             <div>
@@ -33,7 +33,7 @@ export default function Footer() {
                     {explore.isAllowed ? (
                         <Link href={explore.url}>
                         <div className="flex flex-row gap-2 items-center">
-                          <div className="flex text-sm hover:text-gray-100">
+                          <div className="flex text-sm hover:text-gray-100 whitespace-nowrap">
                             {explore.name}
                           </div>
                         </div>
@@ -41,7 +41,7 @@ export default function Footer() {
                     ) : (
                       <div className="cursor-not-allowed">
                         <div className="flex flex-row gap-2 items-center">
-                          <div className="flex text-sm">
+                          <div className="flex text-sm whitespace-nowrap">
                             {explore.name}
                           </div>
                           <span className="px-2 py-0.5 text-blue-600 text-xs font-light border border-blue-600 rounded-lg">Soon</span>

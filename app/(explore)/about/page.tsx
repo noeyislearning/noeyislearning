@@ -1,9 +1,11 @@
 "use client";
 import React from "react";
 
+
 /** Components */
 import IntroductionText from "@/components/common/Texts/IntroductionText";
 import ExperienceTimelineText from "@/components/common/Texts/ExperienceTimelineText";
+import ToolCard from "@/components/common/Cards/ToolCard";
 
 /** Redux */
 import type { RootState } from "@/redux/store";
@@ -11,8 +13,8 @@ import { useSelector } from "react-redux";
 
 export default function AboutPage() {
 
-  // Use useSelector to extract the experiences array from the state
   const exps = useSelector((state: RootState) => state.exp.exps);
+  const tools = useSelector((state: RootState) => state.tool.tools);
 
   return (
     <>
@@ -24,6 +26,14 @@ export default function AboutPage() {
             {exps.map((exp, index) => (
               <ExperienceTimelineText key={exp.id} exp={exp} last={index === exps.length - 1}/>
             ))}
+          </div>
+          <div className="mt-8 flex flex-col">
+            <div className="mb-4 text-xl font-bold">Beloved Technologies & Tools</div>
+            <div className="flex flex-row flex-wrap gap-4">
+              {tools.map((tool) => (
+                <ToolCard key={tool.id} tool={tool}/>
+              ))}
+            </div>
           </div>
         </div>
       </main>
