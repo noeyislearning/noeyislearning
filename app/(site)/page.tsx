@@ -8,8 +8,8 @@ import ConnectWithMe from "@/components/layouts/CTA/ConnectWithMe";
 export default function Home() {
   return (
     <>
-      <main className="mt-48 mb-24 max-w-screen-sm mx-auto text-white justify-center">
-        <div className="flex flex-col items-center">
+      <main className="mt-24 lg:mt-48 mb-12 lg:mb-24 max-w-screen-sm mx-auto text-white">
+        <div className="p-4 flex flex-col items-center">
           <Hero />
           <RecentWorks />
           <ConnectWithMe />

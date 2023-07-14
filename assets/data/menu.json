@@ -45,16 +45,16 @@
     "legal": [
       {
         "id": 1,
-        "name": "Legal Notice",
-        "url": "/ln",
-        "isAllowed": false,
+        "name": "Credits",
+        "url": "/credits",
+        "isAllowed": true,
         "status": ""
       },
       {
         "id": 2,
-        "name": "Terms & Conditions",
-        "url": "/tac",
-        "isAllowed": false,
+        "name": "Privacy Policy",
+        "url": "/privacy-policy",
+        "isAllowed": true,
         "status": ""
       }
     ]

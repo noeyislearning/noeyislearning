@@ -30,19 +30,10 @@ export interface Legal {
 
 const initialState: ExploreState & LegalState = {
   explores: menuData.menu.explore.map((explore) => ({
-    id: explore.id,
-    name: explore.name,
-    url: explore.url,
-    isAllowed: explore.isAllowed,
-    icon: explore.icon,
-    status: explore.status,
+    ...explore,
   })),
   legals: menuData.menu.legal.map((legal) => ({
-    id: legal.id,
-    name: legal.name,
-    url: legal.url,
-    isAllowed: legal.isAllowed,
-    status: legal.status,
+    ...legal,
   })),
 };
 

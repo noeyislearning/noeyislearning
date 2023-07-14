@@ -15,9 +15,7 @@ export interface Social {
 
 const initialState: SocialState = {
   socials: socialsData.socials.map((social) => ({
-    id: social.id,
-    name: social.name,
-    url: social.url,
+    ...social,
   })),
 };
 

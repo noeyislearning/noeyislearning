@@ -1,0 +1,88 @@
+{
+  "tools": [
+    {
+      "id": 1,
+      "name": "TypeScript",
+      "description": "Supercharged JavaScript with static typing",
+      "imgURL": "https://i.imgur.com/ooPUb77.png"
+    },
+    {
+      "id": 2,
+      "name": "JavaScript",
+      "description":  "Web page scriptting language",
+      "imgURL": "https://i.imgur.com/6xB1FcG.png"
+    },
+    {
+      "id": 3,
+      "name": "NextJS",
+      "description": "Server-rendered React framework",
+      "imgURL": "https://i.imgur.com/zdoOiVh.png"
+    },
+    {
+      "id": 13,
+      "name": "React",
+      "description": "JavaScript library for building user interfaces",
+      "imgURL": "https://i.imgur.com/FokqHsM.png"
+    },
+    {
+      "id": 4,
+      "name": "Svelte",
+      "description": "Modern, lightweight, and performant JavaScript framework",
+      "imgURL": "https://i.imgur.com/MIqAoo5.png"
+    },
+    {
+      "id": 5,
+      "name": "NodeJS",
+      "description": "JavaScript runtime built on Chrome's V8 JavaScript engine",
+      "imgURL": "https://i.imgur.com/GE21yF6.png"
+    },
+    {
+      "id": 6,
+      "name": "Express",
+      "description": "Fast, minimalist web framework for Node.js",
+      "imgURL": "https://i.imgur.com/qcUTpBs.png"
+    },
+    {
+      "id": 7,
+      "name": "Python",
+      "description":  "General-purpose, interpreted, high-level language",
+      "imgURL": "https://i.imgur.com/qNYwZvV.png"
+    },
+    {
+      "id": 8,
+      "name": "Django",
+      "description": "Python web framework for rapid development",
+      "imgURL": "https://i.imgur.com/TZLJkxq.png"
+    },
+    {
+      "id": 9,
+      "name": "Tailwind CSS",
+      "description": "Utility-first CSS framework",
+      "imgURL": "https://i.imgur.com/q0h8XlS.png"
+    },
+    {
+      "id": 10,
+      "name": "MongoDB",
+      "description": "Document-oriented NoSQL database",
+      "imgURL": "https://i.imgur.com/itzPaW4.png"
+    },
+    {
+      "id": 11,
+      "name": "PostgreSQL",
+      "description": "Open source relational database",
+      "imgURL": "https://i.imgur.com/dQGTCNy.png"
+    },
+    {
+      "id": 12,
+      "name": "VS Code",
+      "description": "Text editor redefined and optimized for building and debugging modern web and cloud applications",
+      "imgURL": "https://i.imgur.com/K4YSKQ8.png"
+    },
+    {
+      "id": 14,
+      "name": "Jetbrains Toolbox",
+      "description": "Jetbrains IDE management platform",
+      "imgURL": "https://i.imgur.com/NRLVAjH.png"
+    }
+  ]
+}

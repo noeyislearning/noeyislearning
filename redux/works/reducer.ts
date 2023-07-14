@@ -18,12 +18,7 @@ export interface Work {
 
 const initialState: WorkState = {
   works: worksData.works.map((work) => ({
-    id: work.id,
-    name: work.name,
-    description: work.description,
-    imgURL: work.imgURL,
-    technologyUsed: work.technologyUsed,
-    redirectURL: work.redirectURL,
+    ...work
   })),
 };
 
