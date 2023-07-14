@@ -15,10 +15,10 @@ export default function ConnectWithMe() {
 
   return (
     <>
-      <div className="mt-24 max-w-screen-sm mx-auto text-white justify-center">
+      <div className="mt-24 max-w-screen-sm mx-auto text-white">
         <div className="flex flex-col gap-4 items-start">
-          <p className="text-base text-gray-500">{connectWithMeCTA}</p>
-          <div className="flex flex-row gap-2 items-center">
+          <p className="text-sm lg:text-base text-gray-500">{connectWithMeCTA}</p>
+          <div className="flex flex-row flex-wrap gap-2 items-center">
             {socials.map((social) => (
               <SocialButton key={social.id} social={social} />
             ))}

@@ -30,19 +30,19 @@ export default function RecentWorkCard({ work }: Props) {
           alt="Project Image"
           width={1000}
           height={1000}
-          className="h-96 mx-auto max-w-screen rounded-lg object-cover duration-500 ease-in-out transform hover:scale-105" 
+          className="lg:h-96 mx-auto max-w-screen rounded-lg object-cover duration-500 ease-in-out transform hover:scale-105" 
           priority
         />
       </Link>
       <figcaption className="mt-4">
-        <div className="flex flex-row justify-between items-center">
+        <div className="flex flex-col lg:flex-row gap-2 justify-between items-center">
           <div className="flex flex-col">
-            <div className="flex flex-row gap-2 items-baseline">
-              <h3 className="text-base text-white">{work.name}</h3>
-              <span className="text-gray-500">•</span>
+            <div className="flex flex-col lg:flex-row gap-0 lg:gap-2 items-center lg:items-baseline self-center">
+              <h3 className="text-base text-white whitespace-nowrap">{work.name}</h3>
+              <span className="hidden lg:block text-gray-500">•</span>
               <p className="text-sm text-gray-500">{work.description}</p>
             </div>
-            <div className="flex flex-row gap-2 items-baseline">
+            <div className="flex flex-row flex-wrap gap-2 items-baseline">
               {work.technologyUsed.map((technologyUsed) => (
                 <span key={technologyUsed} className="text-sm text-gray-500">{technologyUsed}</span>
               ))}

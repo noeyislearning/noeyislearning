@@ -16,8 +16,8 @@ export default function AboutPage() {
 
   return (
     <>
-      <main className="mt-48 mb-24 max-w-screen-sm mx-auto text-white">
-        <div className="flex flex-col">
+      <main className="mt-24 lg:mt-48 mb-12 lg:mb-24 max-w-screen-sm mx-auto text-white">
+        <div className="p-4 flex flex-col">
           <IntroductionText />
           <div className="mt-8 flex flex-col">
             <div className="mb-4 text-xl font-bold">Experiences</div>
