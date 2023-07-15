@@ -24,7 +24,7 @@ export default function RecentWorkCard({ work }: Props) {
 
   return (
     <figure className="max-w-screen group">
-      <Link href={work.redirectURL}>
+      <Link href={work.redirectURL} target={"_blank"}>
         <Image 
           src={work.imgURL}
           alt="Project Image"

@@ -27,10 +27,44 @@
       },
       {
         "id": 4,
-        "name": "Projects",
-        "url": "/projects",
+        "name": "Open Source",
+        "url": "/open-source",
         "isAllowed": false,
-        "icon": "CodeBracketIcon",
+        "icon": "BookOpenIcon",
+        "status": ""
+      }
+    ],
+    "exploreMobile": [
+      {
+        "id": 1,
+        "name": "Home",
+        "url": "/",
+        "isAllowed": true,
+        "icon": "HomeIcon",
+        "status": ""
+      },
+      {
+        "id": 2,
+        "name": "About",
+        "url": "/about",
+        "isAllowed": true,
+        "icon": "UserIcon",
+        "status": ""
+      },
+      {
+        "id": 3,
+        "name": "Blogs",
+        "url": "/blogs",
+        "isAllowed": false,
+        "icon": "ChatBubbleBottomCenterTextIcon",
+        "status": ""
+      },
+      {
+        "id": 4,
+        "name": "Works",
+        "url": "/works",
+        "isAllowed": false,
+        "icon": "BriefcaseIcon",
         "status": ""
       },
       {
@@ -39,6 +73,36 @@
         "url": "/open-source",
         "isAllowed": false,
         "icon": "BookOpenIcon",
+        "status": ""
+      }
+    ],
+    "connect": [
+      {
+        "id": 1,
+        "name": "GitHub",
+        "url": "https://github.com/noeyislearning",
+        "isAllowed": true,
+        "status": ""
+      },
+      {
+        "id": 2,
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/noeyislearning",
+        "isAllowed": true,
+        "status": ""
+      },
+      {
+        "id": 3,
+        "name": "Instagram",
+        "url": "https://www.instagram.com/noeyislearning",
+        "isAllowed": true,
+        "status": ""
+      },
+      {
+        "id": 4,
+        "name": "Threads",
+        "url": "https://www.threads.net/noeyislearning",
+        "isAllowed": true,
         "status": ""
       }
     ],
