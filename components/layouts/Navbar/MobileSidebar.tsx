@@ -36,7 +36,7 @@ export default function MobileSidebar({ onClose }: Props ) {
   return (
     <>
       <motion.div
-        className="fixed z-40 inset-0 bg-black bg-opacity-70"
+        className="fixed z-20 inset-0 bg-black bg-opacity-70"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -51,7 +51,7 @@ export default function MobileSidebar({ onClose }: Props ) {
         transition={{ type: "spring", stiffness: 300, damping: 30 }}
         ref={sidebarRef}
       >
-        <div className="p-4 h-full text-white bg-black ">
+        <div className="p-4 h-fit text-white bg-black ">
           <div className="fixed right-4">
             <XMarkIcon className="w-7 h-7 text-white" onClick={onClose}/>
           </div>
