@@ -113,12 +113,12 @@ export default function Footer() {
           <div className="mt-8 lg:mt-0 flex self-center lg:self-start">
             <div className="flex flex-col gap-2 items-center lg:items-end">
               <div className="text-sm">&copy; {currentYear} Noey Ignacio</div>
-              <Link href={"mailto:hello@noeyislearning.dev"}>
+              <a href={"mailto:hello@noeyislearning.dev"}>
                 <div className="flex flex-row gap-2 items-center text-gray-500 hover:text-white">
                   <EnvelopeIcon className="w-3 h-3"/>
                   <p className="text-xs font-medium">hello@noeyislearning.dev</p>
                 </div>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
