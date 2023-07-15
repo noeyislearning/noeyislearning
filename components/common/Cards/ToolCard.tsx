@@ -15,10 +15,10 @@ export default function ToolCard({ tool} : Props) {
   return (
     <>
       <div className="flex flex-row flex-wrap">
-        <div className="px-10 lg:px-8 py-4 bg-gray-950 hover:bg-gray-800 rounded-lg">
+        <div className="px-6 lg:px-8 py-4 bg-gray-950 hover:bg-gray-800 rounded-lg">
           <div className="flex flex-row gap-2 items-center">
             <Image 
-              className="w-14 h-14 rounded-full" 
+              className="w-14 h-14 rounded-full object-contain" 
               src={tool.imgURL} 
               alt="Rounded avatar"
               width={1000}
