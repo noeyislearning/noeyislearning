@@ -29,7 +29,7 @@ export default function AboutPage() {
           </div>
           <div className="mt-8 flex flex-col">
             <div className="mb-4 text-xl font-bold">Beloved Technologies & Tools</div>
-            <div className="flex flex-row flex-wrap gap-4">
+            <div className="grid grid-cols-4 lg:grid-cols-2 gap-4">
               {tools.map((tool) => (
                 <ToolCard key={tool.id} tool={tool}/>
               ))}
