@@ -7,6 +7,10 @@ export interface ExploreState {
   explores: Explore[];
 }
 
+export interface ExploresMobileState {
+  exploresMobile: ExploreMobile[];
+}
+
 export interface LegalState {
   legals: Legal[];
 }
@@ -40,7 +44,16 @@ export interface Connect {
   status: string;
 }
 
-const initialState: ExploreState & LegalState & ConnectState = {
+export interface ExploreMobile {
+  id: number;
+  name: string;
+  url: string;
+  isAllowed: boolean;
+  icon: string;
+  status: string;
+}
+
+const initialState: ExploreState & LegalState & ConnectState & ExploresMobileState = {
   explores: menuData.menu.explore.map((explore) => ({
     ...explore,
   })),
@@ -49,6 +62,9 @@ const initialState: ExploreState & LegalState & ConnectState = {
   })),
   connects: menuData.menu.connect.map((connect) => ({
     ...connect,
+  })),
+  exploresMobile: menuData.menu.exploreMobile.map((exploreMobile) => ({
+    ...exploreMobile,
   })),
 };
 
@@ -71,11 +87,18 @@ export const connectSlice = createSlice({
   reducers: {},
 });
 
+export const exploresMobileSlice = createSlice({
+  name: "exploresMobile",
+  initialState: initialState.exploresMobile,
+  reducers: {},
+});
+
 /** Reducer */
 const rootReducer = combineReducers({
   explore: exploreSlice.reducer,
   legal: legalSlice.reducer,
   connect: connectSlice.reducer,
+  exploresMobile: exploresMobileSlice.reducer,
 });
 
 export default rootReducer;

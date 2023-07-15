@@ -34,6 +34,48 @@
         "status": ""
       }
     ],
+    "exploreMobile": [
+      {
+        "id": 1,
+        "name": "Home",
+        "url": "/",
+        "isAllowed": true,
+        "icon": "HomeIcon",
+        "status": ""
+      },
+      {
+        "id": 2,
+        "name": "About",
+        "url": "/about",
+        "isAllowed": true,
+        "icon": "UserIcon",
+        "status": ""
+      },
+      {
+        "id": 3,
+        "name": "Blogs",
+        "url": "/blogs",
+        "isAllowed": false,
+        "icon": "ChatBubbleBottomCenterTextIcon",
+        "status": ""
+      },
+      {
+        "id": 4,
+        "name": "Works",
+        "url": "/works",
+        "isAllowed": false,
+        "icon": "BriefcaseIcon",
+        "status": ""
+      },
+      {
+        "id": 5,
+        "name": "Open Source",
+        "url": "/open-source",
+        "isAllowed": false,
+        "icon": "BookOpenIcon",
+        "status": ""
+      }
+    ],
     "connect": [
       {
         "id": 1,
