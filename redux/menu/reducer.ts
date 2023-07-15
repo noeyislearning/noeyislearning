@@ -11,6 +11,10 @@ export interface LegalState {
   legals: Legal[];
 }
 
+export interface ConnectState {
+  connects: Connect[];
+}
+
 export interface Explore {
   id: number;
   name: string;
@@ -28,15 +32,27 @@ export interface Legal {
   status: string;
 }
 
-const initialState: ExploreState & LegalState = {
+export interface Connect {
+  id: number;
+  name: string;
+  url: string;
+  isAllowed: boolean;
+  status: string;
+}
+
+const initialState: ExploreState & LegalState & ConnectState = {
   explores: menuData.menu.explore.map((explore) => ({
     ...explore,
   })),
   legals: menuData.menu.legal.map((legal) => ({
     ...legal,
   })),
+  connects: menuData.menu.connect.map((connect) => ({
+    ...connect,
+  })),
 };
 
+/** Slices */
 export const exploreSlice = createSlice({
   name: "explore",
   initialState: initialState.explores,
@@ -49,9 +65,17 @@ export const legalSlice = createSlice({
   reducers: {},
 });
 
+export const connectSlice = createSlice({
+  name: "connect",
+  initialState: initialState.connects,
+  reducers: {},
+});
+
+/** Reducer */
 const rootReducer = combineReducers({
   explore: exploreSlice.reducer,
   legal: legalSlice.reducer,
+  connect: connectSlice.reducer,
 });
 
 export default rootReducer;
