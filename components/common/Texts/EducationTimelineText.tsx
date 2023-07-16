@@ -22,8 +22,8 @@ export default function EducationTimelineText({ educ, last }: Props) {
                 <time className="text-sm font-normal leading-none text-gray-400">{educ.year.started} - {educ.year.ended ? educ.year.ended : "Present"}</time>
               </div>
               <div className="mt-2 flex flex-col">
-                <h3 className="text-lg font-semibold text-white">{educ.schoolName}</h3>
-                <p className="-mt-1 text-sm text-gray-500">{educ.schoolLocation}</p>
+                <h3 className="text-lg font-semibold text-white">{educ.degree}</h3>
+                <p className="-mt-1 text-sm text-gray-500">{educ.schoolName} - {educ.schoolLocation}</p>
               </div>
               <p className="mt-2 text-base font-normal text-gray-400">{educ.description}</p>
               <div className="mt-2 flex flex-row flex-wrap gap-1 items-center">
