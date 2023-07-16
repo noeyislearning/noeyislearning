@@ -37,7 +37,7 @@ export default function RecentWorkCard({ work }: Props) {
       <figcaption className="mt-4">
         <div className="flex flex-col lg:flex-row gap-2 justify-between items-center">
           <div className="flex flex-col">
-            <div className="flex flex-col lg:flex-row gap-0 lg:gap-2 items-center lg:items-baseline self-center">
+            <div className="flex flex-col lg:flex-row gap-0 lg:gap-2 items-center lg:items-baseline self-center lg:self-start">
               <h3 className="text-base text-white whitespace-nowrap">{work.name}</h3>
               <span className="hidden lg:block text-gray-500">•</span>
               <p className="text-sm text-gray-500">{work.description}</p>
