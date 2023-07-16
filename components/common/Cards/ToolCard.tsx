@@ -15,7 +15,7 @@ export default function ToolCard({ tool} : Props) {
   return (
     <>
       <div className="flex flex-row flex-wrap">
-        <div className="px-6 lg:px-8 py-4 bg-gray-950 hover:bg-gray-800 rounded-lg">
+        <div className="px-6 lg:px-8 py-4 bg-gray-950 hover:bg-gray-900 rounded-lg">
           <div className="flex flex-row gap-2 items-center">
             <Image 
               className="w-14 h-14 rounded-full object-contain" 
@@ -23,6 +23,8 @@ export default function ToolCard({ tool} : Props) {
               alt="Rounded avatar"
               width={1000}
               height={1000}
+              loading="lazy"  
+              data-nimg="1"
             />
             <div className="hidden lg:flex flex-col">
               <div className="text-lg">
