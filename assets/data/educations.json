@@ -1,0 +1,23 @@
+{
+  "educations": [
+    {
+      "id": 1,
+      "schoolName": "Holy Angel University",
+      "schoolLocation": "Angeles City, Pampanga, Philippines",
+      "schoolLogoImageURL": "https://i.imgur.com/vZ1ImQQ.png",
+      "degree": "Bachelor of Science in Computer Engineering",
+      "year": {
+        "started": 2015,
+        "ended": 2020
+      },
+      "skills": [
+        "Django",
+        "Python",
+        "Web Development",
+        "ReactJS",
+        "JavaScript"
+      ],
+      "description": "I made a name for myself in the hackathon scene, finishing second in the Impact 2050 Hackathon in Pampanga with a unique appointment system application developed for clinics and patients to make scheduling more effective. In addition, me and my team took third place in the START Hackathon by developing a web application that promotes openness and participation among local government entities and their communities. This software not only displays local initiatives, but it also facilitates communication, allowing the people to communicate directly with their particular local governments. Both of these accomplishments highlight my enthusiasm for creating answers to real-world problems and improving the way communities work."
+    }
+  ]
+}

@@ -6,6 +6,7 @@ import menuReducer from "./menu/reducer";
 import expReducer from "./experiences/reducer";
 import toolReducer from "./tools/reducer";
 import certReducer from "./certificates/reducer";
+import educReducer from "./educations/reducer";
 
 export const store = configureStore({
   reducer: {
@@ -15,6 +16,7 @@ export const store = configureStore({
     exp: expReducer,
     tool: toolReducer,
     cert: certReducer,
+    educ: educReducer,
   },
 });
 
