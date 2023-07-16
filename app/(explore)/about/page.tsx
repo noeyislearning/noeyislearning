@@ -6,6 +6,7 @@ import React from "react";
 import IntroductionText from "@/components/common/Texts/IntroductionText";
 import ExperienceTimelineText from "@/components/common/Texts/ExperienceTimelineText";
 import ToolCard from "@/components/common/Cards/ToolCard";
+import CertificateCard from "@/components/common/Cards/CertificateCard";
 
 /** Redux */
 import type { RootState } from "@/redux/store";
@@ -15,10 +16,11 @@ export default function AboutPage() {
 
   const exps = useSelector((state: RootState) => state.exp.exps);
   const tools = useSelector((state: RootState) => state.tool.tools);
+  const certs = useSelector((state: RootState) => state.cert.certs);
 
   return (
     <>
-      <main className="mt-24 lg:mt-48 mb-12 lg:mb-24 max-w-screen-sm mx-auto text-white">
+      <main className="mt-24 lg:mt-48 mb-12 lg:mb-24 w-full max-w-screen-sm mx-auto text-white">
         <div className="p-4 flex flex-col">
           <IntroductionText />
           <div className="mt-8 flex flex-col">
@@ -26,6 +28,14 @@ export default function AboutPage() {
             {exps.map((exp, index) => (
               <ExperienceTimelineText key={exp.id} exp={exp} last={index === exps.length - 1}/>
             ))}
+          </div>
+          <div className="mt-8 h-auto w-full flex flex-col">
+            <div className="mb-4 text-xl font-bold">Certificates</div>
+            <div className="flex flex-col gap-4 w-full">
+              {certs.map((cert) => (
+                <CertificateCard key={cert.id} cert={cert}/>
+              ))}
+            </div>
           </div>
           <div className="mt-8 flex flex-col">
             <div className="mb-4 text-xl font-bold">Beloved Technologies & Tools</div>
