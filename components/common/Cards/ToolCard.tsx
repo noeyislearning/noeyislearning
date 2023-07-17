@@ -27,7 +27,7 @@ export default function ToolCard({ tool }: Props) {
             />
             <div className="hidden flex-col lg:flex">
               <div className="text-lg">{tool.name}</div>
-              <div className="soverflow-hidden -mt-1 w-44 text-ellipsis whitespace-nowrap text-sm text-gray-500">
+              <div className="overflow-hidden -mt-1 w-44 text-ellipsis whitespace-nowrap text-sm text-gray-500">
                 {tool.description}
               </div>
             </div>
