@@ -5,14 +5,14 @@ import { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 
 /** Stylesheets */
-import "@/assets/css/globals.css"
+import "@/assets/css/globals.css";
 
 /** Global Font COnfiguration */
 import { DM_Sans } from "next/font/google";
 const globalFont = DM_Sans({
   weight: ["400", "500", "700"],
   subsets: ["latin-ext"],
-})
+});
 
 /** Metadata */
 export const metadata: Metadata = {
@@ -22,21 +22,21 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   keywords: [
-      "Personal Portfolio",
-      "Portfolio",
-      "Noey Ignacio",
-      "Noey",
-      "Personal Projects",
-      "Showcase",
-      "Software Developer",
-      "Software Engineer",
-      "Web Developer",
+    "Personal Portfolio",
+    "Portfolio",
+    "Noey Ignacio",
+    "Noey",
+    "Personal Projects",
+    "Showcase",
+    "Software Developer",
+    "Software Engineer",
+    "Web Developer",
   ],
   authors: [
     {
       name: "DBuilders",
       url: siteConfig.url,
-    }
+    },
   ],
   creator: "Noey Ignacio",
   openGraph: {
@@ -70,25 +70,24 @@ export const metadata: Metadata = {
         width: 800,
         height: 600,
         alt: siteConfig.name,
-      }
-    ]
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: siteConfig.name,
     description: siteConfig.description,
     creator: "@noeyislearning",
-    images: [siteConfig.ogImage]
+    images: [siteConfig.ogImage],
   },
   icons: {
     icon: "/favicon.ico",
-  }
-}
+  },
+};
 
 /** Components */
 import Navbar from "@/components/layouts/Navbar/Navbar";
 import Footer from "@/components/layouts/Footer/Footer";
-
 
 /** Providers */
 import { Providers } from "@/redux/Provider";
@@ -96,7 +95,7 @@ import { Providers } from "@/redux/Provider";
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -108,5 +107,5 @@ export default function RootLayout({
         </Providers>
       </body>
     </html>
-  )
+  );
 }

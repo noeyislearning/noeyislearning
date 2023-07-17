@@ -9,17 +9,23 @@ import { useSelector } from "react-redux";
 import GeneralButton from "@/components/common/Buttons/GeneralButton";
 
 export default function ConnectWithMe() {
-
-  const connectWithMeCTA = useSelector((state: RootState) => state.text.connectWithMeCTA);
+  const connectWithMeCTA = useSelector(
+    (state: RootState) => state.text.connectWithMeCTA,
+  );
 
   return (
     <>
-      <div className="mt-24 max-w-screen-sm mx-auto text-white">
-        <div className="flex flex-col gap-4 items-start">
-          <p className="text-sm lg:text-base text-gray-500">{connectWithMeCTA}</p>
-          <GeneralButton name="Let's get it touch!" link="mailto:hello@noeyislearning.dev"/>
+      <div className="mx-auto mt-24 max-w-screen-sm text-white">
+        <div className="flex flex-col items-start gap-4">
+          <p className="text-sm text-gray-500 lg:text-base">
+            {connectWithMeCTA}
+          </p>
+          <GeneralButton
+            name="Let's get it touch!"
+            link="mailto:hello@noeyislearning.dev"
+          />
         </div>
       </div>
     </>
-  )
+  );
 }

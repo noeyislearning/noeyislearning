@@ -9,11 +9,7 @@
       "expirationDate": "",
       "credentialID": "MDBpnslbmat88",
       "credentialURL": "https://learn.mongodb.com/c/PEZG-9sCSa2McM9MGjoR9w",
-      "skills": [
-        "MongoDB",
-        "NoSQL",
-        "Database"
-      ]
+      "skills": ["MongoDB", "NoSQL", "Database"]
     },
     {
       "id": 2,
@@ -24,9 +20,7 @@
       "expirationDate": "",
       "credentialID": "97F8EEB909DE",
       "credentialURL": "https://www.hackerrank.com/certificates/97f8eeb909de",
-      "skills": [
-        "Java"
-      ]
+      "skills": ["Java"]
     },
     {
       "id": 3,
@@ -37,9 +31,7 @@
       "expirationDate": "",
       "credentialID": "E8B2F4342A9F",
       "credentialURL": "https://www.hackerrank.com/certificates/e8b2f4342a9f",
-      "skills": [
-        "Python"
-      ]
+      "skills": ["Python"]
     },
     {
       "id": 4,
@@ -50,9 +42,7 @@
       "expirationDate": "",
       "credentialID": "E0F76CAC3B00",
       "credentialURL": "https://www.hackerrank.com/certificates/e0f76cac3b00",
-      "skills": [
-        "CSS"
-      ]
+      "skills": ["CSS"]
     }
   ]
 }

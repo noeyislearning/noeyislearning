@@ -6,15 +6,14 @@ import type { RootState } from "@/redux/store";
 import { useSelector } from "react-redux";
 
 /** Components */
-import RecentWorkCard from '@/components/common/Cards/RecentWorkCard';
+import RecentWorkCard from "@/components/common/Cards/RecentWorkCard";
 
 export default function RecentWorks() {
-  
   const works = useSelector((state: RootState) => state.work.works);
 
   return (
-    <div className="flex mt-16">
-      <div className="flex flex-col gap-8 items-center">
+    <div className="mt-16 flex">
+      <div className="flex flex-col items-center gap-8">
         {works.map((work) => (
           <RecentWorkCard key={work.id} work={work} />
         ))}

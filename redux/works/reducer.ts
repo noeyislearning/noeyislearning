@@ -18,7 +18,7 @@ export interface Work {
 
 const initialState: WorkState = {
   works: worksData.works.map((work) => ({
-    ...work
+    ...work,
   })),
 };
 

@@ -5,25 +5,15 @@
       "name": "Zoiquery",
       "description": "Artificial Intelligience SQL Generator",
       "imgURL": "https://i.imgur.com/3GPl4pV.png",
-      "technologyUsed": [
-        "TypeScript", 
-        "NextJS",
-        "TailwindCSS",
-        "OpenAI"
-      ],
+      "technologyUsed": ["TypeScript", "NextJS", "TailwindCSS", "OpenAI"],
       "redirectURL": "https://github.com/noeyislearning/zoiquery"
-    }, 
+    },
     {
       "id": 2,
       "name": "DBuilders Construction",
       "description": "UAE-based Construction Agency",
       "imgURL": "https://i.imgur.com/hzFmpHW.png",
-      "technologyUsed": [
-        "TypeScript", 
-        "NextJS",
-        "TailwindCSS",
-        "Redux"
-      ],
+      "technologyUsed": ["TypeScript", "NextJS", "TailwindCSS", "Redux"],
       "redirectURL": ""
     },
     {
@@ -32,8 +22,8 @@
       "description": "IP Management Platform",
       "imgURL": "https://i.imgur.com/0xeOuu1.png",
       "technologyUsed": [
-        "Python", 
-        "JavaScript", 
+        "Python",
+        "JavaScript",
         "HTML/CSS",
         "Django",
         "PostgreSQL"
@@ -46,8 +36,8 @@
       "description": "Showcase Website",
       "imgURL": "https://i.imgur.com/nN6IZEO.png",
       "technologyUsed": [
-        "Python", 
-        "JavaScript", 
+        "Python",
+        "JavaScript",
         "HTML/CSS",
         "Django",
         "PostgreSQL"
@@ -60,8 +50,8 @@
       "description": "Conference Website",
       "imgURL": "https://i.imgur.com/PnVbLyS.png",
       "technologyUsed": [
-        "Python", 
-        "JavaScript", 
+        "Python",
+        "JavaScript",
         "HTML/CSS",
         "Django",
         "PostgreSQL"

@@ -4,9 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 /** Heroicons */
-import { 
-  LinkIcon
-} from "@heroicons/react/24/outline";
+import { LinkIcon } from "@heroicons/react/24/outline";
 
 import type { Work } from "@/redux/works/reducer";
 
@@ -15,57 +13,60 @@ interface Props {
 }
 
 export default function RecentWorkCard({ work }: Props) {
-
   const trimURLPrefix = (url: string) => {
     const urlPrefix = "https://";
     const trimmedURL = url.slice(urlPrefix.length);
     return trimmedURL;
-  }
+  };
 
   return (
     <figure className="max-w-screen group">
       <Link href={work.redirectURL} target={"_blank"}>
-        <Image 
+        <Image
           src={work.imgURL}
           alt="Project Image"
           width={1000}
           height={1000}
-          className="lg:h-96 mx-auto max-w-screen rounded-lg object-cover duration-500 ease-in-out transform hover:scale-105" 
+          className="max-w-screen mx-auto transform rounded-lg object-cover duration-500 ease-in-out hover:scale-105 lg:h-96"
           priority
         />
       </Link>
       <figcaption className="mt-4">
-        <div className="flex flex-col lg:flex-row gap-2 justify-between items-center">
+        <div className="flex flex-col items-center justify-between gap-2 lg:flex-row">
           <div className="flex flex-col">
-            <div className="flex flex-col lg:flex-row gap-0 lg:gap-2 items-center lg:items-baseline self-center lg:self-start">
-              <h3 className="text-base text-white whitespace-nowrap">{work.name}</h3>
-              <span className="hidden lg:block text-gray-500">•</span>
+            <div className="flex flex-col items-center gap-0 self-center lg:flex-row lg:items-baseline lg:gap-2 lg:self-start">
+              <h3 className="whitespace-nowrap text-base text-white">
+                {work.name}
+              </h3>
+              <span className="hidden text-gray-500 lg:block">•</span>
               <p className="text-sm text-gray-500">{work.description}</p>
             </div>
-            <div className="flex flex-row flex-wrap gap-2 items-baseline">
+            <div className="flex flex-row flex-wrap items-baseline gap-2">
               {work.technologyUsed.map((technologyUsed) => (
-                <span key={technologyUsed} className="text-sm text-gray-500">{technologyUsed}</span>
+                <span key={technologyUsed} className="text-sm text-gray-500">
+                  {technologyUsed}
+                </span>
               ))}
             </div>
           </div>
-          <div className="flex flex-row gap-2 items-center">
-          {work.redirectURL ? (
-              <div className="text-sm text-gray-500 group-hover:text-white duration-500">
+          <div className="flex flex-row items-center gap-2">
+            {work.redirectURL ? (
+              <div className="text-sm text-gray-500 duration-500 group-hover:text-white">
                 <Link href={trimURLPrefix(work.redirectURL)}>
-                  <div className="flex flex-row gap-1 items-center">
-                    <LinkIcon className="w-3 h-3"/>
-                    <span className="text-xs">{trimURLPrefix(work.redirectURL)}</span>
+                  <div className="flex flex-row items-center gap-1">
+                    <LinkIcon className="h-3 w-3" />
+                    <span className="text-xs">
+                      {trimURLPrefix(work.redirectURL)}
+                    </span>
                   </div>
                 </Link>
               </div>
             ) : (
-              <div className="text-sm text-gray-500">
-                No link available
-              </div>
+              <div className="text-sm text-gray-500">No link available</div>
             )}
           </div>
         </div>
       </figcaption>
     </figure>
-  )
+  );
 }
