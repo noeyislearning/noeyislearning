@@ -15,8 +15,7 @@ interface Props {
   onClose: () => void;
 }
 
-export default function MobileSidebar({ onClose }: Props ) {
-
+export default function MobileSidebar({ onClose }: Props) {
   const sidebarRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -24,19 +23,19 @@ export default function MobileSidebar({ onClose }: Props ) {
       if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
         onClose();
       }
-    }
+    };
 
     document.addEventListener("mousedown", handleClickOutside);
-    
+
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
-    }
+    };
   }, [onClose]);
 
   return (
     <>
       <motion.div
-        className="fixed z-20 inset-0 bg-black bg-opacity-70"
+        className="fixed inset-0 z-20 bg-black bg-opacity-70"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -44,24 +43,24 @@ export default function MobileSidebar({ onClose }: Props ) {
         onClick={onClose}
       />
       <motion.div
-        className="fixed z-40 w-full h-fit right-0 top-0 overflow-auto shadow-xl shadow-black"
+        className="fixed right-0 top-0 z-40 h-fit w-full overflow-auto shadow-xl shadow-black"
         initial={{ x: "100%" }}
         animate={{ x: "0%" }}
         exit={{ x: "100%" }}
         transition={{ type: "spring", stiffness: 300, damping: 30 }}
         ref={sidebarRef}
       >
-        <div className="p-4 h-fit text-white bg-black ">
+        <div className="h-fit bg-black p-4 text-white ">
           <div className="fixed right-4">
-            <XMarkIcon className="w-7 h-7 text-white" onClick={onClose}/>
+            <XMarkIcon className="h-7 w-7 text-white" onClick={onClose} />
           </div>
           <div className="">
             <div className="flex flex-col">
-              <MobileSidebarMenu onClose={onClose}/>
+              <MobileSidebarMenu onClose={onClose} />
             </div>
           </div>
         </div>
       </motion.div>
     </>
-  )
+  );
 }

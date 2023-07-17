@@ -9,7 +9,7 @@
     {
       "id": 2,
       "name": "JavaScript",
-      "description":  "Web page scriptting language",
+      "description": "Web page scriptting language",
       "imgURL": "https://i.imgur.com/6xB1FcG.png"
     },
     {
@@ -45,7 +45,7 @@
     {
       "id": 7,
       "name": "Python",
-      "description":  "General-purpose, interpreted, high-level language",
+      "description": "General-purpose, interpreted, high-level language",
       "imgURL": "https://i.imgur.com/qNYwZvV.png"
     },
     {

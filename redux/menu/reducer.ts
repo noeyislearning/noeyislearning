@@ -53,7 +53,10 @@ export interface ExploreMobile {
   status: string;
 }
 
-const initialState: ExploreState & LegalState & ConnectState & ExploresMobileState = {
+const initialState: ExploreState &
+  LegalState &
+  ConnectState &
+  ExploresMobileState = {
   explores: menuData.menu.explore.map((explore) => ({
     ...explore,
   })),

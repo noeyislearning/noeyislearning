@@ -2,13 +2,13 @@ import React, { Fragment } from "react";
 import Link from "next/link";
 
 /** Heroicons */
-import { 
-  BookOpenIcon, 
-  BriefcaseIcon, 
-  ChatBubbleBottomCenterTextIcon, 
-  UserIcon, 
+import {
+  BookOpenIcon,
+  BriefcaseIcon,
+  ChatBubbleBottomCenterTextIcon,
+  UserIcon,
   CodeBracketIcon,
-  HomeIcon
+  HomeIcon,
 } from "@heroicons/react/24/outline";
 
 /** Components */
@@ -26,16 +26,17 @@ const icons: { [key: string]: React.ElementType } = {
   BriefcaseIcon: BriefcaseIcon,
   BookOpenIcon: BookOpenIcon,
   CodeBracketIcon: CodeBracketIcon,
-  HomeIcon: HomeIcon
-}
+  HomeIcon: HomeIcon,
+};
 
 interface MobileSidebarMenuProps {
   onClose: () => void; // Prop for closing the sidebar when a link is clicked
 }
 
 export default function MobileSidebarMenu({ onClose }: MobileSidebarMenuProps) {
-
-  const exploresMobile = useSelector((state: RootState) => state.menu.exploresMobile);
+  const exploresMobile = useSelector(
+    (state: RootState) => state.menu.exploresMobile,
+  );
 
   return (
     <>
@@ -48,32 +49,41 @@ export default function MobileSidebarMenu({ onClose }: MobileSidebarMenuProps) {
           return (
             <Fragment key={exploreMobile.id}>
               {exploreMobile.isAllowed ? (
-                  <Link href={exploreMobile.url} key={exploreMobile.id}>
-                    <div className="text-sm text-white group rounded-lg" onClick={onClose}>
-                      <div className="flex flex-row gap-4 items-center">
-                        <IconComponent className="w-5 h-5"/>
-                        <span className="text-xl whitespace-nowrap">{exploreMobile.name}</span>
-                      </div>
-                    </div>
-                  </Link>
-                ): (
-                  <div key={exploreMobile.id}>
-                    <div className="text-sm text-gray-600 group rounded-lg" onClick={onClose}>
-                      <div className="flex flex-row gap-4 items-center">
-                        <IconComponent className="w-5 h-5"/>
-                        <span className="text-xl whitespace-nowrap">{exploreMobile.name}</span>
-                      </div>
+                <Link href={exploreMobile.url} key={exploreMobile.id}>
+                  <div
+                    className="group rounded-lg text-sm text-white"
+                    onClick={onClose}
+                  >
+                    <div className="flex flex-row items-center gap-4">
+                      <IconComponent className="h-5 w-5" />
+                      <span className="whitespace-nowrap text-xl">
+                        {exploreMobile.name}
+                      </span>
                     </div>
                   </div>
-                )
-              }
+                </Link>
+              ) : (
+                <div key={exploreMobile.id}>
+                  <div
+                    className="group rounded-lg text-sm text-gray-600"
+                    onClick={onClose}
+                  >
+                    <div className="flex flex-row items-center gap-4">
+                      <IconComponent className="h-5 w-5" />
+                      <span className="whitespace-nowrap text-xl">
+                        {exploreMobile.name}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              )}
             </Fragment>
-          ) 
+          );
         })}
       </div>
       <div className="flex">
-        <ContactButton text={"Drop me an email"}/>
+        <ContactButton text={"Drop me an email"} />
       </div>
     </>
-  )
+  );
 }

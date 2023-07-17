@@ -3,13 +3,13 @@ import React from "react";
 import Link from "next/link";
 
 /** Heroicons */
-import { 
-  BookOpenIcon, 
-  BriefcaseIcon, 
-  ChatBubbleBottomCenterTextIcon, 
-  UserIcon, 
+import {
+  BookOpenIcon,
+  BriefcaseIcon,
+  ChatBubbleBottomCenterTextIcon,
+  UserIcon,
   ChevronDownIcon,
-  CodeBracketIcon
+  CodeBracketIcon,
 } from "@heroicons/react/24/outline";
 
 /** Redux */
@@ -17,7 +17,7 @@ import type { RootState } from "@/redux/store";
 import { useSelector } from "react-redux";
 
 /** Headless UI */
-import { Menu, Transition } from '@headlessui/react'
+import { Menu, Transition } from "@headlessui/react";
 
 // Icon object mapping
 const icons: { [key: string]: React.ElementType } = {
@@ -25,20 +25,19 @@ const icons: { [key: string]: React.ElementType } = {
   ChatBubbleBottomCenterTextIcon: ChatBubbleBottomCenterTextIcon,
   BriefcaseIcon: BriefcaseIcon,
   BookOpenIcon: BookOpenIcon,
-  CodeBracketIcon: CodeBracketIcon
-}
+  CodeBracketIcon: CodeBracketIcon,
+};
 
 export default function ExploreDropdown() {
-
   const explores = useSelector((state: RootState) => state.menu.explore);
 
   return (
     <>
       <div className="">
         <Menu as="div" className="relative inline-block">
-          <Menu.Button className="px-4 py-2 flex flex-row gap-2 text-gray-500 hover:text-gray-100 items-center hover:bg-gray-900 rounded-xl">
+          <Menu.Button className="flex flex-row items-center gap-2 rounded-xl px-4 py-2 text-gray-500 hover:bg-gray-900 hover:text-gray-100">
             <div className="text-sm">Explore</div>
-            <ChevronDownIcon className="w-4 h-4"/>
+            <ChevronDownIcon className="h-4 w-4" />
           </Menu.Button>
           <Transition
             enter="transition ease-out duration-100"
@@ -57,30 +56,36 @@ export default function ExploreDropdown() {
                     <Menu.Item key={explore.id}>
                       {explore.isAllowed ? (
                         <Link href={explore.url}>
-                          <div className="px-4 py-2 text-sm hover:bg-gray-900 text-white group rounded-lg">
-                            <div className="flex flex-row gap-2 items-center">
+                          <div className="group rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-900">
+                            <div className="flex flex-row items-center gap-2">
                               {/* Render the correct icon component */}
-                              <IconComponent className="w-4 h-4"/>
-                              <span className="whitespace-nowrap">{explore.name}</span>
+                              <IconComponent className="h-4 w-4" />
+                              <span className="whitespace-nowrap">
+                                {explore.name}
+                              </span>
                             </div>
                           </div>
                         </Link>
-                      ): (
+                      ) : (
                         <div className="cursor-not-allowed">
-                          <div className="px-4 py-2 text-sm hover:bg-gray-900 text-white group rounded-lg">
-                            <div className="flex flex-row gap-2 items-center">
+                          <div className="group rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-900">
+                            <div className="flex flex-row items-center gap-2">
                               {/* Render the correct icon component */}
-                              <IconComponent className="w-4 h-4"/>
-                              <div className="flex flex-row gap-2 items-center">
-                                <span className="whitespace-nowrap">{explore.name}</span>
-                                <span className="px-2 py-0.5 text-blue-600 text-xs font-light border border-blue-600 rounded-lg">Soon</span>
+                              <IconComponent className="h-4 w-4" />
+                              <div className="flex flex-row items-center gap-2">
+                                <span className="whitespace-nowrap">
+                                  {explore.name}
+                                </span>
+                                <span className="rounded-lg border border-blue-600 px-2 py-0.5 text-xs font-light text-blue-600">
+                                  Soon
+                                </span>
                               </div>
                             </div>
                           </div>
                         </div>
                       )}
                     </Menu.Item>
-                  )
+                  );
                 })}
               </div>
             </Menu.Items>
@@ -88,5 +93,5 @@ export default function ExploreDropdown() {
         </Menu>
       </div>
     </>
-  )
+  );
 }

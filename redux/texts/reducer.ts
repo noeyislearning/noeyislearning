@@ -8,8 +8,8 @@ export interface TextState {
 }
 
 const initialState: TextState = {
-  connectWithMeCTA: connectWithMeCTA.texts.connectWithMeCTA.content
-}
+  connectWithMeCTA: connectWithMeCTA.texts.connectWithMeCTA.content,
+};
 
 export const textSlice = createSlice({
   name: "text",

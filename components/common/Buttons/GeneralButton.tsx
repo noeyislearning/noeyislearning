@@ -10,7 +10,7 @@ export default function GeneralButton({ name, link }: Props) {
   if (link.includes("mailto:")) {
     return (
       <a href={link}>
-        <div className="px-4 py-1 text-sm border border-gray-500 hover:border-gray-100 rounded-lg duration-300">
+        <div className="rounded-lg border border-gray-500 px-4 py-1 text-sm duration-300 hover:border-gray-100">
           {name}
         </div>
       </a>
@@ -18,7 +18,7 @@ export default function GeneralButton({ name, link }: Props) {
   } else {
     return (
       <Link href={link}>
-        <div className="px-4 py-1 text-sm border border-gray-500 hover:border-gray-100 rounded-lg duration-300">
+        <div className="rounded-lg border border-gray-500 px-4 py-1 text-sm duration-300 hover:border-gray-100">
           {name}
         </div>
       </Link>
