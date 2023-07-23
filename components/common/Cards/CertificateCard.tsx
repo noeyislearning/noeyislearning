@@ -31,7 +31,6 @@ export default function CertificateCard({ cert }: Props) {
                   <div className="flex flex-row items-center gap-1">
                     <div className="text-lg hover:underline">
                       {cert.title}
-                      lLink
                     </div>
                     <ArrowUpRightIcon className="h-4 w-4 text-white" />
                   </div>
