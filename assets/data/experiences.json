@@ -17,8 +17,7 @@
         "Tailwind CSS",
         "Vercel",
         "Prisma",
-        "PostgreSQL",
-        "Vercel",
+        "PostgresQL",
         "Web Development",
         "Full-stack Development"
       ]
@@ -33,12 +32,12 @@
         "started": "Sept 2021",
         "ended": "Dec 2022"
       },
-      "description": "Securing ₱17.9 million in funding for tech transfer and R&D, orchestrated marketing initiatives that boosted brand recognition and engagement, and provided key technical support for unit projects. My work in enhancing communication resulted in increased customer satisfaction, and the development of an efficient database management system boosted idea protection by 25%. I also created a Django and PostgreSQL-powered website, improving user engagement by 45% and decreased downtime by 90% through effective deployment on Digital Ocean, leading to a 30% boost in user satisfaction.",
+      "description": "Securing ₱17.9 million in funding for tech transfer and R&D, orchestrated marketing initiatives that boosted brand recognition and engagement, and provided key technical support for unit projects. My work in enhancing communication resulted in increased customer satisfaction, and the development of an efficient database management system boosted idea protection by 25%. I also created a Django and PostgresQL-powered website, improving user engagement by 45% and decreased downtime by 90% through effective deployment on Digital Ocean, leading to a 30% boost in user satisfaction.",
       "skills": [
         "Relational Database",
         "Django",
         "Python",
-        "PostgreSQL",
+        "PostgresQL",
         "Digital Ocean",
         "Project Management",
         "Web Development",
@@ -64,11 +63,11 @@
         "Django",
         "Python",
         "JavaScript",
-        "PostgreSQL",
+        "PostgresQL",
         "Digital Ocean",
-        "Amazon Web Services",
+        "Amazon Web Services: EC2, S3, & RDS",
         "Web Development",
-        "Full-stack Development",
+        "Back End Development",
         "Team Leadership"
       ]
     },
@@ -88,7 +87,8 @@
         "JavaScript",
         "VueJS",
         "Tailwind CSS",
-        "Web Development"
+        "Web Development",
+        "Front End Development"
       ]
     },
     {
@@ -96,7 +96,7 @@
       "company": "JDEV Office Solution Incorporated",
       "location": "Central Luzon, Philippines",
       "title": "Software Quality Assurance Intern",
-      "employmentType": "Intership",
+      "employmentType": "Internship",
       "dates": {
         "started": "May 2019",
         "ended": "Oct 2019"
