@@ -3,7 +3,10 @@ import React from "react";
 import Link from "next/link";
 
 /** Heroicons */
-import { EnvelopeIcon } from "@heroicons/react/24/outline";
+import { 
+  EnvelopeIcon,
+  LinkIcon
+ } from "@heroicons/react/24/outline";
 
 /** Redux */
 import type { RootState } from "@/redux/store";
@@ -60,7 +63,7 @@ export default function Footer() {
                   <li key={connect.id}>
                     {connect.isAllowed ? (
                       <Link href={connect.url} target={"_blank"}>
-                        <div className="flex flex-row items-center gap-2">
+                        <div className="flex flex-row items-baseline">
                           <div className="flex whitespace-nowrap text-sm hover:text-gray-100">
                             {connect.name}
                           </div>

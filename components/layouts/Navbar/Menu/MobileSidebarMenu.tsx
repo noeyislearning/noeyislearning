@@ -7,6 +7,7 @@ import {
   BriefcaseIcon,
   ChatBubbleBottomCenterTextIcon,
   UserIcon,
+  ChartBarIcon,
   CodeBracketIcon,
   HomeIcon,
 } from "@heroicons/react/24/outline";
@@ -27,10 +28,11 @@ const icons: { [key: string]: React.ElementType } = {
   BookOpenIcon: BookOpenIcon,
   CodeBracketIcon: CodeBracketIcon,
   HomeIcon: HomeIcon,
+  ChartBarIcon: ChartBarIcon,
 };
 
 interface MobileSidebarMenuProps {
-  onClose: () => void; // Prop for closing the sidebar when a link is clicked
+  onClose: () => void;
 }
 
 export default function MobileSidebarMenu({ onClose }: MobileSidebarMenuProps) {
@@ -54,9 +56,9 @@ export default function MobileSidebarMenu({ onClose }: MobileSidebarMenuProps) {
                     className="group rounded-lg text-sm text-white"
                     onClick={onClose}
                   >
-                    <div className="flex flex-row items-center gap-4">
+                    <div className="flex flex-row items-center gap-2">
                       <IconComponent className="h-5 w-5" />
-                      <span className="whitespace-nowrap text-xl">
+                      <span className="whitespace-nowrap sm:text-base md:text-base lg:text-xl">
                         {exploreMobile.name}
                       </span>
                     </div>
@@ -68,9 +70,9 @@ export default function MobileSidebarMenu({ onClose }: MobileSidebarMenuProps) {
                     className="group rounded-lg text-sm text-gray-600"
                     onClick={onClose}
                   >
-                    <div className="flex flex-row items-center gap-4">
+                    <div className="flex flex-row items-center gap-2">
                       <IconComponent className="h-5 w-5" />
-                      <span className="whitespace-nowrap text-xl">
+                      <span className="whitespace-nowrap sm:text-base md:text-base lg:text-xl">
                         {exploreMobile.name}
                       </span>
                     </div>

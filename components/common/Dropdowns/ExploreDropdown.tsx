@@ -8,6 +8,7 @@ import {
   BriefcaseIcon,
   ChatBubbleBottomCenterTextIcon,
   UserIcon,
+  ChartBarIcon,
   ChevronDownIcon,
   CodeBracketIcon,
 } from "@heroicons/react/24/outline";
@@ -26,6 +27,7 @@ const icons: { [key: string]: React.ElementType } = {
   BriefcaseIcon: BriefcaseIcon,
   BookOpenIcon: BookOpenIcon,
   CodeBracketIcon: CodeBracketIcon,
+  ChartBarIcon: ChartBarIcon,
 };
 
 export default function ExploreDropdown() {

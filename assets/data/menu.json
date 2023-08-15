@@ -32,6 +32,14 @@
         "isAllowed": false,
         "icon": "BookOpenIcon",
         "status": ""
+      },
+      {
+        "id": 5,
+        "name": "Data Analytics",
+        "url": "/data-analytics",
+        "isAllowed": false,
+        "icon": "ChartBarIcon",
+        "status": ""
       }
     ],
     "exploreMobile": [
@@ -73,6 +81,14 @@
         "url": "/open-source",
         "isAllowed": false,
         "icon": "BookOpenIcon",
+        "status": ""
+      },
+      {
+        "id": 6,
+        "name": "Data Analytics",
+        "url": "/data-analytics",
+        "isAllowed": false,
+        "icon": "ChartBarIcon",
         "status": ""
       }
     ],
