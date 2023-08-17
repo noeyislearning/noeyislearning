@@ -1,11 +1,11 @@
 export const siteConfig = {
   name: "Noey Ignacio",
   url: "https://noeyislearning.dev",
-  ogImage: "",
-  fbOgImage: "",
-  messOgImage: "",
+  ogImage: "https://i.imgur.com/lNY7u6T.png",
+  fbOgImage: "https://i.imgur.com/lNY7u6T.png",
+  messOgImage: "https://i.imgur.com/lNY7u6T.png",
   description:
-    "Welcome to my software development journey! This repository is dedicated to sharing my insights, monitoring my progress in software development, and showcasing my personal projects. Here, you'll find a collection of my thoughts, code snippets, and completed projects as I continue to grow as a developer.",
+    "Embark on my transformative journey from software developer to data scientist. Dive into a rich repository of insights, blogs, and projects . Witness my evolution, from keen developer insights to cutting-edge data analysis. Join me as I blend software development prowess with data analytics expertise.",
 };
 
 export type SiteConfig = typeof siteConfig;
