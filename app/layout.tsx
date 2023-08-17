@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "DBuilders",
+      name: "Noey Ignacio",
       url: siteConfig.url,
     },
   ],
