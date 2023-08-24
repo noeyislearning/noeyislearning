@@ -27,7 +27,7 @@ export default function AboutPage() {
             <div className="mb-4 text-xl font-bold lg:text-2xl">
               Experiences
             </div>
-            {exps.map((exp, index) => (
+            { exps.map((exp, index) => (
               <ExperienceTimelineText
                 key={exp.id}
                 exp={exp}
@@ -37,7 +37,7 @@ export default function AboutPage() {
           </div>
           <div className="mt-8 flex flex-col ">
             <div className="mb-4 text-xl font-bold lg:text-2xl">Educations</div>
-            {educs.map((educ, index) => (
+            { educs.map((educ, index) => (
               <EducationTimelineText
                 key={educ.id}
                 educ={educ}
@@ -50,7 +50,7 @@ export default function AboutPage() {
               Certificates
             </div>
             <div className="flex w-full flex-col gap-4">
-              {certs.map((cert) => (
+              { certs.map((cert) => (
                 <CertificateCard key={cert.id} cert={cert} />
               ))}
             </div>
@@ -60,7 +60,7 @@ export default function AboutPage() {
               Beloved Technologies & Tools
             </div>
             <div className="flex w-full flex-row flex-wrap gap-4 lg:grid lg:grid-cols-2">
-              {tools.map((tool) => (
+              { tools.map((tool) => (
                 <ToolCard key={tool.id} tool={tool} />
               ))}
             </div>
