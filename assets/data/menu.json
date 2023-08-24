@@ -7,7 +7,7 @@
         "url": "/about",
         "isAllowed": true,
         "icon": "UserIcon",
-        "status": ""
+        "isExternal": false
       },
       {
         "id": 2,
@@ -15,7 +15,7 @@
         "url": "/blogs",
         "isAllowed": false,
         "icon": "ChatBubbleBottomCenterTextIcon",
-        "status": ""
+        "isExternal": false
       },
       {
         "id": 3,
@@ -23,7 +23,7 @@
         "url": "/works",
         "isAllowed": false,
         "icon": "BriefcaseIcon",
-        "status": ""
+        "isExternal": false
       },
       {
         "id": 4,
@@ -31,15 +31,15 @@
         "url": "/open-source",
         "isAllowed": false,
         "icon": "BookOpenIcon",
-        "status": ""
+        "isExternal": false
       },
       {
         "id": 5,
-        "name": "Data Analytics",
-        "url": "/data-analytics",
-        "isAllowed": false,
+        "name": "Data Science",
+        "url": "https://datascience.noeyislearning.dev/",
+        "isAllowed": true,
         "icon": "ChartBarIcon",
-        "status": ""
+        "isExternal": true
       }
     ],
     "exploreMobile": [
@@ -49,7 +49,7 @@
         "url": "/",
         "isAllowed": true,
         "icon": "HomeIcon",
-        "status": ""
+        "isExternal": false
       },
       {
         "id": 2,
@@ -57,7 +57,7 @@
         "url": "/about",
         "isAllowed": true,
         "icon": "UserIcon",
-        "status": ""
+        "isExternal": false
       },
       {
         "id": 3,
@@ -65,7 +65,7 @@
         "url": "/blogs",
         "isAllowed": false,
         "icon": "ChatBubbleBottomCenterTextIcon",
-        "status": ""
+        "isExternal": false
       },
       {
         "id": 4,
@@ -73,7 +73,7 @@
         "url": "/works",
         "isAllowed": false,
         "icon": "BriefcaseIcon",
-        "status": ""
+        "isExternal": false
       },
       {
         "id": 5,
@@ -81,15 +81,15 @@
         "url": "/open-source",
         "isAllowed": false,
         "icon": "BookOpenIcon",
-        "status": ""
+        "isExternal": false
       },
       {
         "id": 6,
-        "name": "Data Analytics",
-        "url": "/data-analytics",
-        "isAllowed": false,
+        "name": "Data Science",
+        "url": "https://datascience.noeyislearning.dev/",
+        "isAllowed": true,
         "icon": "ChartBarIcon",
-        "status": ""
+        "isExternal": true
       }
     ],
     "connect": [
@@ -98,28 +98,28 @@
         "name": "GitHub",
         "url": "https://github.com/noeyislearning",
         "isAllowed": true,
-        "status": ""
+        "isExternal": false
       },
       {
         "id": 2,
         "name": "LinkedIn",
         "url": "https://www.linkedin.com/in/noeyislearning",
         "isAllowed": true,
-        "status": ""
+        "isExternal": false
       },
       {
         "id": 3,
         "name": "Instagram",
         "url": "https://www.instagram.com/noeyislearning",
         "isAllowed": true,
-        "status": ""
+        "isExternal": false
       },
       {
         "id": 4,
         "name": "Threads",
         "url": "https://www.threads.net/noeyislearning",
         "isAllowed": true,
-        "status": ""
+        "isExternal": false
       }
     ],
     "legal": [
@@ -128,14 +128,14 @@
         "name": "Credits",
         "url": "/credits",
         "isAllowed": true,
-        "status": ""
+        "isExternal": false
       },
       {
         "id": 2,
         "name": "Privacy Policy",
         "url": "/privacy-policy",
         "isAllowed": true,
-        "status": ""
+        "isExternal": false
       }
     ]
   }

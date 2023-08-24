@@ -25,7 +25,7 @@ export interface Explore {
   url: string;
   isAllowed: boolean;
   icon: string;
-  status: string;
+  isExternal: boolean
 }
 
 export interface Legal {
@@ -33,7 +33,7 @@ export interface Legal {
   name: string;
   url: string;
   isAllowed: boolean;
-  status: string;
+  isExternal: boolean
 }
 
 export interface Connect {
@@ -41,7 +41,7 @@ export interface Connect {
   name: string;
   url: string;
   isAllowed: boolean;
-  status: string;
+  isExternal: boolean
 }
 
 export interface ExploreMobile {
@@ -50,7 +50,7 @@ export interface ExploreMobile {
   url: string;
   isAllowed: boolean;
   icon: string;
-  status: string;
+  isExternal: boolean
 }
 
 const initialState: ExploreState &
