@@ -21,16 +21,27 @@ export default function RecentWorkCard({ work }: Props) {
 
   return (
     <figure className="max-w-screen group">
-      <Link href={work.redirectURL} target={"_blank"}>
+      { work.redirectURL ? (
+        <Link href={work.redirectURL} target={"_blank"}>
+          <Image
+            src={work.imgURL}
+            alt="Project Image"
+            width={1000}
+            height={1000}
+            className="max-w-screen mx-auto transform rounded-lg object-cover duration-500 ease-in-out hover:scale-105 lg:h-96"
+            priority
+          />
+        </Link>
+      ): (
         <Image
           src={work.imgURL}
           alt="Project Image"
           width={1000}
           height={1000}
-          className="max-w-screen mx-auto transform rounded-lg object-cover duration-500 ease-in-out hover:scale-105 lg:h-96"
+          className="max-w-screen mx-auto transform rounded-lg object-cover duration-500 ease-in-out hover:scale-105 lg:h-96 cursor-pointer"
           priority
         />
-      </Link>
+      )}
       <figcaption className="mt-4">
         <div className="flex flex-col items-center justify-between gap-2 lg:flex-row">
           <div className="flex flex-col">
@@ -62,7 +73,7 @@ export default function RecentWorkCard({ work }: Props) {
                 </Link>
               </div>
             ) : (
-              <div className="text-sm text-gray-500">No link available</div>
+              <div className="text-xs text-gray-500 group-hover:text-red-500 duration-300">No link available</div>
             )}
           </div>
         </div>
