@@ -5,7 +5,6 @@ import Link from "next/link";
 /** Heroicons */
 import { 
   EnvelopeIcon,
-  LinkIcon
  } from "@heroicons/react/24/outline";
 
 /** Redux */
@@ -29,10 +28,10 @@ export default function Footer() {
             <div>
               <h2 className="mb-2 text-base font-medium text-white">Explore</h2>
               <ul className="flex flex-col gap-2 text-gray-500">
-                {explores.map((explore) => (
+                { explores.map((explore) => (
                   <li key={explore.id}>
-                    {explore.isAllowed ? (
-                      <Link href={explore.url}>
+                    { explore.isAllowed ? ( 
+                      <Link href={explore.url} target={explore.isExternal ? "_blank" : undefined} rel={explore.isExternal ? "noopener noreferrer" : undefined}>
                         <div className="flex flex-row items-center gap-2">
                           <div className="flex whitespace-nowrap text-sm hover:text-gray-100">
                             {explore.name}
@@ -59,10 +58,10 @@ export default function Footer() {
                 Be in Touch
               </h2>
               <ul className="flex flex-col gap-2 text-gray-500">
-                {connects.map((connect) => (
+                { connects.map((connect) => (
                   <li key={connect.id}>
-                    {connect.isAllowed ? (
-                      <Link href={connect.url} target={"_blank"}>
+                    { connect.isAllowed ? (
+                      <Link href={connect.url} target={connect.isExternal ? "_blank" : undefined} rel={connect.isExternal ? "noopener noreferrer" : undefined}>
                         <div className="flex flex-row items-baseline">
                           <div className="flex whitespace-nowrap text-sm hover:text-gray-100">
                             {connect.name}
@@ -87,10 +86,10 @@ export default function Footer() {
             <div>
               <h2 className="mb-2 text-base font-medium text-white">Legal</h2>
               <ul className="flex flex-col gap-2 text-gray-500">
-                {legals.map((legal) => (
+                { legals.map((legal) => (
                   <li key={legal.id}>
-                    {legal.isAllowed ? (
-                      <Link href={legal.url}>
+                    { legal.isAllowed ? (
+                      <Link href={legal.url} target={legal.isExternal ? "_blank" : undefined} rel={legal.isExternal ? "noopener noreferrer" : undefined}>
                         <div className="flex flex-row items-center gap-2">
                           <div className="flex text-sm hover:text-gray-100">
                             {legal.name}

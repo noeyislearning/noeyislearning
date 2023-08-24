@@ -46,12 +46,12 @@ export default function MobileSidebarMenu({ onClose }: MobileSidebarMenuProps) {
         <Logo />
       </div>
       <div className="my-4 flex flex-col gap-2">
-        {exploresMobile.map((exploreMobile) => {
+        { exploresMobile.map((exploreMobile) => {
           const IconComponent = icons[exploreMobile.icon];
           return (
             <Fragment key={exploreMobile.id}>
-              {exploreMobile.isAllowed ? (
-                <Link href={exploreMobile.url} key={exploreMobile.id}>
+              { exploreMobile.isAllowed ? (
+                <Link href={exploreMobile.url} key={exploreMobile.id} target={exploreMobile.isExternal ? "_blank" : undefined} rel={exploreMobile.isExternal ? "noopener noreferrer" : undefined}>
                   <div
                     className="group rounded-lg text-sm text-white"
                     onClick={onClose}

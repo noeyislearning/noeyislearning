@@ -51,13 +51,13 @@ export default function ExploreDropdown() {
           >
             <Menu.Items className="absolute right-0 mt-2 w-fit origin-top-right divide-y divide-gray-100 rounded-xl bg-black shadow-lg ring-1 ring-slate-600 ring-opacity-100 focus:outline-none">
               <div className="px-1 py-1">
-                {explores.map((explore) => {
+                { explores.map((explore) => {
                   // Get the correct icon component based on the icon name
                   const IconComponent = icons[explore.icon];
                   return (
                     <Menu.Item key={explore.id}>
-                      {explore.isAllowed ? (
-                        <Link href={explore.url}>
+                      { explore.isAllowed ? (
+                        <Link href={explore.url} target={explore.isExternal ? "_blank" : undefined} rel={explore.isExternal ? "noopener noreferrer" : undefined}>
                           <div className="group rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-900">
                             <div className="flex flex-row items-center gap-2">
                               {/* Render the correct icon component */}
