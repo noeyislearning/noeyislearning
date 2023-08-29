@@ -14,6 +14,7 @@ export interface Work {
   imgURL: string;
   technologyUsed: string[];
   redirectURL: string;
+  category: string;
 }
 
 const initialState: WorkState = {
