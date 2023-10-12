@@ -35,6 +35,15 @@ Within this portfolio, you will discover a meticulously curated collection of my
 [![Certificates](https://img.shields.io/badge/(HackerRank)_Python-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.hackerrank.com/certificates/e8b2f4342a9f)
 [![Certificates](https://img.shields.io/badge/(Udemy)_Data_Visualization_with_Power_BI_Simplified-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.udemy.com/certificate/UC-2024f9f5-7abd-4b0c-9816-e90b08fb821b/)
 
+🧪 Data Science Projects
+
+[![DSProject](https://img.shields.io/badge/Global_Stock_Price_Archive-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://gspa.noeyislearning.dev)
+[![DSProject](https://img.shields.io/badge/Analyzing_Costumer_Behavior_-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://acb.noeyislearning.dev)
+[![DSProject](https://img.shields.io/badge/Coffee_Chain_Sales-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://ccs.noeyislearning.dev)
+[![DSProject](https://img.shields.io/badge/Ecommerce_Sales_Dashboard-7420EB?style=flat-square&logo=&logoColor=E4E715)]()
+
+
+
 
 
 
