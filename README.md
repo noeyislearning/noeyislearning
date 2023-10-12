@@ -4,7 +4,9 @@ I am **Noey Ignaco**, a software developer at **[Kooest](https://kooest.com/)**,
 
 My professional journey has been imbued with a profound enthusiasm for the captivating realm of data science. Currently, I am diligently engaged in a transformative pursuit as I transition into the role of a data scientist.
 
-Within this portfolio and socials below, you will discover a meticulously curated collection of my innovative projects and noteworthy contributions. It offers a compelling insight into my ongoing odyssey through the dynamic domains of coding and data science.
+Within this portfolio, you will discover a meticulously curated collection of my innovative projects and noteworthy contributions. It offers a compelling insight into my ongoing odyssey through the dynamic domains of coding and data science.
+
+🌱 Profiles
 
 [![Personal Portfolio](https://img.shields.io/badge/Personal%20Portfolio-7420EB?style=flat-square&logo=safari&logoColor=E4E715)](https://noeyislearning.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-7420EB?style=flat-square&logo=github&logoColor=E4E715)](https://github.com/noeyislearning)
@@ -16,4 +18,22 @@ Within this portfolio and socials below, you will discover a meticulously curate
 [![Kaggle](https://img.shields.io/badge/Kaggle-7420EB?style=flat-square&logo=kaggle&logoColor=E4E715)](https://www.kaggle.com/noeyislearning)
 [![HackerRank](https://img.shields.io/badge/HackerRank-7420EB?style=flat-square&logo=hackerrank&logoColor=E4E715)](https://www.hackerrank.com/noeyislearning)
 [![HackerRank](https://img.shields.io/badge/Udemy-7420EB?style=flat-square&logo=udemy&logoColor=E4E715)](https://www.udemy.com/user/noey-19/)
+
+🏆 Certificates 
+
+[![Certificates](https://img.shields.io/badge/Basics_of_Exploratory_Data_Analysis-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![Certificates](https://img.shields.io/badge/Data_Science_Foundations-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/DUELEPBV)
+[![Certificates](https://img.shields.io/badge/Introduction_to_Analytics-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/GYJSLFLS)
+[![Certificates](https://img.shields.io/badge/Introduction_to_Data_Science-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/VCSDJPFL)
+[![Certificates](https://img.shields.io/badge/Python_for_Data_Science-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/UHWEGLSH)
+[![Certificates](https://img.shields.io/badge/Statistics_for_Data_Science-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/OMJPTGZH)
+[![Certificates](https://img.shields.io/badge/Intro_to_Programming-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.kaggle.com/learn/certification/noeyislearning/intro-to-programming)
+[![Certificates](https://img.shields.io/badge/Python-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.kaggle.com/learn/certification/noeyislearning/python)
+[![Certificates](https://img.shields.io/badge/Introduction_to_MongoDB-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://learn.mongodb.com/c/PEZG-9sCSa2McM9MGjoR9w)
+[![Certificates](https://img.shields.io/badge/Java-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.hackerrank.com/certificates/97f8eeb909de)
+[![Certificates](https://img.shields.io/badge/CSS-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.hackerrank.com/certificates/e0f76cac3b00)
+[![Certificates](https://img.shields.io/badge/Python-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.hackerrank.com/certificates/e8b2f4342a9f)
+
+
+
 
