@@ -30,6 +30,7 @@ Within this portfolio, you will discover a meticulously curated collection of my
 🧠 Machine Learning (Domain) Projects
 
 [![MLProject](https://img.shields.io/badge/Pneumonia_Detection_Model-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://github.com/noeyislearning/pneumonia-detection-model)
+[![MLProject](https://img.shields.io/badge/Fruit_Classifier_Model-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://github.com/noeyislearning/fruit-classifier-model)
 
 
 🏆 Certificates 
