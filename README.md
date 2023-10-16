@@ -19,6 +19,19 @@ Within this portfolio, you will discover a meticulously curated collection of my
 [![HackerRank](https://img.shields.io/badge/HackerRank-7420EB?style=flat-square&logo=hackerrank&logoColor=E4E715)](https://www.hackerrank.com/noeyislearning)
 [![HackerRank](https://img.shields.io/badge/Udemy-7420EB?style=flat-square&logo=udemy&logoColor=E4E715)](https://www.udemy.com/user/noey-19/)
 
+🧪 Data Science (Domain) Projects
+
+[![DSProject](https://img.shields.io/badge/Global_Stock_Price_Archive-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://gspa.noeyislearning.dev)
+[![DSProject](https://img.shields.io/badge/Analyzing_Costumer_Behavior-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://acb.noeyislearning.dev)
+[![DSProject](https://img.shields.io/badge/Coffee_Chain_Sales-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://ccs.noeyislearning.dev)
+[![DSProject](https://img.shields.io/badge/Ecommerce_Sales_Dashboard-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.linkedin.com/in/noeyislearning/overlay/projects/2016465098/multiple-media-viewer/?profileId=ACoAACnizWwBDziQE4ttOGLclNItJfhy21C4aaU&treasuryMediaId=1635544283648)
+[![DSProject](https://img.shields.io/badge/HR_Dashboard-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.linkedin.com/in/noeyislearning/overlay/projects/2016465098/multiple-media-viewer/?profileId=ACoAACnizWwBDziQE4ttOGLclNItJfhy21C4aaU&treasuryMediaId=1635544655441)
+
+🧠 Machine Learning (Domain) Projects
+
+[![MLProject](https://img.shields.io/badge/Pneumonia_Detection_Model-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://github.com/noeyislearning/pneumonia-detection-model)
+
+
 🏆 Certificates 
 
 [![Certificates](https://img.shields.io/badge/(Great_Learning)_Basics_of_Exploratory_Data_Analysis-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS) <!-- Great Learning -->
@@ -35,18 +48,4 @@ Within this portfolio, you will discover a meticulously curated collection of my
 [![Certificates](https://img.shields.io/badge/(HackerRank)_CSS-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.hackerrank.com/certificates/e0f76cac3b00) <!-- HackerRank -->
 [![Certificates](https://img.shields.io/badge/(HackerRank)_Python-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.hackerrank.com/certificates/e8b2f4342a9f) <!-- HackerRank -->
 [![Certificates](https://img.shields.io/badge/(Udemy)_Data_Visualization_with_Power_BI_Simplified-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.udemy.com/certificate/UC-2024f9f5-7abd-4b0c-9816-e90b08fb821b/) <!-- Udemy -->
-
-🧪 Data Science (Domain) Projects
-
-[![DSProject](https://img.shields.io/badge/Global_Stock_Price_Archive-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://gspa.noeyislearning.dev)
-[![DSProject](https://img.shields.io/badge/Analyzing_Costumer_Behavior_-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://acb.noeyislearning.dev)
-[![DSProject](https://img.shields.io/badge/Coffee_Chain_Sales-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://ccs.noeyislearning.dev)
-[![DSProject](https://img.shields.io/badge/Ecommerce_Sales_Dashboard-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.linkedin.com/in/noeyislearning/overlay/projects/2016465098/multiple-media-viewer/?profileId=ACoAACnizWwBDziQE4ttOGLclNItJfhy21C4aaU&treasuryMediaId=1635544283648)
-[![DSProject](https://img.shields.io/badge/HR_Dashboard-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.linkedin.com/in/noeyislearning/overlay/projects/2016465098/multiple-media-viewer/?profileId=ACoAACnizWwBDziQE4ttOGLclNItJfhy21C4aaU&treasuryMediaId=1635544655441)
-
-
-
-
-
-
 
