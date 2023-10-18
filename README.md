@@ -33,8 +33,10 @@ Within this portfolio, you will discover a meticulously curated collection of my
 [![MLProject](https://img.shields.io/badge/Fruit_Classifier_Model-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://github.com/noeyislearning/fruit-classifier-model)
 
 
-🏆 Certificates 
-
+<details>
+<summary>🏆 Certificates</summary>
+<br>
+  
 [![Certificates](https://img.shields.io/badge/(Great_Learning)_Basics_of_Exploratory_Data_Analysis-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS) <!-- Great Learning -->
 [![Certificates](https://img.shields.io/badge/(Great_Learning)_Data_Science_Foundations-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/DUELEPBV) <!-- Great Learning -->
 [![Certificates](https://img.shields.io/badge/(Great_Learning)_Introduction_to_Analytics-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/GYJSLFLS) <!-- Great Learning -->
@@ -48,5 +50,7 @@ Within this portfolio, you will discover a meticulously curated collection of my
 [![Certificates](https://img.shields.io/badge/(HackerRank)_Java-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.hackerrank.com/certificates/97f8eeb909de) <!-- HackerRank -->
 [![Certificates](https://img.shields.io/badge/(HackerRank)_CSS-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.hackerrank.com/certificates/e0f76cac3b00) <!-- HackerRank -->
 [![Certificates](https://img.shields.io/badge/(HackerRank)_Python-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.hackerrank.com/certificates/e8b2f4342a9f) <!-- HackerRank -->
-[![Certificates](https://img.shields.io/badge/(Udemy)_Data_Visualization_with_Power_BI_Simplified-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.udemy.com/certificate/UC-2024f9f5-7abd-4b0c-9816-e90b08fb821b/) <!-- Udemy -->
+[![Certificates](https://img.shields.io/badge/(Udemy)_Data_Visualization_with_Power_BI_Simplified-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.udemy.com/certificate/UC-2024f9f5-7abd-4b0c-9816-e90b08fb821b) <!-- Udemy -->
+[![Certificates](https://img.shields.io/badge/(Udemy)_AI_&_ML_Starter_Course_with_Hands_On_Projects-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.udemy.com/certificate/UC-a0938eb8-f53e-45d9-ae18-639503d73d1c) <!-- Udemy -->
+</details>
 
