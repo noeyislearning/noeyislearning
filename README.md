@@ -24,6 +24,7 @@ Within this portfolio, you will discover a meticulously curated collection of my
 [![DSProject](https://img.shields.io/badge/Global_Stock_Price_Archive-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://gspa.noeyislearning.dev)
 [![DSProject](https://img.shields.io/badge/Analyzing_Costumer_Behavior-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://acb.noeyislearning.dev)
 [![DSProject](https://img.shields.io/badge/Coffee_Chain_Sales-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://ccs.noeyislearning.dev)
+[![DSProject](https://img.shields.io/badge/Customer_Shopping_Trends-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://cts.noeyislearning.dev)
 [![DSProject](https://img.shields.io/badge/Ecommerce_Sales_Dashboard-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.linkedin.com/in/noeyislearning/overlay/projects/2016465098/multiple-media-viewer/?profileId=ACoAACnizWwBDziQE4ttOGLclNItJfhy21C4aaU&treasuryMediaId=1635544283648)
 [![DSProject](https://img.shields.io/badge/HR_Dashboard-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.linkedin.com/in/noeyislearning/overlay/projects/2016465098/multiple-media-viewer/?profileId=ACoAACnizWwBDziQE4ttOGLclNItJfhy21C4aaU&treasuryMediaId=1635544655441)
 
