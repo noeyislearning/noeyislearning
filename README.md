@@ -55,3 +55,27 @@ Within this portfolio, you will discover a meticulously curated collection of my
 [![Certificates](https://img.shields.io/badge/(Udemy)_AI_&_ML_Starter_Course_with_Hands_On_Projects-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.udemy.com/certificate/UC-a0938eb8-f53e-45d9-ae18-639503d73d1c) <!-- Udemy -->
 </details>
 
+<details>
+<summary>⚙️ Technologies and Tools I usually used</summary>
+<br>
+  
+[![T&T](https://img.shields.io/badge/Python-7420EB?style=flat-square&logo=Python&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![T&T](https://img.shields.io/badge/Django-7420EB?style=flat-square&logo=Django&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![T&T](https://img.shields.io/badge/JavaScript-7420EB?style=flat-square&logo=JavaScript&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![T&T](https://img.shields.io/badge/TypeScript-7420EB?style=flat-square&logo=TypeScript&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![T&T](https://img.shields.io/badge/Node.js-7420EB?style=flat-square&logo=Node&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![T&T](https://img.shields.io/badge/Express.js-7420EB?style=flat-square&logo=Express&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![T&T](https://img.shields.io/badge/React.js-7420EB?style=flat-square&logo=React&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![T&T](https://img.shields.io/badge/Redux-7420EB?style=flat-square&logo=Redux&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![T&T](https://img.shields.io/badge/CSS3-7420EB?style=flat-square&logo=CSS3&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![T&T](https://img.shields.io/badge/TailwindCSS-7420EB?style=flat-square&logo=Tailwind-CSS&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![T&T](https://img.shields.io/badge/Bootstrap-7420EB?style=flat-square&logo=Bootstrap&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![T&T](https://img.shields.io/badge/MongoDB-7420EB?style=flat-square&logo=MongoDB&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![T&T](https://img.shields.io/badge/PostgreSQL-7420EB?style=flat-square&logo=PostgreSQL&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![T&T](https://img.shields.io/badge/MySQL-7420EB?style=flat-square&logo=MySQL&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![T&T](https://img.shields.io/badge/SQLite-7420EB?style=flat-square&logo=SQLite&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![T&T](https://img.shields.io/badge/Vercel-7420EB?style=flat-square&logo=Vercel&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![T&T](https://img.shields.io/badge/Amazon_AWS-7420EB?style=flat-square&logo=Amazon-AWS&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+</details>
+
+
