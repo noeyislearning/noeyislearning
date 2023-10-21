@@ -8,7 +8,7 @@ Within this portfolio, you will discover a meticulously curated collection of my
 
 🌱 Profiles
 
-[![Personal Portfolio](https://img.shields.io/badge/Personal%20Portfolio-7420EB?style=flat-square&logo=safari&logoColor=E4E715)](https://noeyislearning.dev)
+[![Personal Portfolio](https://img.shields.io/badge/Personal%20Portfolio-7420EB?style=flat-square&logo=About.me&logoColor=E4E715)](https://noeyislearning.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-7420EB?style=flat-square&logo=github&logoColor=E4E715)](https://github.com/noeyislearning)
 [![Google Developer](https://img.shields.io/badge/Google_Developer-7420EB?style=flat-square&logo=Google-chrome&logoColor=E4E715)](https://g.dev/noeyislearning)
 [![Microsoft Learn](https://img.shields.io/badge/Microsoft_Learn-7420EB?style=flat-square&logo=microsoft&logoColor=E4E715)](https://learn.microsoft.com/en-us/users/noeyislearning)
@@ -17,7 +17,10 @@ Within this portfolio, you will discover a meticulously curated collection of my
 [![Leetcode](https://img.shields.io/badge/Exercism-7420EB?style=flat-square&logo=exercism&logoColor=E4E715)](https://exercism.org/profiles/noeyislearning)
 [![Kaggle](https://img.shields.io/badge/Kaggle-7420EB?style=flat-square&logo=kaggle&logoColor=E4E715)](https://www.kaggle.com/noeyislearning)
 [![HackerRank](https://img.shields.io/badge/HackerRank-7420EB?style=flat-square&logo=hackerrank&logoColor=E4E715)](https://www.hackerrank.com/noeyislearning)
-[![HackerRank](https://img.shields.io/badge/Udemy-7420EB?style=flat-square&logo=udemy&logoColor=E4E715)](https://www.udemy.com/user/noey-19/)
+[![Udemy](https://img.shields.io/badge/Udemy-7420EB?style=flat-square&logo=Udemy&logoColor=E4E715)](https://www.udemy.com/user/noey-19/)
+[![KhanAcademy](https://img.shields.io/badge/Khan_Academy-7420EB?style=flat-square&logo=Khan%20Academy&logoColor=E4E715)](https://www.udemy.com/user/noey-19/)
+[![Upwork](https://img.shields.io/badge/Upwork_(Active_Soon)-7420EB?style=flat-square&logo=Upwork&logoColor=E4E715)]()
+[![Fiverr](https://img.shields.io/badge/Fiverr_(Active_Soon)-7420EB?style=flat-square&logo=Fiverr&logoColor=E4E715)]()
 
 🧪 Data Science (Domain) Projects
 
@@ -59,23 +62,41 @@ Within this portfolio, you will discover a meticulously curated collection of my
 <summary>⚙️ Technologies and Tools I usually used</summary>
 <br>
   
-[![T&T](https://img.shields.io/badge/Python-7420EB?style=flat-square&logo=Python&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
-[![T&T](https://img.shields.io/badge/Django-7420EB?style=flat-square&logo=Django&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
-[![T&T](https://img.shields.io/badge/JavaScript-7420EB?style=flat-square&logo=JavaScript&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
-[![T&T](https://img.shields.io/badge/TypeScript-7420EB?style=flat-square&logo=TypeScript&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
-[![T&T](https://img.shields.io/badge/Node.js-7420EB?style=flat-square&logo=Node&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
-[![T&T](https://img.shields.io/badge/Express.js-7420EB?style=flat-square&logo=Express&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
-[![T&T](https://img.shields.io/badge/React.js-7420EB?style=flat-square&logo=React&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
-[![T&T](https://img.shields.io/badge/Redux-7420EB?style=flat-square&logo=Redux&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
-[![T&T](https://img.shields.io/badge/CSS3-7420EB?style=flat-square&logo=CSS3&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
-[![T&T](https://img.shields.io/badge/TailwindCSS-7420EB?style=flat-square&logo=Tailwind-CSS&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
-[![T&T](https://img.shields.io/badge/Bootstrap-7420EB?style=flat-square&logo=Bootstrap&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
-[![T&T](https://img.shields.io/badge/MongoDB-7420EB?style=flat-square&logo=MongoDB&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
-[![T&T](https://img.shields.io/badge/PostgreSQL-7420EB?style=flat-square&logo=PostgreSQL&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
-[![T&T](https://img.shields.io/badge/MySQL-7420EB?style=flat-square&logo=MySQL&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
-[![T&T](https://img.shields.io/badge/SQLite-7420EB?style=flat-square&logo=SQLite&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
-[![T&T](https://img.shields.io/badge/Vercel-7420EB?style=flat-square&logo=Vercel&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
-[![T&T](https://img.shields.io/badge/Amazon_AWS-7420EB?style=flat-square&logo=Amazon-AWS&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS)
+[![T&T](https://img.shields.io/badge/Python-7420EB?style=flat-square&logo=Python&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Django-7420EB?style=flat-square&logo=Django&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/JavaScript-7420EB?style=flat-square&logo=JavaScript&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/TypeScript-7420EB?style=flat-square&logo=TypeScript&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Node.js-7420EB?style=flat-square&logo=Node&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Express.js-7420EB?style=flat-square&logo=Express&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/React.js-7420EB?style=flat-square&logo=React&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Next.js-7420EB?style=flat-square&logo=Nextdotjs&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Svelte-7420EB?style=flat-square&logo=Svelte&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Svelte_Kit-7420EB?style=flat-square&logo=Svelte&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Redux-7420EB?style=flat-square&logo=Redux&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Vite-7420EB?style=flat-square&logo=Vite&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/CSS3-7420EB?style=flat-square&logo=CSS3&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/TailwindCSS-7420EB?style=flat-square&logo=Tailwind-CSS&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Bootstrap-7420EB?style=flat-square&logo=Bootstrap&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/MongoDB-7420EB?style=flat-square&logo=MongoDB&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/PostgreSQL-7420EB?style=flat-square&logo=PostgreSQL&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/MySQL-7420EB?style=flat-square&logo=MySQL&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/SQLite-7420EB?style=flat-square&logo=SQLite&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Vercel-7420EB?style=flat-square&logo=Vercel&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Amazon_AWS-7420EB?style=flat-square&logo=Amazon-AWS&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Digital_Ocean-7420EB?style=flat-square&logo=DigitalOcean&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Postman-7420EB?style=flat-square&logo=Postman&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/PowerBI-7420EB?style=flat-square&logo=Power%20BI&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Anaconda-7420EB?style=flat-square&logo=Anaconda&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Jupyter-7420EB?style=flat-square&logo=Jupyter&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Notion-7420EB?style=flat-square&logo=Notion&logoColor=E4E715)]()
 </details>
 
+<details>
+<summary>📊 Personal Stats</summary>
+<br>
+
+🔥 GitHub Streak
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=noeyislearning" alt="Github Streak" width="500"/>
+</details>
 
