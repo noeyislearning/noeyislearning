@@ -58,6 +58,7 @@ Within this portfolio, you will discover a meticulously curated collection of my
 [![Certificates](https://img.shields.io/badge/(HackerRank)_Python-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.hackerrank.com/certificates/e8b2f4342a9f) <!-- HackerRank -->
 [![Certificates](https://img.shields.io/badge/(Udemy)_Data_Visualization_with_Power_BI_Simplified-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.udemy.com/certificate/UC-2024f9f5-7abd-4b0c-9816-e90b08fb821b) <!-- Udemy -->
 [![Certificates](https://img.shields.io/badge/(Udemy)_AI_&_ML_Starter_Course_with_Hands_On_Projects-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.udemy.com/certificate/UC-a0938eb8-f53e-45d9-ae18-639503d73d1c) <!-- Udemy -->
+[![Certificates](https://img.shields.io/badge/(Udemy)_Learn_Big_Data_Basics-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.udemy.com/certificate/UC-a76b706f-4128-4282-8272-82899e180558) <!-- Udemy -->
 </details>
 
 <details>
