@@ -40,25 +40,42 @@ Within this portfolio, you will discover a meticulously curated collection of my
 
 
 <details>
-<summary>🏆 Certificates</summary>
+<summary>🏆 Certifications</summary>
 <br>
-  
+
+DataCamp
+
+Great Learning
+
 [![Certificates](https://img.shields.io/badge/(Great_Learning)_Basics_of_Exploratory_Data_Analysis-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS) <!-- Great Learning -->
 [![Certificates](https://img.shields.io/badge/(Great_Learning)_Data_Science_Foundations-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/DUELEPBV) <!-- Great Learning -->
 [![Certificates](https://img.shields.io/badge/(Great_Learning)_Introduction_to_Analytics-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/GYJSLFLS) <!-- Great Learning -->
 [![Certificates](https://img.shields.io/badge/(Great_Learning)_Introduction_to_Data_Science-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/VCSDJPFL) <!-- Great Learning -->
 [![Certificates](https://img.shields.io/badge/(Great_Learning)_Python_for_Data_Science-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/UHWEGLSH) <!-- Great Learning -->
 [![Certificates](https://img.shields.io/badge/(Great_Learning)_Statistics_for_Data_Science-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/OMJPTGZH) <!-- Great Learning -->
-[![Certificates](https://img.shields.io/badge/(Kaggle)_Intro_to_Programming-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.kaggle.com/learn/certification/noeyislearning/intro-to-programming) <!-- Kaggle --> 
-[![Certificates](https://img.shields.io/badge/(Kaggle)_Python-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.kaggle.com/learn/certification/noeyislearning/python) <!-- Kaggle -->
-[![Certificates](https://img.shields.io/badge/(Kaggle)_Data_Cleaning-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.kaggle.com/learn/certification/noeyislearning/data-cleaning) <!-- Kaggle --> 
-[![Certificates](https://img.shields.io/badge/(MongoDB)_Introduction_to_MongoDB-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://learn.mongodb.com/c/PEZG-9sCSa2McM9MGjoR9w) <!-- MongoDB -->
-[![Certificates](https://img.shields.io/badge/(HackerRank)_Java-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.hackerrank.com/certificates/97f8eeb909de) <!-- HackerRank -->
-[![Certificates](https://img.shields.io/badge/(HackerRank)_CSS-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.hackerrank.com/certificates/e0f76cac3b00) <!-- HackerRank -->
-[![Certificates](https://img.shields.io/badge/(HackerRank)_Python-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.hackerrank.com/certificates/e8b2f4342a9f) <!-- HackerRank -->
+
+Udemy
+
 [![Certificates](https://img.shields.io/badge/(Udemy)_Data_Visualization_with_Power_BI_Simplified-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.udemy.com/certificate/UC-2024f9f5-7abd-4b0c-9816-e90b08fb821b) <!-- Udemy -->
 [![Certificates](https://img.shields.io/badge/(Udemy)_AI_&_ML_Starter_Course_with_Hands_On_Projects-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.udemy.com/certificate/UC-a0938eb8-f53e-45d9-ae18-639503d73d1c) <!-- Udemy -->
 [![Certificates](https://img.shields.io/badge/(Udemy)_Learn_Big_Data_Basics-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.udemy.com/certificate/UC-a76b706f-4128-4282-8272-82899e180558) <!-- Udemy -->
+
+Kaggle
+
+[![Certificates](https://img.shields.io/badge/(Kaggle)_Intro_to_Programming-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.kaggle.com/learn/certification/noeyislearning/intro-to-programming) <!-- Kaggle --> 
+[![Certificates](https://img.shields.io/badge/(Kaggle)_Python-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.kaggle.com/learn/certification/noeyislearning/python) <!-- Kaggle -->
+[![Certificates](https://img.shields.io/badge/(Kaggle)_Data_Cleaning-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.kaggle.com/learn/certification/noeyislearning/data-cleaning) <!-- Kaggle --> 
+
+HackerRank
+
+[![Certificates](https://img.shields.io/badge/(HackerRank)_Java-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.hackerrank.com/certificates/97f8eeb909de) <!-- HackerRank -->
+[![Certificates](https://img.shields.io/badge/(HackerRank)_CSS-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.hackerrank.com/certificates/e0f76cac3b00) <!-- HackerRank -->
+[![Certificates](https://img.shields.io/badge/(HackerRank)_Python-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.hackerrank.com/certificates/e8b2f4342a9f) <!-- HackerRank -->
+
+MongoDB
+
+[![Certificates](https://img.shields.io/badge/(MongoDB)_Introduction_to_MongoDB-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://learn.mongodb.com/c/PEZG-9sCSa2McM9MGjoR9w) <!-- MongoDB -->
+
 </details>
 
 <details>
