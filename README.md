@@ -107,6 +107,6 @@ Within this portfolio, you will discover a meticulously curated collection of my
 
 🔥 GitHub Streak
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=noeyislearning" alt="Github Streak" width="500"/>
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=noeyislearning&theme=shades_of_purple)](https://github-readme-streak-stats.herokuapp.com/?user=noeyislearning&theme=shades_of_purple)
 </details>
 
