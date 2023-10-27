@@ -43,6 +43,9 @@ Within this portfolio, you will discover a meticulously curated collection of my
 <summary>🏆 Certifications</summary>
 <br>
 
+[![Certificates](https://img.shields.io/badge/(MTF)_Lean_Six_Sigma_Green_Belt-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.linkedin.com/in/noeyislearning/details/certifications/1635546719875/single-media-viewer/?profileId=ACoAACnizWwBDziQE4ttOGLclNItJfhy21C4aaU) <!-- MTF -->
+[![Certificates](https://img.shields.io/badge/(MTF)_Metaverse_Professional-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://www.linkedin.com/in/noeyislearning/details/certifications/1635546719838/single-media-viewer/?profileId=ACoAACnizWwBDziQE4ttOGLclNItJfhy21C4aaU) <!-- MTF -->
+
 [![Certificates](https://img.shields.io/badge/(Great_Learning)_Basics_of_Exploratory_Data_Analysis-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/ELZKXPBS) <!-- Great Learning -->
 [![Certificates](https://img.shields.io/badge/(Great_Learning)_Data_Science_Foundations-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/DUELEPBV) <!-- Great Learning -->
 [![Certificates](https://img.shields.io/badge/(Great_Learning)_Introduction_to_Analytics-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://verify.mygreatlearning.com/verify/GYJSLFLS) <!-- Great Learning -->
