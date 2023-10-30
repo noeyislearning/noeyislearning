@@ -19,7 +19,7 @@ Within this portfolio, you will discover a meticulously curated collection of my
 [![HackerRank](https://img.shields.io/badge/HackerRank-7420EB?style=flat-square&logo=hackerrank&logoColor=E4E715)](https://www.hackerrank.com/noeyislearning)
 [![Leetcode](https://img.shields.io/badge/Leetcode-7420EB?style=flat-square&logo=leetcode&logoColor=E4E715)](https://leetcode.com/noeyislearning)
 [![Exercism](https://img.shields.io/badge/Exercism-7420EB?style=flat-square&logo=exercism&logoColor=E4E715)](https://exercism.org/profiles/noeyislearning)
-[![Codewars](https://img.shields.io/badge/Exercism-7420EB?style=flat-square&logo=codewars&logoColor=E4E715)](https://www.codewars.com/users/noeyislearning)
+[![Codewars](https://img.shields.io/badge/Codewars-7420EB?style=flat-square&logo=codewars&logoColor=E4E715)](https://www.codewars.com/users/noeyislearning)
 [![Upwork](https://img.shields.io/badge/Upwork_(Active_Soon)-7420EB?style=flat-square&logo=Upwork&logoColor=E4E715)]()
 [![Fiverr](https://img.shields.io/badge/Fiverr_(Active_Soon)-7420EB?style=flat-square&logo=Fiverr&logoColor=E4E715)]()
 
