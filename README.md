@@ -13,12 +13,13 @@ Within this portfolio, you will discover a meticulously curated collection of my
 [![Google Developer](https://img.shields.io/badge/Google_Developer-7420EB?style=flat-square&logo=Google-chrome&logoColor=E4E715)](https://g.dev/noeyislearning)
 [![Microsoft Learn](https://img.shields.io/badge/Microsoft_Learn-7420EB?style=flat-square&logo=microsoft&logoColor=E4E715)](https://learn.microsoft.com/en-us/users/noeyislearning)
 [![DataCamp](https://img.shields.io/badge/DataCamp-7420EB?style=flat-square&logo=datacamp&logoColor=E4E715)](https://www.datacamp.com/portfolio/noeyislearning)
-[![Leetcode](https://img.shields.io/badge/Leetcode-7420EB?style=flat-square&logo=leetcode&logoColor=E4E715)](https://leetcode.com/noeyislearning)
-[![Leetcode](https://img.shields.io/badge/Exercism-7420EB?style=flat-square&logo=exercism&logoColor=E4E715)](https://exercism.org/profiles/noeyislearning)
 [![Kaggle](https://img.shields.io/badge/Kaggle-7420EB?style=flat-square&logo=kaggle&logoColor=E4E715)](https://www.kaggle.com/noeyislearning)
-[![HackerRank](https://img.shields.io/badge/HackerRank-7420EB?style=flat-square&logo=hackerrank&logoColor=E4E715)](https://www.hackerrank.com/noeyislearning)
 [![Udemy](https://img.shields.io/badge/Udemy-7420EB?style=flat-square&logo=Udemy&logoColor=E4E715)](https://www.udemy.com/user/noey-19/)
-[![KhanAcademy](https://img.shields.io/badge/Khan_Academy-7420EB?style=flat-square&logo=Khan%20Academy&logoColor=E4E715)](https://www.udemy.com/user/noey-19/)
+[![KhanAcademy](https://img.shields.io/badge/Khan_Academy-7420EB?style=flat-square&logo=Khan%20Academy&logoColor=E4E715)](https://www.khanacademy.org/profile/kaid_4402717111668020367306267/)
+[![HackerRank](https://img.shields.io/badge/HackerRank-7420EB?style=flat-square&logo=hackerrank&logoColor=E4E715)](https://www.hackerrank.com/noeyislearning)
+[![Leetcode](https://img.shields.io/badge/Leetcode-7420EB?style=flat-square&logo=leetcode&logoColor=E4E715)](https://leetcode.com/noeyislearning)
+[![Exercism](https://img.shields.io/badge/Exercism-7420EB?style=flat-square&logo=exercism&logoColor=E4E715)](https://exercism.org/profiles/noeyislearning)
+[![Codewars](https://img.shields.io/badge/Exercism-7420EB?style=flat-square&logo=codewars&logoColor=E4E715)](https://www.codewars.com/users/noeyislearning)
 [![Upwork](https://img.shields.io/badge/Upwork_(Active_Soon)-7420EB?style=flat-square&logo=Upwork&logoColor=E4E715)]()
 [![Fiverr](https://img.shields.io/badge/Fiverr_(Active_Soon)-7420EB?style=flat-square&logo=Fiverr&logoColor=E4E715)]()
 
@@ -102,6 +103,8 @@ Within this portfolio, you will discover a meticulously curated collection of my
 [![T&T](https://img.shields.io/badge/Anaconda-7420EB?style=flat-square&logo=Anaconda&logoColor=E4E715)]()
 [![T&T](https://img.shields.io/badge/Jupyter-7420EB?style=flat-square&logo=Jupyter&logoColor=E4E715)]()
 [![T&T](https://img.shields.io/badge/Notion-7420EB?style=flat-square&logo=Notion&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Obsidian-7420EB?style=flat-square&logo=Obisdian&logoColor=E4E715)]()
+[![T&T](https://img.shields.io/badge/Windows_11-7420EB?style=flat-square&logo=Windows-11&logoColor=E4E715)]()
 </details>
 
 <details>
@@ -110,7 +113,7 @@ Within this portfolio, you will discover a meticulously curated collection of my
 
 🔥 GitHub Streak
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=noeyislearning&theme=shades-of-purple&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=500)]()
+[![GitHub Streak](https://streak-stats.demolab.com?user=noeyislearning&theme=shades-of-purple&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=1000)]()
 
 </details>
 
