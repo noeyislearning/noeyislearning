@@ -23,6 +23,12 @@ Within this portfolio, you will discover a meticulously curated collection of my
 [![Upwork](https://img.shields.io/badge/Upwork_(Active_Soon)-7420EB?style=flat-square&logo=Upwork&logoColor=E4E715)]()
 [![Fiverr](https://img.shields.io/badge/Fiverr_(Active_Soon)-7420EB?style=flat-square&logo=Fiverr&logoColor=E4E715)]()
 
+🛒 Shop
+
+[![Gumroad](https://img.shields.io/badge/Gumroad_(Free_Ebooks)-7420EB?style=flat-square&logo=gumroad&logoColor=E4E715)](https://noeylearning.gumroad.com)
+
+----
+
 🧪 Data Science (Domain) Projects
 
 [![DSProject](https://img.shields.io/badge/Global_Stock_Price_Archive-7420EB?style=flat-square&logo=&logoColor=E4E715)](https://gspa.noeyislearning.dev)
