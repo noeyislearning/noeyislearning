@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 /** Redux related */
 import type { Social } from "@/redux/socials/reducer";
@@ -19,7 +20,7 @@ export default function AboutPage() {
   return (
     <div className="p-8 md:p-8 lg:p-16 mx-auto w-full h-full flex flex-col items-center">
       <div className="pb-24 flex flex-row w-full max-w-5xl justify-between items-center">
-        <div className="flex flex-col gap-4 text-center md:text-start lg:text-start items-center md:items-start lg:items-start">
+        <div className="flex flex-col w-full gap-4 text-center md:text-start lg:text-start items-center md:items-start lg:items-start">
 
           {/* Introduction */}
           <h3 className="pt-8 max-w-lg text-xl leading-6">
@@ -58,7 +59,7 @@ export default function AboutPage() {
 
           {/* Experiences */}
           <div className="pt-8 text-xl">💼 Professional Experiences</div>
-          <ol className="relative ml-3 border-l border-yellow-400">   
+          <ol className="relative ml-3 border-l border-yellow-400 flex flex-col text-start items-start">   
             {exps.map((exp, index) => (
               <li key={exp.id} className={`ml-4 ${index !== exps.length - 1 ? 'mb-10' : 'mb-2'}`}>
                 <div className="absolute w-3 h-3 bg-yellow-400 rounded-full mt-1.5 -left-1.5"></div>
