@@ -1,22 +1,11 @@
 "use client";
 import { configureStore } from "@reduxjs/toolkit";
+
 import workReducer from "./works/reducer";
-import textReducer from "./texts/reducer";
-import menuReducer from "./menu/reducer";
-import expReducer from "./experiences/reducer";
-import toolReducer from "./tools/reducer";
-import certReducer from "./certificates/reducer";
-import educReducer from "./educations/reducer";
 
 export const store = configureStore({
   reducer: {
     work: workReducer,
-    text: textReducer,
-    menu: menuReducer,
-    exp: expReducer,
-    tool: toolReducer,
-    cert: certReducer,
-    educ: educReducer,
   },
 });
 

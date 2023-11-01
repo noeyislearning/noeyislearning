@@ -9,12 +9,14 @@ export interface WorkState {
 
 export interface Work {
   id: number;
-  name: string;
-  description: string;
-  imgURL: string;
-  technologyUsed: string[];
-  redirectURL: string;
-  category: string;
+  title: string;
+  desc: string;
+  work_title: string;
+  img_url: string;
+  redirect_url: string;
+  tech_tags: string[];
+  is_ongoing: boolean;
+  version: string;
 }
 
 const initialState: WorkState = {
