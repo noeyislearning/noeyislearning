@@ -9,7 +9,7 @@ export default function Hero() {
         <h3 className="-mt-4 max-w-lg text-xl leading-6">
           I am a software developer based on Philippines transitioning into <span className="text-yellow-400 underline underline-offset-4">data science domain</span> 🚀, also computer engineering instructor, college, at <Link href={"https://www.hau.edu.ph"} target={"_blank"} ><span className="text-yellow-400 underline underline-offset-4">@holyangeluniversity</span> 🏫</Link>, and a freelance developer at <Link href={"https://kooest.com"} target={"_blank"}><span className="text-yellow-400 underline underline-offset-4">@teamkooest</span>⭐</Link>.
         </h3>
-        <Link href={"/"} className="text-xl"><button className="text-yellow-400 underline underline-offset-4">Know me better.</button> 👋</Link>
+        <Link href={"/about"} className="text-xl"><button className="text-yellow-400 underline underline-offset-4">Know me better.</button> 👋</Link>
       </div>
     </div>
   )
