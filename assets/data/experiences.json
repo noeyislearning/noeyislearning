@@ -1,0 +1,115 @@
+{
+  "experiences": [
+    {
+      "id": 185492,
+      "position": "Computer Engineering Instructor",
+      "company": "Holy Angel University",
+      "company_url": "https://hau.edu.ph",
+      "location": "Angeles City, Philippines",
+      "start_date": "Aug 2023",
+      "end_date": "Present",
+      "desc": [
+        "Facilitate instruction for undergraduate courses in Computer Engineering, delivering comprehensive coverage of pivotal subjects including JavaScript for Web Development, Python for Data Visualization, and Data Analysis and Analytics for Data Science. This educational approach aims to empower students with a versatile skill set encompassing these essential programming languages.",
+        "Offer dedicated mentorship and guidance to students, fostering their intellectual growth and research endeavors. Additionally, I actively participate in facilitating their career development, nurturing their professional journeys."
+      ],
+      "skills": [
+        "Data Visualization", "GitHub", "Data Analytics", "Software Development", "Vercel", "Python", "Front-End Development", "UI Design", "Tailwind CSS", "Web Development", "React.js", "JavaScript"
+      ]
+    },
+    {
+      "id": 185494,
+      "position": "Software Developer",
+      "company": "Kooest",
+      "company_url": "https://kooest.com",
+      "location": "Mabalacat City, Philippines",
+      "start_date": "Jun 2023",
+      "end_date": "Present",
+      "desc": [
+        "Principal full-stack developer, a bespoke digital solutions agency.",
+        "Designed and deployed a high-performing, secure website for a UAE-based construction agency using TypeScript and Next.js.",
+        "Leveraged Vercel for global availability and incorporated custom open-source packages to deliver unique, client-specific experiences.",
+        "Consistently delivers an optimal blend of aesthetics and robust functionality in web development projects.",
+        "Committed to integrating advanced technologies for scalable, future-ready solutions."
+      ],
+      "skills": [
+        "GitHub", "PostgreSQL", "Software Development", "Vercel", "Python", "Full-Stack Development", "Tailwind CSS", "Web Development", "React.js", "JavaScript", "TypeScript", "Next.js"
+      ]
+    },
+    {
+      "id": 9,
+      "position": "Technical Associate",
+      "company": "Holy Angel University",
+      "company_url": "https://hau.edu.ph",
+      "location": "Angeles City, Philippines",
+      "start_date": "Sep 2021",
+      "end_date": "Dec 2022",
+      "desc": [
+        "Successfully secured funding amounting to ₱17.9 million for technology transfer and R&D projects.",
+        "Led the development and implementation of a comprehensive range of services aimed at protecting and commercializing ideas as part of a university project.",
+        "Managed and executed marketing initiatives, encompassing campaigns, product launches, and events, which led to an increase in brand recognition and customer engagement.",
+        "Provided technical support for unit programs and projects, resulting in the timely and high-quality completion of tasks.",
+        "Enhanced communication and information dissemination through various materials and platforms, ultimately resulting in increased customer satisfaction and retention.",
+        "Developed and implemented a database management system for a university project that led to a 25% increase in efficiency for idea protection and commercialization.",
+        "Designed and built a user-friendly website using Django and PostgreSQL, resulting in a 45% increase in website traffic.",
+        "Effectively deployed the website using Digital Ocean's web services, including Droplets and Databases, resulting in a 90% reduction in downtime.",
+        "Improved website performance by utilizing advanced technologies such as Django and PostgreSQL, resulting in a 30% increase in user satisfaction."
+      ],
+      "skills": [
+        "GitHub", "PostgreSQL", "Software Development", "Relational Databases", "Python", "Full-Stack Development", "Project Management", "Web Development", "Django", "Digital Ocean"
+      ]
+    },
+    {
+      "id": 112354,
+      "position": "Back End Developer",
+      "company": "Encephalon Holy Angel University - Technology Business Incubator",
+      "company_url": "https://hau.edu.ph",
+      "location": "Angeles City, Philippines",
+      "start_date": "Oct 2020",
+      "end_date": "Feb 2022",
+      "desc": [
+        "Developed two government-owned websites, handling both backend infrastructure and frontend development, which served a combined user base of over thousands of individuals.",
+        "Successfully deployed projects using AWS and Digital Ocean web services, resulting in a 99.9% uptime rate.",
+        "Implemented software development best practices, resulting in a 20% increase in team productivity.",
+        "Coordinated with a team of five engineers, three programmers, and two designers to deliver projects on time and to a high standard, achieving a customer satisfaction rate of 95%."
+      ],
+      "skills": [
+        "GitHub", "PostgreSQL", "Software Development", "Relational Databases", "Python", "JavaScript", "Full-Stack Development", "Project Management", "Web Development", "Django", "Digital Ocean", "Amazon Web Services (AWS)"
+      ]
+    },
+    {
+      "id": 856745,
+      "position": "Junior Software Engineer",
+      "company": "JDEV Office Solution Incorporated",
+      "company_url": "",
+      "location": "Angeles City, Philippines",
+      "start_date": "Jul 2021",
+      "end_date": "Sep 2021",
+      "desc": [
+        "Designed and developed a new website for a car services company using VueJS, TailwindCSS, and JavaScript frameworks.",
+        "Collaborated with a team of engineers, programmers, and designers to complete the project on time and to a high standard.",
+        "Improved website's modernity and user-friendliness, resulting in a 20% increase in website traffic and a 15% increase in customer conversions",
+        "Implemented best practices in engineering, programming, and design to ensure successful execution and delivery of the website."
+      ],
+      "skills": [
+        "Software Development", "UI Design", "Vue.js", "Tailwind CSS", "Web Development", "JavaScript"
+      ]
+    },
+    {
+      "id": 856745,
+      "position": "Software Quality Assurance",
+      "company": "JDEV Office Solution Incorporated",
+      "company_url": "",
+      "location": "Angeles City, Philippines",
+      "start_date": "May 2019",
+      "end_date": "Oct 2019",
+      "desc": [
+        "Successfully implemented a user interface review process, reviewing over 50 interfaces for functionality and design guideline adherence",
+        "Tested various web and standalone applications, including custom client-server applications, to ensure proper functionality",
+        "Designed frontend web applications' interfaces, now used company-wide, to improve functionality and user experience"
+      ],
+      "skills": [
+        "UI Design", "Quality Assurance"
+      ]
+    }
+  ]
+}

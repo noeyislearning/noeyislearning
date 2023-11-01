@@ -17,6 +17,8 @@ export interface Work {
   tech_tags: string[];
   is_ongoing: boolean;
   version: string;
+  data_set_source: string;
+  data_set_url: string;
 }
 
 const initialState: WorkState = {
