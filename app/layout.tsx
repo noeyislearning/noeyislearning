@@ -85,12 +85,12 @@ export const metadata: Metadata = {
   },
 };
 
-/** Components */
-import Navbar from "@/components/layouts/Navbar/Navbar";
-import Footer from "@/components/layouts/Footer/Footer";
-
 /** Providers */
 import { Providers } from "@/redux/Provider";
+
+import MarqueeBanner from "@/components/common/Banners/MarqueeBanner";
+import Navbar from "@/components/layouts/Navbar/Navbar";
+import Footer from "@/components/layouts/Footer/Footer";
 
 export default function RootLayout({
   children,
@@ -99,8 +99,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${globalFont.className} bg-black`}>
+      <body className={`${globalFont.className} bg-indigo-800 tracking-tighter h-full text-white`}>
         <Providers>
+          <MarqueeBanner />
           <Navbar />
           {children}
           <Footer />
