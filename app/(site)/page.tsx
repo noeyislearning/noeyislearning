@@ -1,20 +1,16 @@
 import React from "react";
 
-/** Components */
+import Navbar from "@/components/layouts/Navbar/Navbar";
 import Hero from "@/components/layouts/Hero/Hero";
-import RecentWorks from "@/components/layouts/Works/RecentWorks";
-import ConnectWithMe from "@/components/layouts/CTA/ConnectWithMe";
+import Works from "@/components/layouts/Works/Works";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
-      <main className="mx-auto mb-12 mt-24 max-w-screen-sm text-white lg:mb-24 lg:mt-48">
-        <div className="flex flex-col items-center p-4">
-          <Hero />
-          <RecentWorks />
-          <ConnectWithMe />
-        </div>
-      </main>
+      <div className="p-8 md:p-8 lg:p-16 mx-auto w-full h-full flex flex-col items-center">
+        <Hero />
+        <Works />
+      </div>
     </>
   );
 }

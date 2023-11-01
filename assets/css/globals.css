@@ -8,5 +8,10 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {    
-  border: 3px solid #9ca2a5;  
+  border: 3px solid #fcd34d;  
+}
+
+::selection {
+  background: #fcd34d; /* Background color for the highlighted text */
+  color: black; /* Text color for the highlighted text */
 }
