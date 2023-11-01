@@ -1,67 +1,203 @@
 {
   "works": [
     {
-      "id": 1,
-      "name": "Zoiquery",
-      "description": "Artificial Intelligience SQL Generator",
-      "imgURL": "https://i.imgur.com/3GPl4pV.png",
-      "technologyUsed": ["TypeScript", "NextJS", "TailwindCSS", "OpenAI"],
-      "redirectURL": "https://github.com/noeyislearning/zoiquery",
-      "category": "web"
-    },
-    {
-      "id": 2,
-      "name": "DBuilders Construction",
-      "description": "UAE-based Construction Agency",
-      "imgURL": "https://i.imgur.com/hzFmpHW.png",
-      "technologyUsed": ["TypeScript", "NextJS", "TailwindCSS", "Redux"],
-      "redirectURL": "",
-      "category": "web"
-    },
-    {
-      "id": 3,
-      "name": "KITTOHAU",
-      "description": "IP Management Platform",
-      "imgURL": "https://i.imgur.com/0xeOuu1.png",
-      "technologyUsed": [
-        "Python",
-        "JavaScript",
-        "HTML/CSS",
-        "Django",
-        "PostgresQL"
+      "id": 737691,
+      "title": "The GitHub History of the Scala Language",
+      "desc": "Find the true Scala experts by exploring its development history in Git and GitHub.",
+      "work_title": "Data Science",
+      "img_url": "https://i.imgur.com/QuPNiNU.png",
+      "redirect_url": "https://github.com/noeyislearning/github-history-of-scala",
+      "tech_tags": [
+        "DataCamp",
+        "Data Visualization",
+        "Jupyter Notebook",
+        "Python3",
+        "Pandas",
+        "Matplotlib"
       ],
-      "redirectURL": "",
-      "category": "web"
+      "is_ongoing": true,
+      "version": "1.0.0"
     },
     {
-      "id": 4,
-      "name": "NSTW DOST III",
-      "description": "Showcase Website",
-      "imgURL": "https://i.imgur.com/nN6IZEO.png",
-      "technologyUsed": [
-        "Python",
-        "JavaScript",
-        "HTML/CSS",
-        "Django",
-        "PostgresQL"
+      "id": 737692,
+      "title": "Sharpe Ratio Amazon and Facebook",
+      "desc": "Explore the Sharpe Ratio and its application to evaluate the performance of two tech giants: Amazon and Facebook.",
+      "work_title": "Data Science",
+      "img_url": "https://i.imgur.com/UcBhh3x.png",
+      "redirect_url": "https://sraf.noeyislearning.dev",
+      "tech_tags": [
+        "DataCamp",
+        "Data Visualization",
+        "Data Analysis",
+        "Jupyter Notebook",
+        "Python3",
+        "Pandas",
+        "Matplotlib"
       ],
-      "redirectURL": "",
-      "category": "web"
+      "is_ongoing": false,
+      "version": "1.0.0"
     },
     {
-      "id": 5,
-      "name": "ICpEP Oman Conference",
-      "description": "Conference Website",
-      "imgURL": "https://i.imgur.com/PnVbLyS.png",
-      "technologyUsed": [
-        "Python",
-        "JavaScript",
-        "HTML/CSS",
-        "Django",
-        "PostgresQL"
+      "id": 746188,
+      "title": "Analyzing Netflix Movie Durations",
+      "desc": "Explore movie duration trends on Netflix and assess the impact of non-feature film genres in this data-driven analysis.",
+      "work_title": "Data Science",
+      "img_url": "https://i.imgur.com/EOv8OWF.png",
+      "redirect_url": "https://nma.noeyislearning.dev",
+      "tech_tags": [
+        "DataCamp",
+        "Data Visualization",
+        "Data Analysis",
+        "Jupyter Notebook",
+        "Python3",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn"
       ],
-      "redirectURL": "",
-      "category": "web"
+      "is_ongoing": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": 231925,
+      "title": "Credit Card Fraud Detection",
+      "desc": "This project analyzes credit card transactions in the western U.S. to detect fraud. It utilizes a dataset with detailed transaction info including date, time, merchant, purchase type, amount, customer location, and fraud status. The goal is to enhance security measures and ensure customer trust.",
+      "work_title": "Data Science",
+      "img_url": "https://i.imgur.com/mD5v7xN.png",
+      "redirect_url": "https://github.com/noeyislearning/credit-card-fraud",
+      "tech_tags": [
+        "DataCamp",
+        "Credit Card Fraud",
+        "Data Analysis",
+        "Jupyter Notebook",
+        "Python3",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn"
+      ],
+      "is_ongoing": true,
+      "version": "1.0.0"
+    },
+    {
+      "id": 104279,
+      "title": "Analyzing Consumer Behavior",
+      "desc": "This analysis delves into the fascinating world of retail data to unlock valuable insights for businesses. Market Basket Analysis is a powerful technique that allows retailers to understand customer behavior, identify item associations, and offer personalized recommendations.",
+      "work_title": "Data Science",
+      "img_url": "https://i.imgur.com/TuYPJgU.png",
+      "redirect_url": "https://acb.noeyislearning.dev",
+      "tech_tags": [
+        "Market Basket Analysis",
+        "Aprirori Algorithm",
+        "Data Analysis",
+        "Jupyter Notebook",
+        "Association Rules Mining",
+        "Python3",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+        "Mlextend"
+      ],
+      "is_ongoing": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": 851429,
+      "title": "Coffee Chain Sales Analysis",
+      "desc": "Explore valuable insights into the performance of a coffee chain across various locations, including key attributes such as Area Code, COGS, Profit, Sales, and more. Dive into sales trends, financial performance, and market dynamics.",
+      "work_title": "Data Science",
+      "img_url": "https://i.imgur.com/Q3qIdyI.png",
+      "redirect_url": "https://ccs.noeyislearning.dev",
+      "tech_tags": [
+        "Data Visualization",
+        "Product Performance",
+        "Profitablity Analysis",
+        "EDA",
+        "Data Analysis",
+        "Python3",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn"
+      ],
+      "is_ongoing": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": 581269,
+      "title": "Global Stock Price Archive Anaylsis",
+      "desc": "This analysis conducts a comprehensive analysis of a dataset containing global stock price information. The dataset includes data related to various stock indices, companies, and their stock price details such as opening, highest, lowest, closing prices, adjusted closing prices, and traded shares. The dataset is structured around key attributes, including company name, stock ticker symbols, currency, and exchange markets.",
+      "work_title": "Data Science",
+      "img_url": "https://i.imgur.com/iRSudsq.png",
+      "redirect_url": "https://gspa.noeyislearning.dev",
+      "tech_tags": [
+        "Data Visualization",
+        "Correlation Analysis",
+        "Currency Exchange",
+        "EDA",
+        "Data Analysis",
+        "Python3",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn"
+      ],
+      "is_ongoing": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": 477781,
+      "title": "Customer Shopping Trends",
+      "desc": "An invaluable resource for businesses aiming to optimize strategies and enhance customer satisfaction. Analyze customer attributes, purchase history, and preferences to make data-driven decisions.",
+      "work_title": "Data Science",
+      "img_url": "https://i.imgur.com/3rwPzIv.png",
+      "redirect_url": "https://cst.noeyislearning.dev",
+      "tech_tags": [
+        "Data Visualization",
+        "Business Analysis",
+        "EDA",
+        "Data Analysis",
+        "Python3",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn"
+      ],
+      "is_ongoing": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": 249722,
+      "title": "Trained Fruit Classifier Model",
+      "desc": "This repository contains code and a trained Keras model for classifying fruits using image recognition and machine learning. The model was trained on a dataset of fruit images from the Fruits & Vegetables by Jorge B's dataset.",
+      "work_title": "Machine Learning",
+      "img_url": "https://i.imgur.com/UBgnF3q.png",
+      "redirect_url": "https://github.com/noeyislearning/fruit-classifier-model",
+      "tech_tags": [
+        "Machine Learning",
+        "Deep Learning",
+        "Tensorflow",
+        "Keras",
+        "Teachable Machine",
+        "Classifier Model"
+      ],
+      "is_ongoing": false,
+      "version": "1.0.0"
+    },
+    {
+      "id": 249722,
+      "title": "Trained Pneumonia Detection Model",
+      "desc": "This repository contains code and a trained Keras model for classifying fruits using image recognition and machine learning. The model was trained on a dataset of fruit images from the Fruits & Vegetables by Jorge B's dataset.",
+      "work_title": "Machine Learning",
+      "img_url": "https://i.imgur.com/d4F7eer.png",
+      "redirect_url": "https://github.com/noeyislearning/pneumonia-detection-model",
+      "tech_tags": [
+        "Convolutional Neural Networks",
+        "OpenCV",
+        "Machine Learning",
+        "Tensorflow",
+        "Keras",
+        "Deep Learning",
+        "Teachable Machine",
+        "Classifier Model"
+      ],
+      "is_ongoing": false,
+      "version": "1.0.0"
     }
   ]
 }
