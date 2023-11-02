@@ -6,12 +6,15 @@ import Link from "next/link";
 import type { Work } from "@/redux/works/reducer";
 interface WorkCardProps {
   work: Work;
+  index: number;
 }
 
-export default function WorkCard({ work } : WorkCardProps) {
+export default function WorkCard({ work, index } : WorkCardProps) {
 
   // Remove the https:// from the work.redirect_url
   const redirectUrl = work.redirect_url.replace("https://", "");
+
+  
 
   return (
     <Link href={work.redirect_url} target={"_blank"} className="group bg-indigo-800 w-full h-full relative shadow-lg"> 
@@ -28,11 +31,11 @@ export default function WorkCard({ work } : WorkCardProps) {
           <div className="py-1 px-4 text-xs tracking-normal border border-dashed bg-indigo-700 rounded-full group-hover:border-yellow-400">
             {work.data_set_source}
           </div>
-        </div>
+        </div>        
       </div>
       <div className="p-4 w-full h-full flex flex-col gap-2 items-start divide-y divide-dashed divide-white border border-dashed rounded-lg hover:border-yellow-400">      
         <div className="w-full flex flex-col gap-2 items-start">
-          <h2 className="text-2xl font-bold leading-5 group-hover:underline">{work.title}</h2>
+          <h2 className="text-2xl font-bold leading-5 group-hover:underline"><span className="text-sm">{index + 1}.</span> {work.title}</h2>
           <p className="text-base text-gray-300 leading-5 line-clamp-2">{work.desc}</p>
         </div>
         <div className="pt-4 w-full flex flex-col gap-2 relative">
