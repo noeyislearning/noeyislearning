@@ -26,6 +26,8 @@ export const metadata: Metadata = {
     "Portfolio",
     "Noey Ignacio",
     "Noey",
+    "Data Scientist",
+    "Data Science",
     "Personal Projects",
     "Showcase",
     "Software Developer",
