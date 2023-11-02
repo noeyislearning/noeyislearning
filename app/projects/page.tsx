@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function LeetCodePage() {
+export default function ProjectsPage() {
   return (
     <>
       <section className="pt-16 pb-36">
@@ -11,7 +11,7 @@ export default function LeetCodePage() {
               Stay Tuned!
             </h1>
             <p className="mb-4 text-3xl font-bold tracking-tight text-white md:text-4xl">
-              This page is still under construction.
+              I&apos;m still compiling my projects.
             </p>
             <p className="text-lg font-light text-gray-400">
               Me and AIs are still working on this page.
