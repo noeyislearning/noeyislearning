@@ -2,7 +2,7 @@ import React from "react";
 
 import Navbar from "@/components/layouts/Navbar/Navbar";
 import Hero from "@/components/layouts/Hero/Hero";
-import Works from "@/components/layouts/Works/Works";
+import Works from "@/components/layouts/Sections/Works";
 
 export default function HomePage() {
   return (

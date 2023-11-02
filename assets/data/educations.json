@@ -1,0 +1,19 @@
+{
+  "educations": [
+    {
+      "id": 224232,
+      "degree_course": "Bachelor of Science in Computer Engineering",
+      "school_name": "Holy Angel University",
+      "school_url": "https://hau.edu.ph",
+      "location": "Angeles City, Pampanga",
+      "start_date": "2015",
+      "end_date": "2020",
+      "desc": [
+        "As a participant in the Impact 2050 Hackathon Pampanga, I designed and built an appointment system app specifically for clinics and their patients. This app streamlines the process of scheduling and managing appointments for both patients and clinics, and I had the opportunity to showcase its features and benefits to a group. Similarly, in the START Hackathon, I designed and developed a web application for local government units (LGUs) to showcase their projects and engage with their community. This app allows community members to provide feedback, ask questions, and make suggestions directly to their LGU through the platform, improving communication and transparency between LGUs and their constituents."
+      ],
+      "skills": [
+        "GitHub", "Django", "Python", "Web Development", "React.js", "JavaScript"
+      ]
+    }
+  ]
+}
