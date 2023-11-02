@@ -11,7 +11,7 @@ import { useSelector } from "react-redux";
 
 export default function Works() {
 
-  // Get works from redux store
+  // Get projects from redux store
   const works = useSelector<RootState, Work[]>(state => state.work.works);
 
   return (
