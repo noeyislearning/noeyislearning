@@ -14,7 +14,7 @@ export default function WorkCard({ work } : WorkCardProps) {
   const redirectUrl = work.redirect_url.replace("https://", "");
 
   return (
-    <Link href={work.redirect_url} target={"_blank"} className="group bg-indigo-800 w-full h-full relative"> 
+    <Link href={work.redirect_url} target={"_blank"} className="group bg-indigo-800 w-full h-full relative shadow-lg"> 
       <div className="absolute -top-6 left-0 m-2 w-full flex flex-row gap-2 items-center justify-between">
         <div className="flex flex-row gap-2 items-center">
           { work.is_ongoing && (
@@ -30,7 +30,7 @@ export default function WorkCard({ work } : WorkCardProps) {
           </div>
         </div>
       </div>
-      <div className="p-4 w-full flex flex-col gap-2 items-start divide-y divide-dashed divide-white border border-dashed rounded-lg hover:border-yellow-400">      
+      <div className="p-4 w-full h-full flex flex-col gap-2 items-start divide-y divide-dashed divide-white border border-dashed rounded-lg hover:border-yellow-400">      
         <div className="w-full flex flex-col gap-2 items-start">
           <h2 className="text-2xl font-bold leading-5 group-hover:underline">{work.title}</h2>
           <p className="text-base text-gray-300 leading-5 line-clamp-2">{work.desc}</p>
@@ -51,7 +51,7 @@ export default function WorkCard({ work } : WorkCardProps) {
           { work.tech_tags.slice(0, 4).map((tag, index) => (
             <div key={index} className="py-1 px-4 text-xs text-gray-300 border border-dashed border-gray-300 rounded-full">{tag}</div>
           ))}
-          { work.tech_tags.length > 3 && (
+          { work.tech_tags.length > 4 && (
             <div className="py-1 px-4 text-xs text-gray-300 border border-dashed border-gray-300 rounded-full">+{work.tech_tags.length - 4}</div>
           )}
         </div>

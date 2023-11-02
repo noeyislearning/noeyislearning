@@ -8,8 +8,8 @@ import { siteConfig } from "@/config/site";
 import "@/assets/css/globals.css";
 
 /** Global Font COnfiguration */
-import { DM_Sans } from "next/font/google";
-const globalFont = DM_Sans({
+import { JetBrains_Mono }  from "next/font/google";
+const globalFont = JetBrains_Mono({
   weight: ["400", "500", "700"],
   subsets: ["latin-ext"],
 });
@@ -99,7 +99,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${globalFont.className} bg-indigo-800 tracking-tighter h-full text-white`}>
+      <body className={`${globalFont.className} bg-indigo-800 tracking-tighter h-full text-white antialiased`}>
         <Providers>
           <MarqueeBanner />
           <Navbar />
