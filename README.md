@@ -1,7 +1,5 @@
-[![Noeyislearning OGImage v1](https://github.com/noeyislearning/noeyislearning/assets/132775768/f3a9f2b5-8b20-425a-b8c1-a08776d48a32)](https://noeyislearning.dev)
-
-
-### Hello there! 👋 
+[![Noeyislearning](https://github.com/noeyislearning/noeyislearning/assets/132775768/f3a9f2b5-8b20-425a-b8c1-a08776d48a32)](https://noeyislearning.dev)
+---
 
 I am **Francis "Noey" Ignaco**, a freelance software developer at **[Kooest](https://kooest.com/)**, an esteemed organization in the technology industry. In parallel, I hold the esteemed position of a computer engineering instructor at **[Holy Angel Univeristy](https://www.hau.edu.ph/)**, contributing to the academic growth and development of aspiring computer engineers.
 
