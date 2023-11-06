@@ -1,30 +1,6 @@
 {
   "works": [
     {
-      "id": 982340,
-      "title": "Cancer Linear Regression Model",
-      "desc": "The correlation between socioeconomic status and lung cancer incidence and mortality rates among low-income populations in the United States.",
-      "work_title": "Data Science",
-      "img_url": "https://i.imgur.com/B2MQroS.png",
-      "redirect_url": "https://github.com/noeyislearning/cancer-linear-regression-model",
-      "tech_tags": [
-        "Linear Regression Model",
-        "Data Visualization",
-        "Research",
-        "Pandas",
-        "Matplotlib",
-        "Jupyter Notebook",
-        "Numpy",
-        "Data Science",
-        "Data Analysis",
-        "Seaborn"
-      ],
-      "is_ongoing": true,
-      "version": "1.0.0",
-      "data_set_source": "DataWorld",
-      "data_set_url": ""
-    },
-    {
       "id": 737691,
       "title": "The GitHub History of the Scala Language",
       "desc": "Find the true Scala experts by exploring its development history in Git and GitHub.",
