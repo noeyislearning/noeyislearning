@@ -25,6 +25,11 @@ export default function WorkCard({ work, index } : WorkCardProps) {
               Ongoing
             </div>
           )}
+          { work.is_latest && (
+            <div className=" py-1 px-4 text-xs border border-dashed bg-green-700 rounded-full group-hover:border-yellow-400">
+              Latest
+            </div>
+          )}
           <div className="py-1 px-4 text-xs tracking-normal border border-dashed bg-indigo-700 rounded-full group-hover:border-yellow-400">
             v{work.version}
           </div>
@@ -33,7 +38,7 @@ export default function WorkCard({ work, index } : WorkCardProps) {
           </div>
         </div>        
       </div>
-      <div className="p-4 w-full h-full flex flex-col gap-2 items-start divide-y divide-dashed divide-white border border-dashed rounded-lg hover:border-yellow-400">      
+      <div className="p-4 w-full h-full flex flex-col gap-2 items-start divide-y divide-dashed divide-white border border-dashed rounded-lg hover:border-yellow-400 hover:shadow-xl">      
         <div className="w-full flex flex-col gap-2 items-start">
           <h2 className="text-2xl font-bold leading-5 group-hover:underline"><span className="text-sm">{index + 1}.</span> {work.title}</h2>
           <p className="text-base text-gray-300 leading-5 line-clamp-2">{work.desc}</p>
@@ -46,7 +51,7 @@ export default function WorkCard({ work, index } : WorkCardProps) {
           <div className="w-full flex flex-row justify-between items-center">
             <div className="flex flex-col items-start">
               <h3 className="text-lg font-medium">{work.work_title}</h3>
-              <div className="text-xs text-yellow-400 tracking-normal line-clamp-1">{redirectUrl}</div>
+              <div className="text-xs text-yellow-400 tracking-normal text-ellipsis line-clamp-1 group-hover:underline group-hover:underline-offset-2">{redirectUrl}</div>
             </div>
           </div>
         </div>

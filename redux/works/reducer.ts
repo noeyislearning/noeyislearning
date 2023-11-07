@@ -16,6 +16,7 @@ export interface Work {
   redirect_url: string;
   tech_tags: string[];
   is_ongoing: boolean;
+  is_latest: boolean;
   version: string;
   data_set_source: string;
   data_set_url: string;

@@ -1,12 +1,34 @@
 {
   "works": [
     {
+      "id": 231925,
+      "title": "Credit Card Fraud Detection",
+      "desc": "This project analyzes credit card transactions in the western U.S. to detect fraud. It utilizes a dataset with detailed transaction info including date, time, merchant, purchase type, amount, customer location, and fraud status. The goal is to enhance security measures and ensure customer trust.",
+      "work_title": "Data Science",
+      "img_url": "https://i.imgur.com/mD5v7xN.png",
+      "redirect_url": "https://github.com/noeyislearning/credit-card-fraud",
+      "tech_tags": [
+        "Credit Card Fraud",
+        "Data Analysis",
+        "Jupyter Notebook",
+        "Python3",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn"
+      ],
+      "is_ongoing": true,
+      "is_latest": false,
+      "version": "1.0.0",
+      "data_set_source": "DataCamp",
+      "data_set_url": ""
+    },
+    {
       "id": 737691,
       "title": "The GitHub History of the Scala Language",
       "desc": "Find the true Scala experts by exploring its development history in Git and GitHub.",
       "work_title": "Data Science",
       "img_url": "https://i.imgur.com/QuPNiNU.png",
-      "redirect_url": "https://github.com/noeyislearning/github-history-of-scala",
+      "redirect_url": "https://ghsl.noeyislearning.dev",
       "tech_tags": [
         "Data Visualization",
         "Jupyter Notebook",
@@ -14,7 +36,8 @@
         "Pandas",
         "Matplotlib"
       ],
-      "is_ongoing": true,
+      "is_ongoing": false,
+      "is_latest": true,
       "version": "1.0.0",
       "data_set_source": "DataCamp",
       "data_set_url": ""
@@ -35,6 +58,7 @@
         "Matplotlib"
       ],
       "is_ongoing": false,
+      "is_latest": false,
       "version": "1.0.0",
       "data_set_source": "DataCamp",
       "data_set_url": ""
@@ -56,27 +80,7 @@
         "Seaborn"
       ],
       "is_ongoing": false,
-      "version": "1.0.0",
-      "data_set_source": "DataCamp",
-      "data_set_url": ""
-    },
-    {
-      "id": 231925,
-      "title": "Credit Card Fraud Detection",
-      "desc": "This project analyzes credit card transactions in the western U.S. to detect fraud. It utilizes a dataset with detailed transaction info including date, time, merchant, purchase type, amount, customer location, and fraud status. The goal is to enhance security measures and ensure customer trust.",
-      "work_title": "Data Science",
-      "img_url": "https://i.imgur.com/mD5v7xN.png",
-      "redirect_url": "https://github.com/noeyislearning/credit-card-fraud",
-      "tech_tags": [
-        "Credit Card Fraud",
-        "Data Analysis",
-        "Jupyter Notebook",
-        "Python3",
-        "Pandas",
-        "Matplotlib",
-        "Seaborn"
-      ],
-      "is_ongoing": true,
+      "is_latest": false,
       "version": "1.0.0",
       "data_set_source": "DataCamp",
       "data_set_url": ""
@@ -101,6 +105,7 @@
         "Mlextend"
       ],
       "is_ongoing": false,
+      "is_latest": false,
       "version": "1.0.0",
       "data_set_source": "Kaggle",
       "data_set_url": ""
@@ -124,6 +129,7 @@
         "Seaborn"
       ],
       "is_ongoing": false,
+      "is_latest": false,
       "version": "1.0.0",
       "data_set_source": "Kaggle",
       "data_set_url": ""
@@ -147,6 +153,7 @@
         "Seaborn"
       ],
       "is_ongoing": false,
+      "is_latest": false,
       "version": "1.0.0",
       "data_set_source": "Kaggle",
       "data_set_url": ""
@@ -169,6 +176,7 @@
         "Seaborn"
       ],
       "is_ongoing": false,
+      "is_latest": false,
       "version": "1.0.0",
       "data_set_source": "Kaggle",
       "data_set_url": ""
@@ -189,6 +197,7 @@
         "Classifier Model"
       ],
       "is_ongoing": false,
+      "is_latest": false,
       "version": "1.0.0",
       "data_set_source": "Kaggle",
       "data_set_url": ""
@@ -211,6 +220,7 @@
         "Classifier Model"
       ],
       "is_ongoing": false,
+      "is_latest": false,
       "version": "1.0.0",
       "data_set_source": "Kaggle",
       "data_set_url": ""
