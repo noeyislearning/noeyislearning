@@ -20,6 +20,14 @@ export default function Works() {
         {works.map((work, index) => (
           <WorkCard key={index} work={work} index={index}/>
         ))}
+        <div className="bg-indigo-800 w-full h-full relative shadow-lg cursor-pointer">
+          <div className="p-4 w-full h-full flex flex-col gap-2 items-center justify-center border border-gray-500 border-dashed rounded-lg">
+            <div className="flex flex-col items-center justify-center text-center">
+              <h3 className="text-gray-300 text-xl font-bold text-center">Stay tuned!</h3>
+              <p className="text-gray-400 text-sm">Plenty of projects are incoming.</p>
+            </div>
+          </div>  
+        </div>
       </div>
     </div>
   )
