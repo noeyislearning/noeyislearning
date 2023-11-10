@@ -17,7 +17,7 @@ export default function Works() {
   return (
     <div className="pt-8 pb-24 flex flex-row w-full h-full max-w-5xl justify-between items-center">
       <div className="grid grid-cols-1 gap-6 w-full h-full md:grid-cols-2 lg:grid-cols-3">
-        {works.map((work, index) => (
+        {works.slice(0, 8).map((work, index) => (
           <WorkCard key={index} work={work} index={index}/>
         ))}
         <div className="bg-indigo-800 w-full h-full relative shadow-lg cursor-pointer">
