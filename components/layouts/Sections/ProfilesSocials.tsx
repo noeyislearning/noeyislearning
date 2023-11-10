@@ -13,7 +13,7 @@ export default function ProfilesSocials() {
 
   return (
     <Fragment>
-      <div className="pt-8 text-xl">🌱 Profiles/Learnings</div>
+      <div className="pt-8 text-2xl md:text-3xl lg:text-3xl">🌱 Profiles/Learnings</div>
       <div className="flex flex-row flex-wrap gap-2 justify-center md:justify-start lg:justify-start">
       { socialsLearnings.map((social) => (
         <div key={social.id} className="flex flex-row gap-2 items-center">

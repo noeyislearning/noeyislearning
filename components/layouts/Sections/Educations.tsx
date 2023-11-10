@@ -12,7 +12,7 @@ export default function Educations() {
 
   return (
     <Fragment>
-      <div className="pt-8 text-xl">✏️ Educations</div>
+      <div className="pt-8 text-2xl md:text-3xl lg:text-3xl">✏️ Educations</div>
       <ol className="relative ml-3 border-l border-yellow-400 flex flex-col text-start items-start">
         { educs.map((edu, index) => (
           <li key={edu.id} className={`ml-4 ${index !== educs.length - 1 ? 'mb-10' : 'mb-2'}`}>
