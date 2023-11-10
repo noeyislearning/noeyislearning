@@ -7,10 +7,10 @@ import Works from "@/components/layouts/Sections/Works";
 export default function HomePage() {
   return (
     <>
-      <div className="p-8 md:p-8 lg:p-16 mx-auto w-full h-full flex flex-col items-center">
+      <section className="p-8 md:p-8 lg:p-16 mx-auto w-full h-full flex flex-col items-center">
         <Hero />
         <Works />
-      </div>
+      </section>
     </>
   );
 }

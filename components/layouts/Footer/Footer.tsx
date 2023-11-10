@@ -19,7 +19,7 @@ export default function Footer() {
           <Link href={"/about"} className="hover:underline hover:underline-offset-4">Who am i?</Link>
         </li>
         <li>
-          <Link href={"/projects"} className="hover:underline hover:underline-offset-4">Projects</Link>
+          <Link href={"/p/webdev"} className="hover:underline hover:underline-offset-4">Projects</Link>
         </li>
         <li>
           <Link href={"https://noeylearning.gumroad.com"} target={"_blank"} className="hover:underline hover:underline-offset-4">Shop<span className="text-xs text-yellow-400">(freebies!)</span></Link>
