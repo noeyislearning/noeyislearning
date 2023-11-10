@@ -15,7 +15,7 @@ export default function Certifications() {
   return (
     <Fragment>
         <div className="pb-4 flex flex-col">
-          <h3 className="pt-8 text-xl">🎫 Certifications ({certs.length})</h3>
+          <h3 className="pt-8 text-2xl md:text-3xl lg:text-3xl">🎫 Certifications ({certs.length})</h3>
           <p className="text-xs text-gray-400">As you noticed, I like collecting certifications so scroll, hehe. 😅</p>
         </div>
         <div className="pb-16 md:pb-0 lg:pb-0">

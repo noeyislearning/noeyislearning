@@ -15,9 +15,9 @@ export default function Navbar() {
           <Link href={"https://github.com/noeyislearning"} target={"_blank"} className="py-1 px-6 border border-dashed rounded-full hover:text-black hover:border-yellow-500 hover:bg-yellow-500">
             <span>GitHub</span>
           </Link>
-          <Link href={"https://noeylearning.gumroad.com"} target={"_blank"} className="py-1 px-6 border border-dashed border-yellow-400 bg-yellow-500 text-black rounded-full">
-            <span>Shop</span>
-          </Link>
+          <a href={"mailto:hello@noeyislearning.dev"} target={"_blank"} className="py-1 px-6 border border-dashed border-yellow-400 bg-yellow-500 text-black rounded-full">
+            <span>Email me</span>
+          </a>
         </div>
       </div>
     </nav>

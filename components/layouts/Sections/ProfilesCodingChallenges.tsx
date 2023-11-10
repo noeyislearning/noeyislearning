@@ -13,7 +13,7 @@ export default function ProfilesCodingChallenges() {
 
   return (
     <Fragment>
-      <div className="pt-8 text-xl">💪 Profiles/Coding Challenges</div>
+      <div className="pt-8 text-2xl md:text-3xl lg:text-3xl">💪 Profiles/Coding Challenges</div>
       <div className="flex flex-row flex-wrap gap-2 justify-center md:justify-start lg:justify-start">
       { socialsCodingChallenges.map((social) => (
         <div key={social.id} className="flex flex-row gap-2 items-center">

@@ -12,7 +12,7 @@ export default function Experiences() {
 
   return (
     <Fragment>
-      <div className="pt-8 text-xl">💼 Professional Experiences</div>
+      <div className="pt-8 text-2xl md:text-3xl lg:text-3xl">💼 Professional Experiences</div>
       <ol className="relative ml-3 border-l border-yellow-400 flex flex-col text-start items-start">   
         {exps.map((exp, index) => (
           <li key={exp.id} className={`ml-4 ${index !== exps.length - 1 ? 'mb-10' : 'mb-2'}`}>

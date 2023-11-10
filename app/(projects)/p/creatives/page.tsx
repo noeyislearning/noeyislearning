@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function ProjectsPage() {
+export default function CreativesPage() {
   return (
     <>
       <section className="pt-16 pb-36">
@@ -11,7 +11,7 @@ export default function ProjectsPage() {
               Stay Tuned!
             </h1>
             <p className="mb-4 text-3xl font-bold tracking-tight text-white md:text-4xl">
-              I&apos;m still compiling my projects.
+              Still compiling my creative works.
             </p>
             <p className="text-lg font-light text-gray-400">
               Me and AIs are still working on this page.
