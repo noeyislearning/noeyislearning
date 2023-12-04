@@ -253,11 +253,15 @@
       "img_url": "https://i.imgur.com/ImUuWJl.png",
       "redirect_url": "https://github.com/noeyislearning/time-tracker",
       "tech_tags": [
-        "Next.js",
-        "TypeScript",
+        "Python",
+        "JavaScript",
+        "Django",
+        "Django Rest Framework",
+        "React.js",
+        "Redux",
+        "SQLite",
         "Tailwind CSS",
-        "Vercel",
-        "Redux"
+        "Vite"
       ],
       "is_ongoing": false,
       "is_latest": true,
