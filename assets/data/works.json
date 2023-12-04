@@ -246,6 +246,28 @@
       "data_set_url": ""
     },
     {
+      "id": 856721,
+      "title": "Time Tracker",
+      "desc": "Time Tracker, a swift and user-friendly tool for teams to log hours, tasks, and projects, with automatic date/time recording and weekly work summaries.",
+      "work_title": "Web Development",
+      "img_url": "https://i.imgur.com/ImUuWJl.png",
+      "redirect_url": "https://github.com/noeyislearning/time-tracker",
+      "tech_tags": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vercel",
+        "Redux"
+      ],
+      "is_ongoing": false,
+      "is_latest": true,
+      "work_type": "webdev",
+      "is_online": false,
+      "version": "1.0.0",
+      "data_set_source": "",
+      "data_set_url": ""
+    },
+    {
       "id": 827342,
       "title": "Kooest (Coming Soon)",
       "desc": "Kooest, where innovative web applications brought to life by a team of devoted developers driven by their unwavering passion.",
