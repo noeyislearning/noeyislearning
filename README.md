@@ -24,8 +24,8 @@ Within this portfolio, you will discover a meticulously curated collection of my
 [![Upwork](https://img.shields.io/badge/Upwork_(Active_Soon)-7420EB?style=flat-square&logo=Upwork&logoColor=E4E715)]()
 [![Fiverr](https://img.shields.io/badge/Fiverr_(Active_Soon)-7420EB?style=flat-square&logo=Fiverr&logoColor=E4E715)]()
 
-🛒 Shop
+📚 E-books
 
 [![Gumroad](https://img.shields.io/badge/Gumroad_(Free_Ebooks)-7420EB?style=flat-square&logo=gumroad&logoColor=E4E715)](https://noeylearning.gumroad.com)
 
-
+###### I have consolidated all my previous projects onto a single GitHub account, [this account](https://github.com/noeyislearning), encompassing work (projects, README notes, and etc) from my college days to the present.
