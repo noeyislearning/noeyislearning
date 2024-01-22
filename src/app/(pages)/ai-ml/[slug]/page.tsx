@@ -9,9 +9,9 @@ import Markdown from "markdown-to-jsx";
 import TranslateYOpacity from "@/components/common/Transitions/TranslateYOpacity";
 import TranslateOpacity from "@/components/common/Transitions/TranslateOpacity";
 
-export default function WebProjectPage(props: any) {
+export default function AIProjectPage(props: any) {
   const slug = props.params.slug;
-  const folder = "src/assets/contents/web/";
+  const folder = "src/assets/contents/ai-ml/";
   const file = `${folder}${slug}.md`;
 
   const metadata = readMetadataFromMdFile(file);
@@ -45,7 +45,7 @@ export default function WebProjectPage(props: any) {
         </TranslateYOpacity>
         <div className="fixed bottom-4 right-4">
           <Link
-            href={"/"}
+            href={"/ai-ml"}
             className="rounded-full bg-indigo-600 px-4 py-2 text-sm uppercase tracking-tighter text-white shadow-md hover:bg-indigo-700"
           >
             More projects
