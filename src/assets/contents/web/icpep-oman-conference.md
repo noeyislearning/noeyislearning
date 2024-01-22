@@ -2,6 +2,7 @@
 name: "ICpEP Oman Conference"
 description: "This event will bring together leading professionals and experts in the field of computer engineering to share their insights, knowledge, and experience."
 is_active: false
+is_repository_only: false
 thumbnail_URL: "https://i.imgur.com/LYB6u2M.jpg"
 dev_date: {
   start: "2021-06-01",

@@ -2,6 +2,7 @@
 name: "Kooest"
 description: "Kooest extends its expertise beyond software and web development, positioning itself as a dynamic digital marketing agency."
 is_active: true
+is_repository_only: false
 thumbnail_URL: "https://i.imgur.com/gZMNSp2.png"
 dev_date: {
   start: "2023-06-01",
@@ -9,7 +10,7 @@ dev_date: {
 }
 ---
 
-# DBuilders Construction and General Maintenance L.L.C.
+# Kooest
 
 Date Developed: June 2023 - Present
 
@@ -19,21 +20,27 @@ PROJECT LINK: [https://kooest.com/](https://kooest.com/)
 
 ## Overview
 
-As a passionate and diligent Web Developer, I take immense pride in sharing my most recent project - a comprehensive website for a forward-thinking Construction and Maintenance Agency based in the United Arab Emirates. This dynamic platform serves as a digital cornerstone for the company, communicating their mission, vision, and broad range of business activities, whilst reflecting their position as a leader in the local industry.
+I have undertaken the development of Kooest's website, an endeavor that aligns with the overarching mission of this distinguished organization. Kooest stands as a formidable collective of adept developers, unified by an unwavering commitment to crafting pioneering web applications tailored to our clientele's exacting requirements.
 
-Built using cutting-edge tech stack, this project combines robustness and flexibility. Leveraging TypeScript, I ensured a secure, error-free and easy to maintain codebase. NextJS was instrumental in providing an optimized performance, SSR/ISR capabilities, ensuring seamless user experiences across the platform, and enhancing SEO.
+Our hallmark is the unwavering pursuit of excellence, the very core of our ethos. In our relentless pursuit of perfection, we consistently strive to surpass predefined benchmarks, providing avant-garde technological solutions that are the driving force behind businesses achieving unprecedented success.
 
-Hosting through Vercel, the website benefits from a global CDN, guaranteeing fast load times, high availability and real-time analytics. To meet the specific needs of the client, I integrated several npm packages, bolstering functionality, scalability and overall user experience.
+Furthermore, Kooest transcends the boundaries of software and web development; it stands as a multifaceted digital marketing agency, leveraging the power of strategic digital campaigns to propel our clients into the digital realm with unparalleled efficacy.
 
-As the digital landscape continues to evolve, so does my approach to website development. I am committed to using the latest technologies and methodologies to deliver websites that are not only visually appealing but also performant, secure and easily maintainable.
+Beyond our core activities, Kooest has assumed the mantle of an educational beacon, fostering a dynamic community where knowledge flows freely. In particular, we are deeply committed to nurturing the next generation of tech-savvy professionals, focusing on college students and instilling in them invaluable software development skills.
+
+Our journey at Kooest is imbued with an unbridled passion for innovation, an unwavering dedication to excellence, and a steadfast commitment to empowering both our clients and the next generation of talent. Together, we're creating a brighter future through technology and education.
 
 ---
 
 ## Showcase
 
-PS: You make visit the website at [https://dbuilders.construction/](https://dbuilders.construction/) for more details.
+PS: The website is still under development. The following screenshots are taken from the staging environment.
 
-![DBuilders Construction](https://i.imgur.com/Wcgtu4d.jpg)
+### Browser View
+
+Home Page
+
+![Kooest](https://i.imgur.com/gZMNSp2.png)
 
 ---
 
@@ -51,4 +58,4 @@ PS: You make visit the website at [https://dbuilders.construction/](https://dbui
 ## Development Team
 
 - [Francis Ignacio](https://www.linkedin.com/in/noeyislearning/) (Full-stack Developer)
-- [Mary Jay Capulong](https://www.linkedin.com/in/maryjay-capulong/) (Frontend Developer)
+- [Haidy Joy Canilao](https://www.linkedin.com/in/haidy-joy-canilao/) (Digital Marketing Specialist)

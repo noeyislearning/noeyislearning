@@ -2,6 +2,7 @@
 name: "Zoiquery"
 description: "The brainchild of visionary developers, is an innovative project that raises the bar for SQL statement construction."
 is_active: false
+is_repository_only: true
 thumbnail_URL: "https://i.imgur.com/HSSrH3s.jpg"
 dev_date: {
   start: "2023-06-01",

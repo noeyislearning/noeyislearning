@@ -2,6 +2,7 @@
 name: "DBuilders Construction"
 description: "Built a high-performing website for a UAE-based construction agency."
 is_active: true
+is_repository_only: false
 thumbnail_URL: "https://i.imgur.com/WiKwz6B.png"
 dev_date: {
   start: "2023-06-01",
@@ -31,7 +32,7 @@ As the digital landscape continues to evolve, so does my approach to website dev
 
 ## Showcase
 
-PS: You make visit the website at [https://dbuilders.construction/](https://dbuilders.construction/) for more details.
+PS: You can visit the website at [https://dbuilders.construction/](https://dbuilders.construction/) for more details.
 
 ### Browser View
 
@@ -53,4 +54,3 @@ PS: You make visit the website at [https://dbuilders.construction/](https://dbui
 ## Development Team
 
 - [Francis Ignacio](https://www.linkedin.com/in/noeyislearning/) (Full-stack Developer)
-- [Mary Jay Capulong](https://www.linkedin.com/in/maryjay-capulong/) (Frontend Developer)
