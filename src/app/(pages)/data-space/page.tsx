@@ -29,7 +29,7 @@ export default function DataSpaceProjectsPage() {
         </a>
       </div>
       <TranslateYOpacity>
-        <div className="mt-4 grid w-full grid-cols-1 gap-4 md:grid-cols-1 lg:grid-cols-2">{projects}</div>
+        <div className="grid w-full grid-cols-1 gap-4 py-4 md:grid-cols-1 lg:grid-cols-2">{projects}</div>
       </TranslateYOpacity>
     </main>
   );
