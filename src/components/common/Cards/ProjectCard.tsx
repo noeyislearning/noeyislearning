@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 /** Interfaces */
@@ -9,6 +10,7 @@ export default function ProjectCard({
   description,
   is_active,
   thumbnail_URL,
+  is_repository_only,
   dev_date,
   folder
 }: MetadataProps) {
@@ -32,8 +34,10 @@ export default function ProjectCard({
           <h1 className=" w-full whitespace-normal text-sm uppercase leading-4 text-zinc-300 transition-all duration-300 ease-in-out group-hover:text-white md:whitespace-normal lg:whitespace-nowrap">
             {name}
           </h1>
-          <p className={`text-xs ${is_active ? "text-emerald-600" : "white text-red-800"} whitespace-nowrap`}>
-            {is_active ? "Active" : "Not active"}
+          <p
+            className={`text-xs ${is_active ? "text-emerald-600" : is_repository_only ? "text-indigo-500" : "white text-red-800"} whitespace-nowrap`}
+          >
+            {is_active ? "Active" : is_repository_only ? "In repository" : "Not active"}
           </p>
         </div>
         <div className="flex w-full flex-col items-end">
