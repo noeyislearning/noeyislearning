@@ -4,6 +4,7 @@ export interface MetadataProps {
   description: string;
   is_active: boolean;
   thumbnail_URL: string;
+  is_repository_only: boolean;
   dev_date: {
     start: string;
     end: string;

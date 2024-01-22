@@ -2,6 +2,7 @@
 name: "KITTO"
 description: "From IP inquiry and consultation, to IP filing and management, we have the expertise and resources to help you navigate the complex world of intellectual property."
 is_active: false
+is_repository_only: false
 thumbnail_URL: "https://i.imgur.com/2mfAzqq.jpg"
 dev_date: {
   start: "2022-08-01",

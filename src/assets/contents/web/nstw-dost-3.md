@@ -2,6 +2,7 @@
 name: "NSTW DOST 3"
 description: "The website serves as a platform to highlight the various projects and events implemented by DOST in the region, providing valuable information and resources to the community."
 is_active: false
+is_repository_only: false
 thumbnail_URL: "https://i.imgur.com/vQlrq9h.jpg"
 dev_date: {
   start: "2021-05-01",
