@@ -15,7 +15,7 @@ export const getPostMetadata = (folder: string): MetadataProps[] => {
   
   return files.map((fn) => {
     const filePath = path.join(absolutePath, fn);
-    const { data: { name, description, is_active, thumbnail_URL, dev_date, content } } = readAndParseFile(filePath);
+    const { data: { name, description, is_active, thumbnail_URL, is_repository_only, dev_date, content } } = readAndParseFile(filePath);
 
     return {
       slug: fn.replace(".md", ""),
@@ -23,6 +23,7 @@ export const getPostMetadata = (folder: string): MetadataProps[] => {
       description,
       is_active,
       thumbnail_URL,
+      is_repository_only,
       dev_date,
       content
     };
@@ -31,7 +32,7 @@ export const getPostMetadata = (folder: string): MetadataProps[] => {
 
 export const readMetadataFromMdFile = (filePath: string): MetadataProps => {
   const absolutePath = path.resolve(process.cwd(), filePath);
-  const { data: { name, description, is_active, thumbnail_URL, dev_date }, content } = readAndParseFile(absolutePath);
+  const { data: { name, description, is_active, thumbnail_URL, is_repository_only, dev_date }, content } = readAndParseFile(absolutePath);
 
   return {
     slug: path.basename(filePath, '.md'),
@@ -39,6 +40,7 @@ export const readMetadataFromMdFile = (filePath: string): MetadataProps => {
     description,
     is_active,
     thumbnail_URL,
+    is_repository_only,
     dev_date,
     content
   };
