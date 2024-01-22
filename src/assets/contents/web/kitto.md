@@ -50,4 +50,4 @@ PS: Some of the images are not presented here due to data corruption.
 
 ## Development Team
 
-- [Francis Ignacio](https://www.linkedin.com/in/noeyislearning/) (Backend Developer)
+- [Francis Ignacio](https://www.linkedin.com/in/noeyislearning/)

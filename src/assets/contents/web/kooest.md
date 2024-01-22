@@ -57,5 +57,5 @@ Home Page
 
 ## Development Team
 
-- [Francis Ignacio](https://www.linkedin.com/in/noeyislearning/) (Full-stack Developer)
-- [Haidy Joy Canilao](https://www.linkedin.com/in/haidy-joy-canilao/) (Digital Marketing Specialist)
+- [Francis Ignacio](https://www.linkedin.com/in/noeyislearning/)
+- [Haidy Joy Canilao](https://www.linkedin.com/in/haidy-joy-canilao/)

@@ -57,4 +57,4 @@ Zoiquery stands as a testament to the dedication and ingenuity of its creators, 
 
 ## Development Team
 
-- [Francis Ignacio](https://www.linkedin.com/in/noeyislearning/) (Backend Developer)
+- [Francis Ignacio](https://www.linkedin.com/in/noeyislearning/)

@@ -45,4 +45,4 @@ Timezone Conversion, a simple web application that converts the current time to 
 
 ## Development Team
 
-- [Francis Ignacio](https://www.linkedin.com/in/noeyislearning/) (Full-stack Developer)
+- [Francis Ignacio](https://www.linkedin.com/in/noeyislearning/)
