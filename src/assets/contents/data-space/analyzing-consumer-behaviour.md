@@ -29,7 +29,7 @@ This analysis delves into the fascinating world of retail data to unlock valuabl
 ### Data Preprocessing
 
 - Data Exploration, begin by loading the dataset and exploring it to understand the data's structure and characteristics.
- 
+
 - Handling Missing Values, identify and handle missing values appropriately to ensure data quality.
 
 - Data Type Conversion, convert the "Date" column to a datetime format and verify the data types of other columns.
