@@ -24,14 +24,14 @@ export default function ProjectCard({
           width={1000}
           height={1000}
           fetchPriority="high"
-          className="h-64 w-full scale-100 overflow-hidden object-cover object-top transition-all duration-300 ease-in-out group-hover:scale-105"
+          className="h-64 w-full scale-100 overflow-hidden object-cover object-center transition-all duration-300 ease-in-out group-hover:scale-105"
           priority
           unoptimized
         />
       </div>
-      <div className="group-hover:border-zic-600 flex w-full flex-row items-start justify-between gap-8 border border-dashed border-zinc-800 p-2">
+      <div className="group-hover:border-zic-600 flex w-full flex-row items-start justify-between gap-8">
         <div className="flex flex-col items-start">
-          <h1 className=" w-full whitespace-normal text-sm uppercase leading-4 text-zinc-300 transition-all duration-300 ease-in-out group-hover:text-white md:whitespace-normal lg:whitespace-nowrap">
+          <h1 className="line-clamp-2 w-full  text-sm uppercase leading-4 text-zinc-300 transition-all duration-300 ease-in-out group-hover:text-white">
             {name}
           </h1>
           <p

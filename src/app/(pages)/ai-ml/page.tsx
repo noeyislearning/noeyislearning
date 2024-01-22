@@ -7,8 +7,8 @@ import ProjectCard from "@/components/common/Cards/ProjectCard";
 /** Functions */
 import { getPostMetadata } from "@/libs/helper/post";
 
-export default function AIsPage() {
-  const folder = "ai";
+export default function AIProjectsPage() {
+  const folder = "ai-ml";
   const metadata = getPostMetadata(`src/assets/contents/${folder}/`);
 
   const projects = metadata
@@ -18,7 +18,7 @@ export default function AIsPage() {
   return (
     <main className="flex w-full flex-col">
       <div className="flex w-full flex-row items-center justify-between gap-2">
-        <div className="text-sm uppercase">All my AI related projects</div>
+        <div className="text-sm uppercase">The future of AI/ML</div>
         <a
           href={"mailto:noeyislearning@gmail.com"}
           className="group flex flex-row items-center gap-2 px-4 py-1 text-sm uppercase transition-all duration-300 ease-in-out"

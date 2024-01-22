@@ -47,5 +47,5 @@ PS: Some of the images are not presented here due to data corruption.
 
 ## Development Team
 
-- [Paulomer Dizon](https://www.linkedin.com/in/paulomer-dizon-2a4b041a1/) (Frontend Developer)
-- [Francis Ignacio](https://www.linkedin.com/in/noeyislearning/) (Backend Developer)
+- [Paulomer Dizon](https://www.linkedin.com/in/paulomer-dizon-2a4b041a1/)
+- [Francis Ignacio](https://www.linkedin.com/in/noeyislearning/)

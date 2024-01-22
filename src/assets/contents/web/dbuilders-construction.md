@@ -53,4 +53,4 @@ PS: You can visit the website at [https://dbuilders.construction/](https://dbuil
 
 ## Development Team
 
-- [Francis Ignacio](https://www.linkedin.com/in/noeyislearning/) (Full-stack Developer)
+- [Francis Ignacio](https://www.linkedin.com/in/noeyislearning/)

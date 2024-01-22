@@ -7,7 +7,7 @@ import ProjectCard from "@/components/common/Cards/ProjectCard";
 /** Functions */
 import { getPostMetadata } from "@/libs/helper/post";
 
-export default function AssessmentsPage() {
+export default function AssessmentProjectsPage() {
   const folder = "assessments";
   const metadata = getPostMetadata(`src/assets/contents/${folder}/`);
 

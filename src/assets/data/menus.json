@@ -20,9 +20,9 @@
     },
     {
       "id": 3,
-      "name": "AI",
-      "description": "Powered by AI projects",
-      "link": "/ai",
+      "name": "AI/ML",
+      "description": "AI & ML related",
+      "link": "/ai-ml",
       "menu_img_URL": "https://i.imgur.com/QsNWugv.png",
       "is_available": true,
       "category": "projects"

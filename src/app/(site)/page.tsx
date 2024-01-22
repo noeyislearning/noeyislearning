@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <main className="flex w-full flex-col p-4">
       <div className="flex w-full flex-row items-center justify-between gap-2">
-        <div className="text-sm uppercase">Selected (Client &amp; Self) Projects</div>
+        <div className="text-sm uppercase">Client & Self Projects</div>
         <a
           href={"mailto:noeyislearning@gmail.com"}
           className="group flex flex-row items-center gap-2 px-4 py-1 text-sm uppercase transition-all duration-300 ease-in-out"
