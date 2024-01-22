@@ -6,8 +6,12 @@ const nextConfig = {
         protocol: "https",
         hostname: "i.imgur.com",
       },
+      {
+        protocol: "https",
+        hostname: "icons8.com",
+      }
     ],
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
