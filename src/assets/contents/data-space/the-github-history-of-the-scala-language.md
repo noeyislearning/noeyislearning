@@ -30,10 +30,9 @@ This Jupyter notebook explores the GitHub history of the Scala programming langu
 
 ## Notebook Summary
 
-The notebook aims to provide a comprehensive analysis of the Scala programming language's GitHub history. It covers various aspects of the project, including its activity, developer contributions, collaboration, and recent developments. 
+The notebook aims to provide a comprehensive analysis of the Scala programming language's GitHub history. It covers various aspects of the project, including its activity, developer contributions, collaboration, and recent developments.
 
 Here's a brief summary of what each section of the notebook entails:
-
 
 1. **Import Libraries**, we begin by importing necessary Python libraries for data analysis and visualization. These libraries will be used throughout the analysis.
 
