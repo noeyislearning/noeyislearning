@@ -3,7 +3,7 @@ name: "Netflix Movie Analysis"
 description: "Explore movie duration trends on Netflix and assess the impact of non-feature film genres in this data-driven analysis."
 is_active: true
 is_repository_only: false
-thumbnail_URL: "https://i.imgur.com/jABzLQy.png"
+thumbnail_URL: "https://i.imgur.com/kUu8Wms.png"
 dev_date: {
   start: "2023-10-23",
   end: "2023-10-24"
