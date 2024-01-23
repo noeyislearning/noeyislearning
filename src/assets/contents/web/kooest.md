@@ -14,7 +14,7 @@ dev_date: {
 
 Date Developed: June 2023 - Present
 
-PROJECT LINK: [https://kooest.com/](https://kooest.com/)
+WEBSITE LINK: [kooest.com](https://kooest.com/)
 
 ---
 

@@ -16,7 +16,7 @@ Date Developed: June 2023
 
 NOTE: This project is no longer maintained, but the source code is available for download.
 
-PROJECT LINK: [https://github.com/noeyislearning/zoiquery](https://github.com/noeyislearning/zoiquery)
+PROJECT LINK: [noeyislearning/zoiquery](https://github.com/noeyislearning/zoiquery)
 
 ---
 

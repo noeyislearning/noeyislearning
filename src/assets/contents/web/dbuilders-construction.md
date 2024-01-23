@@ -14,7 +14,7 @@ dev_date: {
 
 Date Developed: June 2023
 
-PROJECT LINK: [https://dbuilders.construction/](https://dbuilders.construction/)
+WEBSITE LINK: [dbuilders.construction](https://dbuilders.construction/)
 
 ---
 
@@ -32,7 +32,7 @@ As the digital landscape continues to evolve, so does my approach to website dev
 
 ## Showcase
 
-PS: You can visit the website at [https://dbuilders.construction/](https://dbuilders.construction/) for more details.
+PS: You can visit the website at [dbuilders.construction](https://dbuilders.construction/) for more details.
 
 ### Browser View
 
