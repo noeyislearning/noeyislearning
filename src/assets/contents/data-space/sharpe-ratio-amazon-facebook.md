@@ -3,7 +3,7 @@ name: "Sharpe Ratio Amazon and Facebook"
 description: "Explore the Sharpe Ratio and its application to evaluate the performance of two tech giants: Amazon and Facebook."
 is_active: true
 is_repository_only: false
-thumbnail_URL: "https://i.imgur.com/AuHilsd.png"
+thumbnail_URL: "https://i.imgur.com/O8l9bUs.png"
 dev_date: {
   start: "2023-10-22",
   end: "2023-10-24"

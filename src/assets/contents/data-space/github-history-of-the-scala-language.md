@@ -3,7 +3,7 @@ name: "GitHub History of the Scala Language"
 description: "Explore the GitHub history of the Scala programming language, a versatile and powerful language known for its concise and elegant syntax."
 is_active: true
 is_repository_only: false
-thumbnail_URL: "https://i.imgur.com/pJZSD5P.png"
+thumbnail_URL: "https://i.imgur.com/iwVijEL.png"
 dev_date: {
   start: "2023-06-01",
   end: "2023-06-15"
