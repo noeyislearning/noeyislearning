@@ -13,7 +13,7 @@ export default function Menu() {
   const { menus } = menuData;
 
   return (
-    <div className="mt-8 flex w-full flex-col items-start gap-4">
+    <div className="flex w-full flex-col items-start gap-4 py-8">
       <div className="flex w-full flex-col gap-2">
         <div className="flex flex-row items-center gap-2">
           <span className="text-xs uppercase text-zinc-500">Projects</span>
