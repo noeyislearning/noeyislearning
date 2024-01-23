@@ -16,9 +16,9 @@ Research Date: October 2023
 
 **[Coffee Chain Sales Analysis](https://www.kaggle.com/datasets/amruthayenikonda/coffee-chain-sales-dataset/data)** from **[Kaggle](https://www.kaggle.com)**.
 
-NOTEBOOK LINK: [https://ccs.noeyislearning.dev/](https://ccs.noeyislearning.dev/)
+NOTEBOOK LINK: [ccs.noeyislearning.dev](https://ccs.noeyislearning.dev/)
 
-REPOSITORY LINK: [https://github.com/noeyislearning/coffee-chain-sales](https://github.com/noeyislearning/coffee-chain-sales)
+REPOSITORY LINK: [noeyislearning/coffee-chain-sales](https://github.com/noeyislearning/coffee-chain-sales)
 
 ---
 

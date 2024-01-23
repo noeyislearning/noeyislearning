@@ -16,9 +16,9 @@ Research Date: October 2023
 
 This project is from [DataCamp](https://datacamp.com/) and is part of the Data Scientist with Python career track.
 
-NOTEBOOK LINK: [https://sraf.noeyislearning.dev/](https://sraf.noeyislearning.dev/)
+NOTEBOOK LINK: [sraf.noeyislearning.dev](https://sraf.noeyislearning.dev/)
 
-REPOSITORY LINK: [https://github.com/noeyislearning/sharpe-ratio-amazon-facebook](https://github.com/noeyislearning/sharpe-ratio-amazon-facebook)
+REPOSITORY LINK: [noeyislearning/sharpe-ratio-amazon-facebook](https://github.com/noeyislearning/sharpe-ratio-amazon-facebook)
 
 ---
 

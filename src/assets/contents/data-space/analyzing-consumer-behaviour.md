@@ -16,9 +16,9 @@ Research Date: October 2023
 
 **[Market Basket Analysis](https://www.kaggle.com/datasets/aslanahmedov/market-basket-analysis/data)** from **[Kaggle](https://www.kaggle.com)**.
 
-NOTEBOOK LINK: [https://acb.noeyislearning.dev/](https://acb.noeyislearning.dev/)
+NOTEBOOK LINK: [acb.noeyislearning.dev](acb.noeyislearning.dev)
 
-REPOSITORY LINK: [https://github.com/noeyislearning/analyzing-consumer-behaviour](https://github.com/noeyislearning/analyzing-consumer-behaviour)
+REPOSITORY LINK: [noeyislearning/analyzing-consumer-behaviour](https://github.com/noeyislearning/analyzing-consumer-behaviour)
 
 ---
 

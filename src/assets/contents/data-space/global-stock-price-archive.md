@@ -16,9 +16,9 @@ Research Date: October 2023
 
 **[Global Stock Price Archive](https://www.kaggle.com/datasets/adityakishor1/global-stock-price-archive/)** from **[Kaggle](https://www.kaggle.com)**.
 
-NOTEBOOK LINK: [https://gspa.noeyislearning.dev/](https://gspa.noeyislearning.dev/)
+NOTEBOOK LINK: [gspa.noeyislearning.dev](https://gspa.noeyislearning.dev/)
 
-REPOSITORY LINK: [https://github.com/noeyislearning/global-stock-price-archive](https://github.com/noeyislearning/global-stock-price-archive)
+REPOSITORY LINK: [noeyislearning/global-stock-price-archive](https://github.com/noeyislearning/global-stock-price-archive)
 
 ---
 

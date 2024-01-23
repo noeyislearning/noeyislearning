@@ -18,9 +18,9 @@ This project is from [DataCamp](https://datacamp.com/) and is part of the Data S
 
 **[Netflix Movies and TV Shows](https://www.kaggle.com/shivamb/netflix-shows)** from **[Kaggle](https://www.kaggle.com/)**.
 
-NOTEBOOK LINK: [https://nma.noeyislearning.dev/](https://nma.noeyislearning.dev/)
+NOTEBOOK LINK: [nma.noeyislearning.dev](https://nma.noeyislearning.dev/)
 
-REPOSITORY LINK: [https://github.com/noeyislearning/netflix-movie-analysis](https://github.com/noeyislearning/netflix-movie-analysis)
+REPOSITORY LINK: [noeyislearning/netflix-movie-analysis](https://github.com/noeyislearning/netflix-movie-analysis)
 
 ---
 

@@ -16,7 +16,9 @@ Date Developed: December 2023
 
 NOTE: This repository is from my previous assessment in a company. This project is no longer maintained, but the source code is available for download.
 
-PROJECT LINK: [https://github.com/noeyislearning/timezone-conversion](https://github.com/noeyislearning/timezone-conversion)
+REPOSITORY LINK: [noeyislearning/timezone-conversion](https://github.com/noeyislearning/timezone-conversion)
+
+WEBSITE LINK: [timeconversion.noeyislearning.dev](https://timeconversion.noeyislearning.dev/)
 
 ---
 

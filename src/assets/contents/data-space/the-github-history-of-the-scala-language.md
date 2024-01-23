@@ -18,9 +18,9 @@ This project is from [DataCamp](https://datacamp.com/) and is part of the Data S
 
 [The GitHub History of the Scala Language](https://www.kaggle.com/datasets/utshabkumarghosh/the-github-history-of-the-scala-language) from [Kaggle](https://www.kaggle.com).
 
-NOTEBOOK LINK: [https://ghsl.noeyislearning.dev/](https://ghsl.noeyislearning.dev/)
+NOTEBOOK LINK: [ghsl.noeyislearning.dev](https://ghsl.noeyislearning.dev/)
 
-REPOSITORY LINK: [https://github.com/noeyislearning/github-history-of-scala](https://github.com/noeyislearning/github-history-of-scala)
+REPOSITORY LINK: [noeyislearning/github-history-of-scala](https://github.com/noeyislearning/github-history-of-scala)
 
 ---
 
