@@ -9,7 +9,7 @@ import Markdown from "markdown-to-jsx";
 import TranslateYOpacity from "@/components/common/Transitions/TranslateYOpacity";
 import TranslateOpacity from "@/components/common/Transitions/TranslateOpacity";
 
-export default function AssessmentProjectPage(props: any) {
+export default function CodingChallengeProjectPage(props: any) {
   const slug = props.params.slug;
   const folder = "src/assets/contents/coding-challenges/";
   const file = `${folder}${slug}.md`;

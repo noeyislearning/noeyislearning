@@ -9,7 +9,7 @@ export default function SideNav() {
   const getCurrentYear = new Date().getFullYear();
 
   return (
-    <aside className="flex h-screen w-96 flex-col items-start border border-r border-dashed border-zinc-800 p-4">
+    <aside className="flex h-screen w-96 flex-col items-start overflow-y-scroll border border-r border-dashed border-zinc-800 p-4">
       <Logo />
       <p className="mt-8 text-xs font-semibold">
         Level 24, software developer based on PH (🇵🇭) hoping into data space, a computer engineering instructor at{" "}
