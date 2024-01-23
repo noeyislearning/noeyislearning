@@ -24,7 +24,7 @@ export default function ProjectCard({
           width={1000}
           height={1000}
           fetchPriority="high"
-          className="h-64 w-full scale-100 overflow-hidden object-cover object-center transition-all duration-300 ease-in-out group-hover:scale-105"
+          className=" h-64 w-full scale-100 overflow-hidden object-cover object-top brightness-75 filter transition-all duration-300 ease-in-out group-hover:scale-105 group-hover:brightness-100 group-hover:grayscale-0"
           priority
           unoptimized
         />
