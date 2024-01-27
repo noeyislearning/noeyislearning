@@ -86,12 +86,12 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
   return (
     <html lang="en">
       <body
-        className={`h-full w-full text-white ${globalFont.className} bg-zinc-950 font-semibold tracking-tighter antialiased`}
+        className={`h-screen w-full text-white ${globalFont.className} bg-zinc-950 font-semibold tracking-tighter antialiased`}
       >
         <Providers>
-          <div className="flex h-screen w-full overflow-hidden">
+          <div className="flex h-full w-full">
             <SideNav />
-            <div className="w-full flex-grow overflow-y-scroll">{children}</div>
+            <div className="h-full w-full overflow-y-scroll p-4">{children}</div>
           </div>
         </Providers>
       </body>

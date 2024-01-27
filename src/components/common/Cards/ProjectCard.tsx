@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 /** Interfaces */
-import { MetadataProps } from "@/libs/interfaces";
+import { ProjectMetadataProps } from "@/libs/interfaces/metadata";
 
 export default function ProjectCard({
   slug,
@@ -13,7 +13,7 @@ export default function ProjectCard({
   is_repository_only,
   dev_date,
   folder
-}: MetadataProps) {
+}: ProjectMetadataProps) {
   return (
     <Link href={`/${folder}/${slug}`} className="group flex w-full cursor-pointer flex-col gap-2">
       <div className="h-64 w-full overflow-hidden border border-dashed border-zinc-800">

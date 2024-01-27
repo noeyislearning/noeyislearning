@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 /** Functions Helper */
-import { readMetadataFromMdFile } from "@/libs/helper/post";
+import { readCodingChallengeMetadataFromMdFile } from "@/libs/helper/post";
 /** Markdow to JS */
 import Markdown from "markdown-to-jsx";
 /** Components */
@@ -14,28 +14,13 @@ export default function CodingChallengeProjectPage(props: any) {
   const folder = "src/assets/contents/coding-challenges/";
   const file = `${folder}${slug}.md`;
 
-  const metadata = readMetadataFromMdFile(file);
+  const metadata = readCodingChallengeMetadataFromMdFile(file);
 
   const { ...data } = metadata;
 
   return (
     <>
       <div className="flex h-full w-full flex-col gap-4">
-        <TranslateOpacity>
-          <div className="h-72 w-full overflow-hidden">
-            <Image
-              src={data.thumbnail_URL}
-              alt={data.name}
-              quality={100}
-              width={1000}
-              height={1000}
-              fetchPriority="high"
-              className="h-72 w-full overflow-hidden object-cover brightness-50"
-              priority
-              unoptimized
-            />
-          </div>
-        </TranslateOpacity>
         <TranslateYOpacity>
           <div className="flex flex-grow items-center justify-center py-4">
             <article className="prose prose-invert max-w-3xl">

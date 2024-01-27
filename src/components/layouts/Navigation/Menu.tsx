@@ -5,12 +5,20 @@ import { usePathname } from "next/navigation";
 import MenuCard from "@/components/common/Cards/MenuCard";
 /** Data */
 import menuData from "@/assets/data/menus.json";
+/** Redux */
+import { useDispatch } from "react-redux";
+import { toggleMenu } from "@/redux/buttons/reducer";
 
 export default function Menu() {
   const pathname = usePathname();
+  const dispatch = useDispatch();
 
   /** Destructure */
   const { menus } = menuData;
+
+  const handleMenuClick = () => {
+    dispatch(toggleMenu());
+  };
 
   return (
     <div className="flex w-full flex-col items-start gap-4 py-8">
@@ -22,7 +30,7 @@ export default function Menu() {
         {menus
           .filter((menu) => menu.category === "projects")
           .map((menu) => (
-            <MenuCard key={menu.id} is_active={menu.link === pathname} {...menu} />
+            <MenuCard key={menu.id} is_active={menu.link === pathname} {...menu} onClick={handleMenuClick} />
           ))}
       </div>
       <div className="flex w-full flex-col gap-2">
@@ -33,7 +41,7 @@ export default function Menu() {
         {menus
           .filter((menu) => menu.category === "")
           .map((menu) => (
-            <MenuCard key={menu.id} is_active={menu.link === pathname} {...menu} />
+            <MenuCard key={menu.id} is_active={menu.link === pathname} {...menu} onClick={handleMenuClick} />
           ))}
       </div>
     </div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 /** Functions Helper */
-import { readMetadataFromMdFile } from "@/libs/helper/post";
+import { readProjectMetadataFromMdFile } from "@/libs/helper/post";
 /** Markdow to JS */
 import Markdown from "markdown-to-jsx";
 /** Components */
@@ -15,7 +15,7 @@ export default function DataSpaceProjectPage(props: any) {
   const folder = "src/assets/contents/data-space/";
   const file = `${folder}${slug}.md`;
 
-  const metadata = readMetadataFromMdFile(file);
+  const metadata = readProjectMetadataFromMdFile(file);
 
   const { ...data } = metadata;
 
