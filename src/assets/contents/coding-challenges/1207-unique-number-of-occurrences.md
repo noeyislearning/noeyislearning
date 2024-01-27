@@ -1,9 +1,9 @@
 ---
 name: "1207. Unique Number of Occurrences"
-description: "Given an array of integers `arr`, return true if the number of occurrences of each value in the array is unique or false otherwise."
 is_active: true
 is_repository_only: false
-thumbnail_URL: "https://i.imgur.com/zchYzVB.png"
+platform: "Leetcode"
+thumbnail_URL: ""
 dev_date: {
   start: "2024-01-18",
   end: "2024-01-18"
