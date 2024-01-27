@@ -14,6 +14,7 @@
     "@tailwindcss/typography": "^0.5.10",
     "@types/js-yaml": "^4.0.9",
     "date-fns": "^3.3.0",
+    "framer-motion": "^11.0.3",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.3",
     "js-yaml": "^4.1.0",
