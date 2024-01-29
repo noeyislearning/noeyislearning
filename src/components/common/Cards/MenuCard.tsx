@@ -21,13 +21,13 @@ export default function MenuCard({ name, description, link, menu_img_URL }: Menu
       href={link}
       className={`group flex w-full cursor-pointer flex-row items-center gap-4 hover:border-zinc-300 ${activeBorder} border border-dashed p-4 transition-all duration-300 ease-in-out hover:scale-105`}
     >
-      <div className="relative h-10 w-10">
+      <div className="flex h-10 w-10">
         <Image
           src={menu_img_URL}
           alt={name}
           width={40}
           height={40}
-          className="rounded-md object-fill transition-all duration-300 ease-in-out"
+          className="object-contain transition-all duration-300 ease-in-out"
           priority
         />
       </div>
