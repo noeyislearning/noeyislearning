@@ -1,14 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import dynamic from "next/dynamic";
 /** Functions Helper */
 import { readProjectMetadataFromMdFile } from "@/libs/helper/post";
-/** Markdow to JS */
-import Markdown from "markdown-to-jsx";
 /** Components */
+import PageHeader from "@/components/common/Headers/PageHeader";
 import TranslateYOpacity from "@/components/common/Transitions/TranslateYOpacity";
 import TranslateOpacity from "@/components/common/Transitions/TranslateOpacity";
+import BlogArticle from "@/components/common/Articles/BlogArticle";
 
 export default function DataSpaceProjectPage(props: any) {
   const slug = props.params.slug;
@@ -39,9 +38,7 @@ export default function DataSpaceProjectPage(props: any) {
         </TranslateOpacity>
         <TranslateYOpacity>
           <div className="flex flex-grow items-center justify-center py-4">
-            <article className="prose prose-invert max-w-3xl">
-              <Markdown>{data.content}</Markdown>
-            </article>
+            <BlogArticle content={data.content} />
           </div>
         </TranslateYOpacity>
         <div className="fixed bottom-4 right-4">
