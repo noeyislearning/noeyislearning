@@ -23,6 +23,7 @@ export interface ProjectMetadataProps {
 export interface CodingChallengeMetadataProps {
   slug: string;
   name: string;
+  difficulty: string;
   is_active: boolean;
   platform: string;
   language: string;

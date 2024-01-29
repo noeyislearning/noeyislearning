@@ -1,5 +1,6 @@
 ---
 name: "1207. Unique Number of Occurrences"
+difficulty: "Easy"
 is_active: true
 is_repository_only: false
 platform: "Leetcode"
