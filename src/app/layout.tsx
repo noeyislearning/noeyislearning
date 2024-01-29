@@ -10,6 +10,7 @@ const globalFont = JetBrains_Mono({ subsets: ["latin"] });
 /** Components */
 import { Providers } from "@/redux/Providers";
 import SideNav from "@/components/layouts/Navigation/SideNav";
+import MobileSideNav from "@/components/layouts/Navigation/MobileSideNav";
 
 export const metadata: Metadata = {
   title: {
@@ -91,6 +92,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
         <Providers>
           <div className="flex h-full w-full">
             <SideNav />
+            <MobileSideNav />
             <div className="h-full w-full overflow-y-scroll p-4">{children}</div>
           </div>
         </Providers>

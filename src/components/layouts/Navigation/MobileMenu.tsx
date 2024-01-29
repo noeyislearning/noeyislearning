@@ -2,14 +2,14 @@
 import React from "react";
 import { usePathname } from "next/navigation";
 /** Components */
-import MenuCard from "@/components/common/Cards/MenuCard";
+import MobileMenuCard from "@/components/common/Cards/MobileMenuCard";
 /** Data */
 import menuData from "@/assets/data/menus.json";
 /** Redux */
 import { useDispatch } from "react-redux";
 import { toggleMenu } from "@/redux/buttons/reducer";
 
-export default function Menu() {
+export default function MobileMenu() {
   const pathname = usePathname();
   const dispatch = useDispatch();
 
@@ -30,7 +30,7 @@ export default function Menu() {
         {menus
           .filter((menu) => menu.category === "projects")
           .map((menu) => (
-            <MenuCard key={menu.id} is_active={menu.link === pathname} {...menu} />
+            <MobileMenuCard key={menu.id} is_active={menu.link === pathname} {...menu} onClick={handleMenuClick} />
           ))}
       </div>
       <div className="flex w-full flex-col gap-2">
@@ -41,7 +41,7 @@ export default function Menu() {
         {menus
           .filter((menu) => menu.category === "")
           .map((menu) => (
-            <MenuCard key={menu.id} is_active={menu.link === pathname} {...menu} />
+            <MobileMenuCard key={menu.id} is_active={menu.link === pathname} {...menu} onClick={handleMenuClick} />
           ))}
       </div>
     </div>

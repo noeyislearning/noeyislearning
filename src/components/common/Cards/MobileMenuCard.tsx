@@ -5,8 +5,11 @@ import { usePathname } from "next/navigation";
 /** Interface @ Reducer */
 import { Menu } from "@/redux/menus/reducer";
 /** Interface Extension */
+interface MenuCardProps extends Menu {
+  onClick: () => void;
+}
 
-export default function MenuCard({ name, description, link, menu_img_URL }: Menu) {
+export default function MobileMenuCard({ name, description, link, menu_img_URL, onClick }: MenuCardProps) {
   const pathname = usePathname();
 
   const is_active =
@@ -18,6 +21,7 @@ export default function MenuCard({ name, description, link, menu_img_URL }: Menu
 
   return (
     <Link
+      onClick={onClick}
       href={link}
       className={`group flex w-full cursor-pointer flex-row items-center gap-4 hover:border-zinc-300 ${activeBorder} scale-100 border border-dashed p-4 transition-all duration-300 ease-in-out hover:scale-105`}
     >

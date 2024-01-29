@@ -1,10 +1,8 @@
-"use client";
-import Image from "next/image";
 import Link from "next/link";
 /** Interfaces */
 import { CodingChallengeMetadataProps } from "@/libs/interfaces/metadata";
 
-export default function CodingChallengeCard({ slug, name, platform, dev_date, folder }: CodingChallengeMetadataProps) {
+export default function CodingChallengeCard({ slug, name, platform, language, folder }: CodingChallengeMetadataProps) {
   return (
     <Link
       href={`/${folder}/${slug}`}
@@ -17,11 +15,9 @@ export default function CodingChallengeCard({ slug, name, platform, dev_date, fo
           </h1>
           <p className="text-sm text-indigo-500">{platform}</p>
         </div>
-        <div className="flex w-fit flex-col items-end">
-          <span className="text-sm text-zinc-300 transition-all duration-300 ease-in-out group-hover:text-white">
-            {new Date(dev_date.end).getFullYear()}
-          </span>
-        </div>
+        <span className="text-sm text-zinc-300 transition-all duration-300 ease-in-out group-hover:text-white">
+          {language}
+        </span>
       </div>
     </Link>
   );
