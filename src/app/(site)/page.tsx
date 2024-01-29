@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <main className="flex w-full flex-col">
-      <PageHeader title="Web" description="Client, collaborative, and personal projects" />
+      <PageHeader title="Web" description="Explore web development projects." />
       <TranslateYOpacity>
         <div className="grid w-full grid-cols-1 gap-4 pt-4 md:grid-cols-1 lg:grid-cols-3">{projects}</div>
       </TranslateYOpacity>

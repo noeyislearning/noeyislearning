@@ -30,7 +30,6 @@ body::-webkit-scrollbar-thumb {
   background-color: #09090b;
 }
 
-
 .overflow-y-scroll {
   overflow-y: scroll;
   overflow-x: hidden;

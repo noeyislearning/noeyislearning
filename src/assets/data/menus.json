@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Web",
-      "description": "Web development projects",
+      "description": "Explore web development projects.",
       "link": "/",
       "menu_img_URL": "https://i.imgur.com/tQwhiV0.png",
       "is_available": true,
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "name": "Data Space",
-      "description": "Data related projects",
+      "description": "Discover projects related to data.",
       "link": "/data-space",
       "menu_img_URL": "https://i.imgur.com/4LKr8cK.png",
       "is_available": true,
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "name": "AI/ML",
-      "description": "AI & ML related",
+      "description": "Explore projects in the field of AI & ML.",
       "link": "/ai-ml",
       "menu_img_URL": "https://i.imgur.com/QsNWugv.png",
       "is_available": true,
@@ -30,7 +30,7 @@
     {
       "id": 4,
       "name": "Assessments",
-      "description": "Company assessments",
+      "description": "Access company assessment projects.",
       "link": "/assessments",
       "menu_img_URL": "https://i.imgur.com/suVsCVv.png",
       "is_available": true,
@@ -39,29 +39,38 @@
     {
       "id": 5,
       "name": "Notes",
-      "description": "Notes on various topics",
+      "description": "Read notes on various topics",
       "link": "/notes",
       "menu_img_URL": "https://i.imgur.com/z2rxCQL.png",
       "is_available": true,
-      "category": ""
+      "category": "Others"
     },
     {
       "id": 6,
       "name": "Coding Challenges",
-      "description": "Let's upskill together",
+      "description": "Take on coding challenges and upskill together",
       "link": "/coding-challenges",
       "menu_img_URL": "https://i.imgur.com/pqberlZ.png",
       "is_available": true,
-      "category": ""
+      "category": "Others"
     },
     {
       "id": 7,
       "name": "Who Am I?",
-      "description": "Let's get to know each other",
+      "description": "Let's get to know each other better",
       "link": "/me",
       "menu_img_URL": "https://i.imgur.com/0TngQWj.png",
       "is_available": true,
-      "category": ""
+      "category": "Others"
+    },
+    {
+      "id": 8,
+      "name": "DMBS",
+      "description": "Database management notes, assignments, etc.",
+      "link": "/dbms",
+      "menu_img_URL": "https://i.imgur.com/1Ai3S90.png",
+      "is_available": true,
+      "category": "University"
     }
   ]
 }

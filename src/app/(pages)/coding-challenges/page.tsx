@@ -17,7 +17,7 @@ export default function CodingChallengeProjectsPage() {
 
   return (
     <div className="flex w-full flex-col">
-      <PageHeader title="Coding Challenges" description="Solutions to various challenges" />
+      <PageHeader title="Coding Challenges" description="Take on coding challenges and upskill together." />
       <TranslateYOpacity>
         <div className="grid w-full grid-cols-1 gap-4 py-4 md:grid-cols-2 lg:grid-cols-3">{codingChallenges}</div>
       </TranslateYOpacity>

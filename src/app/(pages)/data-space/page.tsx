@@ -15,7 +15,7 @@ export default function DataSpaceProjectsPage() {
 
   return (
     <div className="flex w-full flex-col">
-      <PageHeader title="Data Space" description="Visualizing, analyzing, and predicting" />
+      <PageHeader title="Data Space" description="Discover projects related to data." />
       <TranslateYOpacity>
         <div className="grid w-full grid-cols-1 gap-4 py-4 md:grid-cols-2 lg:grid-cols-3">{projects}</div>
       </TranslateYOpacity>
