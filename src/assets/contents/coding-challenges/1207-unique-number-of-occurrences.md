@@ -63,9 +63,3 @@ Here's how it works:
 - `count_set = set(count_dict.values())`: This line creates a set from the values of `count_dict`. Since a set only contains unique elements, any duplicate counts will be removed.
 
 - `return len(count_dict) == len(count_set)`: This line checks if the number of unique elements in `arr` (which is the length of `count_dict`) is equal to the number of unique counts (which is the length of `count_set`). If these lengths are equal, it means that each unique element in `arr` appears a unique number of times, so the method returns `True`. Otherwise, it returns `False`.
-
-***
-
-by [@noeyislearning](https://github.com/noeyislearning)
-
-🍀 For more coding challenge solutions, you can fork, clone, or view my GitHub repository named [Playground](https://github.com/noeyislearning/playground),or follow me on [GitHub](https://github.com/noeyislearning), [Twitter (X)](https://twitter.com/noeyislearning), [Instagram](https://www.instagram.com/noeyislearning), or [TikTok](https://www.tiktok.com/@noeyislearning).
