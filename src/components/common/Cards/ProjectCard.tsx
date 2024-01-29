@@ -15,8 +15,11 @@ export default function ProjectCard({
   folder
 }: ProjectMetadataProps) {
   return (
-    <Link href={`/${folder}/${slug}`} className="group flex w-full cursor-pointer flex-col gap-2">
-      <div className="h-64 w-full overflow-hidden border border-dashed border-zinc-800">
+    <Link
+      href={`/${folder}/${slug}`}
+      className="group flex w-full cursor-pointer flex-col border border-dashed border-zinc-800 transition-all duration-300 ease-in-out hover:border-zinc-500"
+    >
+      <div className="h-64 w-full overflow-hidden ">
         <Image
           src={thumbnail_URL}
           alt={name}
@@ -29,19 +32,12 @@ export default function ProjectCard({
           unoptimized
         />
       </div>
-      <div className="group-hover:border-zic-600 flex w-full flex-row items-start justify-between gap-8">
-        <div className="flex flex-col items-start">
-          <h1 className="line-clamp-2 w-full  text-sm uppercase leading-4 text-zinc-300 transition-all duration-300 ease-in-out group-hover:text-white">
+      <div className="group-hover:border-zic-600 flex w-full flex-row items-start justify-between gap-8 p-2">
+        <div className="flex w-full flex-col items-start">
+          <h1 className="flex text-sm uppercase leading-4 text-zinc-300 transition-all duration-300 ease-in-out group-hover:text-white">
             {name}
           </h1>
-          <p
-            className={`text-xs ${is_active ? "text-emerald-600" : is_repository_only ? "text-indigo-500" : "white text-red-800"} whitespace-nowrap`}
-          >
-            {is_active ? "Active" : is_repository_only ? "In repository" : "Not active"}
-          </p>
-        </div>
-        <div className="flex w-full flex-col items-end">
-          <span className="line-clamp-2 text-xs text-zinc-500 transition-all duration-300 ease-in-out">
+          <span className="line-clamp-2 text-xs text-zinc-600 transition-all duration-300 ease-in-out">
             {description}
           </span>
         </div>
@@ -49,6 +45,11 @@ export default function ProjectCard({
           <span className="text-sm text-zinc-300 transition-all duration-300 ease-in-out group-hover:text-white">
             {new Date(dev_date.end).getFullYear()}
           </span>
+          <p
+            className={`-mt-1 text-xs ${is_active ? "text-emerald-600" : is_repository_only ? "text-indigo-500" : "white text-red-800"} whitespace-nowrap`}
+          >
+            {is_active ? "Active" : is_repository_only ? "In repository" : "Not active"}
+          </p>
         </div>
       </div>
     </Link>
