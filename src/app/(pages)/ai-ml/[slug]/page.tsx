@@ -8,6 +8,7 @@ import Markdown from "markdown-to-jsx";
 /** Components */
 import TranslateYOpacity from "@/components/common/Transitions/TranslateYOpacity";
 import TranslateOpacity from "@/components/common/Transitions/TranslateOpacity";
+import BlogArticle from "@/components/common/Articles/BlogArticle";
 
 export default function AIProjectPage(props: any) {
   const slug = props.params.slug;
@@ -38,9 +39,7 @@ export default function AIProjectPage(props: any) {
         </TranslateOpacity>
         <TranslateYOpacity>
           <div className="flex flex-grow items-center justify-center py-4">
-            <article className="prose prose-invert max-w-3xl">
-              {data.content && <Markdown>{data.content}</Markdown>}
-            </article>
+            <BlogArticle content={data.content} />
           </div>
         </TranslateYOpacity>
         <div className="fixed bottom-4 right-4">
