@@ -36,12 +36,13 @@ export const getCodingChallengeMetadata = (folder: string): CodingChallengeMetad
   
   return files.map((fn) => {
     const filePath = path.join(absolutePath, fn);
-    const { data: { name, platform, is_active, is_repository_only, dev_date, content } } = readAndParseFile(filePath);
+    const { data: { name, platform, language, is_active, is_repository_only, dev_date, content } } = readAndParseFile(filePath);
 
     return {
       slug: fn.replace(".md", ""),
       name,
       platform,
+      language,
       is_active,
       is_repository_only,
       dev_date,
@@ -68,13 +69,14 @@ export const readProjectMetadataFromMdFile = (filePath: string): ProjectMetadata
 
 export const readCodingChallengeMetadataFromMdFile = (filePath: string): CodingChallengeMetadataProps => {
   const absolutePath = path.resolve(process.cwd(), filePath);
-  const { data: { name, platform, is_active, is_repository_only, dev_date }, content } = readAndParseFile(absolutePath);
+  const { data: { name, platform, language, is_active, is_repository_only, dev_date }, content } = readAndParseFile(absolutePath);
 
   return {
     slug: path.basename(filePath, '.md'),
     name,
     is_active,
     platform,
+    language,
     is_repository_only,
     dev_date,
     content

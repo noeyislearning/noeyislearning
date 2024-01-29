@@ -16,10 +16,7 @@ export default function MenuButton() {
   };
 
   return (
-    <button
-      className="block transform transition duration-500 ease-in-out md:hidden lg:hidden"
-      onClick={handleToggleMenu}
-    >
+    <button className="transform transition duration-500 ease-in-out" onClick={handleToggleMenu}>
       {isMenuOpen ? <XMarkIcon className="h-5 w-5" /> : <Bars3Icon className="h-5 w-5" />}
     </button>
   );

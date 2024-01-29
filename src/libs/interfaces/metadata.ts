@@ -25,6 +25,7 @@ export interface CodingChallengeMetadataProps {
   name: string;
   is_active: boolean;
   platform: string;
+  language: string;
   is_repository_only: boolean;
   dev_date: {
     start: string;

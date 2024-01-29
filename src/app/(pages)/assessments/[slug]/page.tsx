@@ -22,7 +22,7 @@ export default function AssessmentProjectPage(props: any) {
     <>
       <div className="flex h-full w-full flex-col gap-4">
         <TranslateOpacity>
-          <div className="h-72 w-full overflow-hidden">
+          <div className="h-48 w-full overflow-hidden md:h-64 lg:h-72">
             <Image
               src={data.thumbnail_URL}
               alt={data.name}
