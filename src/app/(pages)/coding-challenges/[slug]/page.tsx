@@ -22,8 +22,8 @@ export default function CodingChallengeProjectPage(props: any) {
     <>
       <div className="flex h-full w-full flex-col gap-4">
         <TranslateYOpacity>
-          <div className="flex flex-grow items-center justify-center py-4">
-            <article className="prose-sm prose-invert max-w-3xl font-light md:prose-base lg:prose-lg prose-h1:tracking-tighter prose-h2:tracking-tighter prose-h3:tracking-tighter prose-p:text-sm prose-p:tracking-tighter prose-a:text-yellow-500 prose-a:underline prose-blockquote:text-indigo-500 prose-code:rounded-sm prose-code:text-sm prose-code:text-zinc-400 prose-pre:rounded-none prose-pre:bg-transparent prose-li:list-disc prose-p:md:text-base prose-code:md:text-base prose-p:lg:text-base prose-code:lg:text-lg">
+          <div className="flex w-full flex-grow items-center justify-center py-4">
+            <article className="prose-sm prose-invert w-full max-w-lg whitespace-pre-wrap font-light md:prose-base lg:prose-lg prose-h1:tracking-tighter prose-h2:tracking-tighter prose-h3:tracking-tighter prose-p:text-sm prose-p:tracking-tighter prose-a:text-yellow-500 prose-a:underline prose-blockquote:text-indigo-500 prose-code:rounded-sm prose-code:text-sm prose-code:text-zinc-400 prose-pre:w-full prose-pre:max-w-md prose-pre:whitespace-pre-wrap prose-pre:rounded-none prose-pre:bg-transparent prose-li:list-disc md:max-w-xl prose-p:md:text-base prose-code:md:text-base lg:max-w-3xl prose-p:lg:text-base prose-code:lg:text-lg lg:prose-pre:max-w-lg">
               {data.content && (
                 <Markdown
                   options={{
@@ -36,7 +36,12 @@ export default function CodingChallengeProjectPage(props: any) {
                         )
                       },
                       pre: {
-                        component: CodingSyntaxHighlighterCard
+                        component: CodingSyntaxHighlighterCard,
+                        props: {
+                          style: {
+                            whiteSpace: "pre-wrap"
+                          }
+                        }
                       }
                     }
                   }}
