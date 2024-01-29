@@ -16,11 +16,11 @@ export default function CodingChallengeProjectsPage() {
     .map((codingChallenge) => <CodingChallengeCard key={codingChallenge.slug} folder={folder} {...codingChallenge} />);
 
   return (
-    <main className="flex w-full flex-col">
+    <div className="flex w-full flex-col">
       <PageHeader title="Coding Challenges" description="Solutions to various challenges" />
       <TranslateYOpacity>
-        <div className="grid w-full grid-cols-1 gap-4 py-4 md:grid-cols-2 lg:grid-cols-4">{codingChallenges}</div>
+        <div className="grid w-full grid-cols-1 gap-4 py-4 md:grid-cols-2 lg:grid-cols-3">{codingChallenges}</div>
       </TranslateYOpacity>
-    </main>
+    </div>
   );
 }

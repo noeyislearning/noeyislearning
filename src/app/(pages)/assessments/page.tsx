@@ -17,11 +17,11 @@ export default function AssessmentProjectsPage() {
     .map((project) => <ProjectCard key={project.slug} folder={folder} {...project} />);
 
   return (
-    <main className="flex w-full flex-col">
+    <div className="flex w-full flex-col">
       <PageHeader title="Assessment" description="Valuations from different companies" />
       <TranslateYOpacity>
         <div className="grid w-full grid-cols-1 gap-4 py-4 md:grid-cols-1 lg:grid-cols-3">{projects}</div>
       </TranslateYOpacity>
-    </main>
+    </div>
   );
 }

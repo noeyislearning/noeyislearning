@@ -1,5 +1,3 @@
-/** Heroicons */
-import { EnvelopeIcon, EnvelopeOpenIcon } from "@heroicons/react/24/outline";
 /** Components */
 import TranslateYOpacity from "@/components/common/Transitions/TranslateYOpacity";
 import ProjectCard from "@/components/common/Cards/ProjectCard";
@@ -16,11 +14,11 @@ export default function DataSpaceProjectsPage() {
     .map((codingChallenge) => <ProjectCard key={codingChallenge.slug} folder={folder} {...codingChallenge} />);
 
   return (
-    <main className="flex w-full flex-col">
+    <div className="flex w-full flex-col">
       <PageHeader title="Data Space" description="Visualizing, analyzing, and predicting" />
       <TranslateYOpacity>
         <div className="grid w-full grid-cols-1 gap-4 py-4 md:grid-cols-2 lg:grid-cols-3">{projects}</div>
       </TranslateYOpacity>
-    </main>
+    </div>
   );
 }

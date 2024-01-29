@@ -90,11 +90,11 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
         className={`h-screen w-full text-white ${globalFont.className} bg-zinc-950 font-semibold tracking-tighter antialiased`}
       >
         <Providers>
-          <div className="flex h-full w-full">
+          <main className="flex h-full w-full">
             <SideNav />
             <MobileSideNav />
             <div className="h-full w-full overflow-y-scroll p-4">{children}</div>
-          </div>
+          </main>
         </Providers>
       </body>
     </html>
