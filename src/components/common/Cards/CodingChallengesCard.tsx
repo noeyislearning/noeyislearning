@@ -10,14 +10,16 @@ export default function CodingChallengeCard({ slug, name, platform, language, fo
     >
       <div className="group-hover:border-zic-600 flex w-full flex-row items-start justify-between gap-8">
         <div className="flex flex-col items-start">
-          <h1 className="line-clamp-2 w-full  text-sm uppercase leading-4 text-zinc-300 transition-all duration-300 ease-in-out group-hover:text-white">
+          <h1 className="w-full  text-sm uppercase leading-4 text-zinc-300 transition-all duration-300 ease-in-out group-hover:text-white">
             {name}
           </h1>
+        </div>
+        <div className="flex flex-col items-start">
+          <span className="text-sm text-zinc-300 transition-all duration-300 ease-in-out group-hover:text-white">
+            {language}
+          </span>
           <p className="text-sm text-indigo-500">{platform}</p>
         </div>
-        <span className="text-sm text-zinc-300 transition-all duration-300 ease-in-out group-hover:text-white">
-          {language}
-        </span>
       </div>
     </Link>
   );

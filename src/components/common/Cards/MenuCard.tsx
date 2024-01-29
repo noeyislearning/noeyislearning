@@ -19,7 +19,7 @@ export default function MenuCard({ name, description, link, menu_img_URL }: Menu
   return (
     <Link
       href={link}
-      className={`group flex w-full cursor-pointer flex-row items-center gap-4 hover:border-zinc-300 ${activeBorder} scale-100 border border-dashed p-4 transition-all duration-300 ease-in-out hover:scale-105`}
+      className={`group flex w-full cursor-pointer flex-row items-center gap-4 hover:border-zinc-300 ${activeBorder} border border-dashed p-4 transition-all duration-300 ease-in-out hover:scale-105`}
     >
       <div className="relative h-10 w-10">
         <Image
