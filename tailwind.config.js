@@ -5,6 +5,24 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  purge: {
+    content: [
+      './src/**/*.html',
+      './src/**/*.vue',
+      './src/**/*.jsx',
+      './src/**/*.tsx',
+      // Add other file types as needed
+    ],
+    options: {
+      safelist: [
+        'list-disc',
+        'list-decimal',
+        'list-outside',
+        'list-inside',
+        // Add other classes as needed
+      ],
+    },
+  },
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
