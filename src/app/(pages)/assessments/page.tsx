@@ -18,7 +18,7 @@ export default function AssessmentProjectsPage() {
 
   return (
     <div className="flex w-full flex-col">
-      <PageHeader title="Assessment" description="Valuations from different companies" />
+      <PageHeader title="Assessment" description="Access company assessment projects." />
       <TranslateYOpacity>
         <div className="grid w-full grid-cols-1 gap-4 py-4 md:grid-cols-1 lg:grid-cols-3">{projects}</div>
       </TranslateYOpacity>

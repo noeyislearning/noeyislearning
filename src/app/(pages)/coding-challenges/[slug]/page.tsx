@@ -7,6 +7,7 @@ import { readCodingChallengeMetadataFromMdFile } from "@/libs/helper/post";
 import Markdown from "markdown-to-jsx";
 /** Components */
 import TranslateYOpacity from "@/components/common/Transitions/TranslateYOpacity";
+import CodingSyntaxHighlighterCard from "@/components/common/Cards/CodingSyntaxHighlighterCard";
 
 export default function CodingChallengeProjectPage(props: any) {
   const slug = props.params.slug;
@@ -22,7 +23,7 @@ export default function CodingChallengeProjectPage(props: any) {
       <div className="flex h-full w-full flex-col gap-4">
         <TranslateYOpacity>
           <div className="flex flex-grow items-center justify-center py-4">
-            <article className="prose-sm prose-invert max-w-3xl md:prose-base lg:prose-lg prose-p:text-sm prose-a:text-yellow-500 prose-a:underline prose-blockquote:text-indigo-500 prose-code:bg-zinc-800 prose-code:text-yellow-500 prose-pre:rounded-none prose-pre:bg-zinc-800 prose-li:list-disc">
+            <article className="prose-sm prose-invert max-w-3xl font-light md:prose-base lg:prose-lg prose-h1:tracking-tighter prose-h2:tracking-tighter prose-h3:tracking-tighter prose-p:text-sm prose-p:tracking-tighter prose-a:text-yellow-500 prose-a:underline prose-blockquote:text-indigo-500 prose-code:rounded-sm prose-code:text-sm prose-code:text-zinc-400 prose-pre:rounded-none prose-pre:bg-transparent prose-li:list-disc prose-p:md:text-base prose-code:md:text-base prose-p:lg:text-base prose-code:lg:text-lg">
               {data.content && (
                 <Markdown
                   options={{
@@ -33,6 +34,9 @@ export default function CodingChallengeProjectPage(props: any) {
                             {children}
                           </a>
                         )
+                      },
+                      pre: {
+                        component: CodingSyntaxHighlighterCard
                       }
                     }
                   }}

@@ -18,7 +18,7 @@ export default function AIProjectsPage() {
 
   return (
     <div className="flex w-full flex-col">
-      <PageHeader title="AI/ML" description="ai & machine learning related projects" />
+      <PageHeader title="AI/ML" description="Explore projects in the field of AI & ML." />
       <TranslateYOpacity>
         <div className="grid w-full grid-cols-1 gap-4 py-4 md:grid-cols-1 lg:grid-cols-3">{projects}</div>
       </TranslateYOpacity>
