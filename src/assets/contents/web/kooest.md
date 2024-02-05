@@ -9,7 +9,6 @@ dev_date: {
   end: "2023-06-15"
 }
 ---
-
 # Kooest
 
 Date Developed: June 2023 - Present

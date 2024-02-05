@@ -9,7 +9,6 @@ dev_date: {
   end: "2023-06-15"
 }
 ---
-
 # GitHub History of the Scala Language
 
 Research Date: November 2023

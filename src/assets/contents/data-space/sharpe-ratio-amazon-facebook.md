@@ -9,7 +9,6 @@ dev_date: {
   end: "2023-10-24"
 }
 ---
-
 # Sharpe Ratio Amazon and Facebook
 
 Research Date: October 2023

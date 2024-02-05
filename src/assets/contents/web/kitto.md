@@ -9,7 +9,6 @@ dev_date: {
   end: "2022-12-01"
 }
 ---
-
 # KITTO—Knowledge Innovation and Technology Transfer Office
 
 Date Developed: August 2022 - December 2022
