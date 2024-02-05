@@ -9,7 +9,6 @@ dev_date: {
   end: "2021-10-01"
 }
 ---
-
 # ICpEP Oman Conference
 
 Date Developed: June 2021 - October 2021

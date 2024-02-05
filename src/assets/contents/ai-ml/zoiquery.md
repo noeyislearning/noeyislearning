@@ -9,7 +9,6 @@ dev_date: {
   end: "2023-06-01"
 }
 ---
-
 # Zoiquery
 
 Date Developed: June 2023

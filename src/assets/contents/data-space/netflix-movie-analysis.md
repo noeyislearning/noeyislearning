@@ -9,7 +9,6 @@ dev_date: {
   end: "2023-10-24"
 }
 ---
-
 # Netflix Movie Analysis
 
 Research Date: October 2023

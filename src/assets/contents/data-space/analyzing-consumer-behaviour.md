@@ -9,7 +9,6 @@ dev_date: {
   end: "2023-10-19"
 }
 ---
-
 # Analyzing Consumer Behavior
 
 Research Date: October 2023

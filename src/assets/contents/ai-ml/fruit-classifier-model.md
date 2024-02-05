@@ -9,7 +9,6 @@ dev_date: {
   end: "2023-10-16"
 }
 ---
-
 # Fruit Classifier Model
 
 Research Date: October 2023

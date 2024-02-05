@@ -9,7 +9,6 @@ dev_date: {
   end: "2023-10-13"
 }
 ---
-
 # Global Stock Price Archive
 
 Research Date: October 2023
