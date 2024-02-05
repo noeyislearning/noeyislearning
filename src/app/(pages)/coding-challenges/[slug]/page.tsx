@@ -20,7 +20,7 @@ export default function CodingChallengeProjectPage(props: any) {
     <>
       <div className="flex h-full w-full flex-col gap-4">
         <TranslateYOpacity>
-          <div className="flex w-full flex-grow items-center justify-center py-4">
+          <div className="flex w-full flex-grow items-center justify-center">
             <BlogArticle content={content} />
           </div>
         </TranslateYOpacity>
