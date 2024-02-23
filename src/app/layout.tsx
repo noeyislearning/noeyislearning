@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 }
 
 /** Components */
-import { Providers } from "@/redux/Providers"
 import SideNav from "@/components/layouts/navigation/SideNav"
+import { Providers } from "@/redux/Providers"
 
 export default function RootLayout({
   children,
