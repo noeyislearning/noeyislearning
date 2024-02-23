@@ -1,0 +1,28 @@
+{
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/noeyislearning",
+      "handle": "in/noeyislearning",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://www.github.com/noeyislearning",
+      "handle": "/noeyislearning",
+      "icon": "github"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/noeyislearning",
+      "handle": "@noeyislearning",
+      "icon": "instagram"
+    },
+    {
+      "name": "LeetCode",
+      "url": "https://www.leetcode.com/noeyislearning",
+      "handle": "/noeyislearning",
+      "icon": "code"
+    }
+  ]
+}

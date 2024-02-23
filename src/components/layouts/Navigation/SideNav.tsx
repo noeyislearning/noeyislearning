@@ -1,51 +1,72 @@
-import React from "react";
+"use client"
+import { usePathname } from "next/navigation"
+
+/** Data */
+import menuData from "@/data/menus.json"
+import socialData from "@/data/socials.json"
+import highlightsData from "@/data/highlights.json"
+/** Interfaces */
+import { Menu } from "@/types/Menu"
+import { Social } from "@/types/Social"
+import { Highlight } from "@/types/Highlight"
 /** Components */
-import Logo from "@/components/common/Logos/Logo";
-import Menu from "./Menu";
+import UserProfile from "@/components/layouts/user/UserProfile"
+import MenuButton from "@/components/common/buttons/MenuButton"
+import SocialButton from "@/components/common/buttons/SocialButton"
+import HighlightButton from "@/components/common/buttons/HighlightButton"
+import MenuFooter from "@/components/layouts/footer/MenuFooter"
 
 export default function SideNav() {
-  /** Functions */
-  const getCurrentYear = new Date().getFullYear();
+  const pathname = usePathname()
+  const { menus } = menuData
+  const { socials } = socialData
+  const { highlights } = highlightsData
+
+  const getCurrentYear = new Date().getFullYear()
 
   return (
-    <aside className="relative hidden w-96 flex-col items-start overflow-y-scroll border border-r border-dashed border-zinc-800 bg-zinc-950 p-4 md:flex md:w-96 lg:flex ">
-      <div className="flex w-full flex-row items-start justify-between">
-        <Logo />
-      </div>
-      <p className="mt-8 text-xs font-semibold">
-        Level 24, software developer based on PH (🇵🇭) hoping into data space, a computer engineering instructor at{" "}
-        <a href={"https://www.hau.edu.ph/"} target={"_blank"} className="text-yellow-500 underline">
-          HAU
-        </a>
-        , and a developer at{" "}
-        <a href={"https://kooest.com/"} target={"_blank"} className="text-indigo-500 underline">
-          @teamkooest
-        </a>
-        .
-      </p>
-      <Menu />
-      <div className="mt-auto flex flex-col items-start">
-        <div className="flex flex-col items-start">
-          <p className="text-xs font-semibold">© {getCurrentYear} Noey Ignacio.</p>
-          <p className="text-xs font-semibold">All rights reserved.</p>
-        </div>
-        <div className="mt-2 flex flex-row items-center gap-2">
-          <a
-            href={"https://www.linkedin.com/in/noeyislearning/"}
-            target={"_blank"}
-            className="text-sm font-semibold text-indigo-500 underline"
-          >
-            LinkedIn
-          </a>
-          <a
-            href={"https://www.github.com/noeyislearning"}
-            target={"_blank"}
-            className="text-sm font-semibold text-indigo-500 underline"
-          >
-            GitHub
-          </a>
-        </div>
+    <aside
+      className="fixed left-0 top-0 z-40 h-screen w-72 -translate-x-full border-r transition-transform sm:translate-x-0"
+      aria-label="Sidebar"
+    >
+      <div className="flex h-full flex-col gap-4 overflow-y-auto bg-zinc-50 p-4">
+        <UserProfile />
+        <ul className="space-y-1 font-medium">
+          {menus.map((menu: Menu, index) => (
+            <li key={index}>
+              <MenuButton menu={menu} pathname={pathname} />
+            </li>
+          ))}
+        </ul>
+        <div className="border"></div>
+        <div className="text-sm text-zinc-600">Socials</div>
+        <ul className="space-y-1 font-medium">
+          {socials.map((social: Social, index) => (
+            <li key={index}>
+              <SocialButton
+                social={social}
+                url={social.url}
+                handle={social.handle}
+              />
+            </li>
+          ))}
+        </ul>
+        <div className="border"></div>
+        <div className="text-sm text-zinc-600">Highlights</div>
+        <ul className="space-y-1 font-medium">
+          {highlights.map((highlight: Highlight, index) => (
+            <li key={index}>
+              <HighlightButton
+                highlight={highlight}
+                description={highlight.description}
+                url={highlight.url}
+                logo_img_URL={highlight.logo_img_URL}
+              />
+            </li>
+          ))}
+        </ul>
+        <MenuFooter />
       </div>
     </aside>
-  );
+  )
 }

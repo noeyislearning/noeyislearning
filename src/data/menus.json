@@ -1,0 +1,24 @@
+{
+  "menus": [
+    {
+      "name": "About",
+      "icon": "slashsquare",
+      "path": "/"
+    },
+    {
+      "name": "Projects",
+      "icon": "blocks",
+      "path": "/projects"
+    },
+    {
+      "name": "Notebooks",
+      "icon": "librarybig",
+      "path": "/notebooks"
+    },
+    {
+      "name": "Bookmarks",
+      "icon": "bookmark",
+      "path": "/bookmarks"
+    }
+  ]
+}

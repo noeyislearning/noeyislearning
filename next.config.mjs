@@ -9,9 +9,9 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "icons8.com",
-      }
+      },
     ],
   },
-};
+}
 
-export default nextConfig;
+export default nextConfig
