@@ -11,9 +11,9 @@ import { Social } from "@/types/Social"
 import { Highlight } from "@/types/Highlight"
 /** Components */
 import UserProfile from "@/components/layouts/user/UserProfile"
-import MenuButton from "@/components/common/buttons/MenuButton"
-import SocialButton from "@/components/common/buttons/SocialButton"
-import HighlightButton from "@/components/common/buttons/HighlightButton"
+import MenuButton from "@/components/common/button/MenuButton"
+import SocialButton from "@/components/common/button/SocialButton"
+import HighlightButton from "@/components/common/button/HighlightButton"
 import MenuFooter from "@/components/layouts/footer/MenuFooter"
 
 export default function SideNav() {
