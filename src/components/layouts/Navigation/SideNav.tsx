@@ -22,17 +22,15 @@ export default function SideNav() {
   const { socials } = socialData
   const { highlights } = highlightsData
 
-  const getCurrentYear = new Date().getFullYear()
-
   return (
     <aside
-      className="fixed left-0 top-0 z-40 h-screen w-72 -translate-x-full border-r transition-transform sm:translate-x-0"
+      className="absolute left-0 top-0 z-20 h-screen w-72 translate-x-0 border-r transition-transform"
       aria-label="Sidebar"
     >
       <div className="flex h-full flex-col gap-4 overflow-y-auto bg-zinc-50 p-4">
         <UserProfile />
         <ul className="space-y-1 font-medium">
-          {menus.map((menu: Menu, index) => (
+          {menus.map((menu: Menu, index: number) => (
             <li key={index}>
               <MenuButton menu={menu} pathname={pathname} />
             </li>
@@ -41,7 +39,7 @@ export default function SideNav() {
         <div className="border"></div>
         <div className="text-sm text-zinc-600">Socials</div>
         <ul className="space-y-1 font-medium">
-          {socials.map((social: Social, index) => (
+          {socials.map((social: Social, index: number) => (
             <li key={index}>
               <SocialButton
                 social={social}
@@ -54,7 +52,7 @@ export default function SideNav() {
         <div className="border"></div>
         <div className="text-sm text-zinc-600">Highlights</div>
         <ul className="space-y-1 font-medium">
-          {highlights.map((highlight: Highlight, index) => (
+          {highlights.map((highlight: Highlight, index: number) => (
             <li key={index}>
               <HighlightButton
                 highlight={highlight}
