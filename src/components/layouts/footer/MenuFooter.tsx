@@ -12,6 +12,7 @@ export default function MenuFooter() {
         >
           Onur Şuyalçınkaya
         </Link>
+        .
       </p>
     </div>
   )
