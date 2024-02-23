@@ -1,0 +1,70 @@
+{
+  "experiences": [
+    {
+      "position": "Computer Engineering Instructor",
+      "company": "Holy Angel University",
+      "employment_type": "Part-time",
+      "setup": "On-site",
+      "location": "Angeles, Central Luzon, Philippines",
+      "dates": {
+        "start": "Aug 2023",
+        "end": ""
+      }
+    },
+    {
+      "position": "Software Developer",
+      "company": "Haizoen (formerly known as Kooest)",
+      "employment_type": "Self-employed",
+      "setup": "Remote",
+      "location": "Philippines",
+      "dates": {
+        "start": "Jun 2023",
+        "end": ""
+      }
+    },
+    {
+      "position": "Technical Associate",
+      "company": "KITTO Holy Angel University",
+      "employment_type": "Contractual",
+      "setup": "On-site",
+      "location": "Angeles, Central Luzon, Philippines",
+      "dates": {
+        "start": "Sep 2021",
+        "end": "Dec 2022"
+      }
+    },
+    {
+      "position": "Backend Developer",
+      "company": "Encephalon (TBI) Holy Angel University",
+      "employment_type": "Freelance",
+      "setup": "Remote",
+      "location": "Angeles, Central Luzon, Philippines",
+      "dates": {
+        "start": "Oct 2020",
+        "end": "Feb 2022"
+      }
+    },
+    {
+      "position": "Junior Software Developer",
+      "company": "JDEV Office Solution Incorporated",
+      "employment_type": "Full-time",
+      "setup": "On-site",
+      "location": "Angeles, Central Luzon, Philippines",
+      "dates": {
+        "start": "Jul 2021",
+        "end": "Sep 2021"
+      }
+    },
+    {
+      "position": "Software Quality Assurance",
+      "company": "JDEV Office Solution Incorporated",
+      "employment_type": "Internship",
+      "setup": "On-site",
+      "location": "Angeles, Central Luzon, Philippines",
+      "dates": {
+        "start": "May 2019",
+        "end": "Oct 2019"
+      }
+    }
+  ]
+}
