@@ -26,12 +26,13 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body suppressHydrationWarning>
-        <main className="z-10 min-h-screen w-full text-black antialiased">
-          <Providers>
-            <div className="pattern-boxes absolute h-full w-full pattern-gray-100 pattern-opacity-20 pattern-size-6"></div>
-            <SideNav />
-            {children}
-          </Providers>
+        <main className="z-10 h-screen text-black antialiased">
+          <div className="h-screen w-screen">
+            <Providers>
+              <SideNav />
+              {children}
+            </Providers>
+          </div>
         </main>
       </body>
     </html>
