@@ -2,14 +2,22 @@
 import Link from "next/link"
 import { ComponentType } from "react"
 
-/** Lucide React Icon */
-import { Linkedin, Instagram, Github, Code, Link2 } from "lucide-react"
+/** Lucide React Icon & React Icons*/
+import {
+  Linkedin,
+  Instagram,
+  Github,
+  Code,
+  Link2,
+  Clapperboard,
+} from "lucide-react"
 const iconComponents: { [key: string]: ComponentType<{ className?: string }> } =
   {
     linkedin: Linkedin,
     instagram: Instagram,
     github: Github,
     code: Code,
+    clapperboard: Clapperboard,
   }
 /** Components */
 import RenderIcon from "@/components/common/icons/RenderIcon"

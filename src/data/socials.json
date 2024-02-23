@@ -19,6 +19,12 @@
       "icon": "instagram"
     },
     {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@noeyislearning",
+      "handle": "@noeyislearning",
+      "icon": "clapperboard"
+    },
+    {
       "name": "LeetCode",
       "url": "https://www.leetcode.com/noeyislearning",
       "handle": "/noeyislearning",
