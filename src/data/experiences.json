@@ -3,6 +3,7 @@
     {
       "position": "Computer Engineering Instructor",
       "company": "Holy Angel University",
+      "company_type": "university",
       "employment_type": "Part-time",
       "setup": "On-site",
       "location": "Angeles, Central Luzon, Philippines",
@@ -14,6 +15,7 @@
     {
       "position": "Software Developer",
       "company": "Haizoen (formerly known as Kooest)",
+      "company_type": "startup",
       "employment_type": "Self-employed",
       "setup": "Remote",
       "location": "Philippines",
@@ -25,6 +27,7 @@
     {
       "position": "Technical Associate",
       "company": "KITTO Holy Angel University",
+      "company_type": "university",
       "employment_type": "Contractual",
       "setup": "On-site",
       "location": "Angeles, Central Luzon, Philippines",
@@ -36,6 +39,7 @@
     {
       "position": "Backend Developer",
       "company": "Encephalon (TBI) Holy Angel University",
+      "company_type": "university",
       "employment_type": "Freelance",
       "setup": "Remote",
       "location": "Angeles, Central Luzon, Philippines",
@@ -47,6 +51,7 @@
     {
       "position": "Junior Software Developer",
       "company": "JDEV Office Solution Incorporated",
+      "company_type": "company",
       "employment_type": "Full-time",
       "setup": "On-site",
       "location": "Angeles, Central Luzon, Philippines",
@@ -58,6 +63,7 @@
     {
       "position": "Software Quality Assurance",
       "company": "JDEV Office Solution Incorporated",
+      "company_type": "company",
       "employment_type": "Internship",
       "setup": "On-site",
       "location": "Angeles, Central Luzon, Philippines",

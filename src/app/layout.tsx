@@ -26,7 +26,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body suppressHydrationWarning>
-        <main className="z-10 h-screen text-black antialiased">
+        <main className="z-10 h-screen tracking-tight text-black antialiased">
           <div className="h-screen w-screen">
             <Providers>
               <SideNav />

@@ -1,12 +1,20 @@
-// MenuButton.tsx
+"use client"
+import { ComponentType, useEffect, useState } from "react"
 import Link from "next/link"
-import { ComponentType, ReactNode } from "react"
 
 /** Lucide React Icon */
-import { SlashSquare, Blocks, LibraryBig, Bookmark } from "lucide-react"
+import {
+  Swords,
+  SlashSquare,
+  Blocks,
+  LibraryBig,
+  Bookmark,
+  Loader,
+} from "lucide-react"
 const iconComponents: { [key: string]: ComponentType<{ className?: string }> } =
   {
     slashsquare: SlashSquare,
+    swords: Swords,
     blocks: Blocks,
     librarybig: LibraryBig,
     bookmark: Bookmark,
@@ -15,14 +23,32 @@ const iconComponents: { [key: string]: ComponentType<{ className?: string }> } =
 import RenderIcon from "@/components/common/icons/RenderIcon"
 /** Interfaces */
 import { MenuButtonProps } from "@/types/Menu"
+/** Utitilies */
+import { getNumberOfMarkdownFiles } from "@/utils/actions/markdownActions"
 
 const MenuButton: React.FC<MenuButtonProps> = ({ menu, pathname }) => {
+  const [numberOfMarkdownFiles, setNumberOfMarkdownFiles] = useState<number>(0)
+  const [isLoading, setIsLoading] = useState<boolean>(true)
+
   const IconComponent = iconComponents[menu.icon]
 
+  useEffect(() => {
+    async function fetchNumberOfMarkdownFiles() {
+      try {
+        const number = await getNumberOfMarkdownFiles(menu.path)
+        setNumberOfMarkdownFiles(number)
+      } catch (error) {
+        console.error("Error fetching number of Markdown files:", error)
+      } finally {
+        setIsLoading(false)
+      }
+    }
+    fetchNumberOfMarkdownFiles()
+  }, [menu.path])
   return (
     <Link
       href={menu.path}
-      className={`group flex w-full items-center justify-between rounded-lg px-2 py-2 text-gray-900 ${
+      className={`group flex w-full items-center justify-between rounded-lg px-2 py-2 text-gray-900 transition-all duration-500 ease-in-out ${
         pathname === menu.path
           ? "bg-indigo-900 text-white"
           : "hover:bg-indigo-100"
@@ -34,15 +60,27 @@ const MenuButton: React.FC<MenuButtonProps> = ({ menu, pathname }) => {
         )}
         <span className="text-sm">{menu.name}</span>
       </div>
-      <div
-        className={`rounded-md border px-2 py-1 text-xs ${
-          pathname === menu.path
-            ? "border-indigo-600 bg-indigo-700 text-indigo-100"
-            : "border-indigo-200 bg-indigo-50 text-indigo-600"
-        }`}
-      >
-        8
-      </div>
+      {numberOfMarkdownFiles ? (
+        <div
+          className={`rounded-md border px-2 py-0.5 text-xs transition-all duration-500 ease-in-out ${
+            pathname === menu.path
+              ? "border-indigo-600 bg-indigo-700 text-indigo-100"
+              : "border-indigo-200 bg-indigo-50 text-indigo-600"
+          }`}
+        >
+          {isLoading ? <Loader className="h-4 w-4" /> : numberOfMarkdownFiles}
+        </div>
+      ) : (
+        <div
+          className={`rounded-md border px-2 py-0.5 text-xs transition-all duration-500 ease-in-out ${
+            pathname === menu.path
+              ? "border-transparent bg-transparent text-transparent"
+              : "border-transparent bg-transparent text-transparent"
+          }`}
+        >
+          0
+        </div>
+      )}
     </Link>
   )
 }

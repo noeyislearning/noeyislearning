@@ -3,22 +3,32 @@
     {
       "name": "About",
       "icon": "slashsquare",
-      "path": "/"
+      "path": "/",
+      "markdown_dir_name": ""
     },
     {
       "name": "Projects",
       "icon": "blocks",
-      "path": "/projects"
+      "path": "/projects",
+      "markdown_dir_name": "projects"
     },
     {
       "name": "Notebooks",
       "icon": "librarybig",
-      "path": "/notebooks"
+      "path": "/notebooks",
+      "markdown_dir_name": "notebooks"
+    },
+    {
+      "name": "Coding Challenges",
+      "icon": "swords",
+      "path": "/coding-challenges",
+      "markdown_dir_name": "coding-challenges"
     },
     {
       "name": "Bookmarks",
       "icon": "bookmark",
-      "path": "/bookmarks"
+      "path": "/bookmarks",
+      "markdown_dir_name": "bookmarks"
     }
   ]
 }

@@ -2,12 +2,12 @@
 import { configureStore } from "@reduxjs/toolkit"
 
 /** Reducers */
-import menuReducer from "./menus/reducer"
-import userReducer from "./user/reducer"
-import socialReducer from "./socials/reducer"
-import highlightReducer from "./highlights/reducer"
-import educationReducer from "./educations/reducer"
-import experienceReducer from "./experiences/reducer"
+import menuReducer from "./menus/reducers"
+import userReducer from "./user/reducers"
+import socialReducer from "./socials/reducers"
+import highlightReducer from "./highlights/reducers"
+import educationReducer from "./educations/reducers"
+import experienceReducer from "./experiences/reducers"
 
 export const store = configureStore({
   reducer: {

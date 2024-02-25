@@ -3,34 +3,32 @@
 @tailwind utilities;
 
 /* Custom Scrollbar */
-body::-webkit-scrollbar {
-  width: 4px;
+@layer utilities {
+  .overflow-y-auto::-webkit-scrollbar,
+  .overflow-y-scroll::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .overflow-y-auto::-webkit-scrollbar-thumb,
+  .overflow-y-scroll::-webkit-scrollbar-thumb {
+    border: 3px solid #4338ca;
+  }
+
+  .overflow-y-auto::-webkit-scrollbar-track,
+  .overflow-y-scroll::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  ::selection {
+    background: #4338ca;
+    color: white;
+  }
 }
 
-body::-webkit-scrollbar-thumb {
-  border: 3px solid #09090b;
+.bg-grid {
+  @apply bg-white bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px];
 }
 
-::selection {
-  background: #4338ca;
-  color: white;
-}
-
-.overflow-y-scroll::-webkit-scrollbar {
-  width: 4px;
-  background-color: #09090b;
-}
-
-.overflow-y-scroll::-webkit-scrollbar-thumb {
-  border-radius: 4px;
-  background-color: #4338ca;
-}
-
-.overflow-y-scroll::-webkit-scrollbar-track {
-  background-color: #09090b;
-}
-
-.overflow-y-scroll {
-  overflow-y: scroll;
-  overflow-x: hidden;
+.bg-dots {
+  @apply bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px];
 }

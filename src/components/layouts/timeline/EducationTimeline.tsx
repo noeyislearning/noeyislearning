@@ -14,7 +14,7 @@ export default function EducationTimeline() {
           <time className="mb-1 text-sm font-normal leading-none text-gray-400">
             {education.graduated}
           </time>
-          <h3 className="text-lg font-semibold text-gray-900">
+          <h3 className="text-lg font-medium text-gray-900">
             {education.degree}
           </h3>
           <p className="mb-4 text-base font-normal text-gray-500">

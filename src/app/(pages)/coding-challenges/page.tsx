@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function ProjectsPage() {
+export default function CodingChallengesPage() {
   return (
     <div className="bg-dots h-screen overflow-y-auto bg-transparent">
       <div className="items relative z-10 h-full p-4">
