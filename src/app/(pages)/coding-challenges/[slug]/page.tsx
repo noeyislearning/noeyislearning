@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation"
 /** Markdown */
 import Markdown from "markdown-to-jsx"
 /** Utitilies */
-import { getMarkdownContent } from "@/utils/actions/markdownActions"
+import { getMarkdownContent } from "@/utils/markdown"
 
 export default function CodingChallengePage() {
   const fullPathname = usePathname()
@@ -25,7 +25,7 @@ export default function CodingChallengePage() {
     <div className="bg-dots h-screen overflow-y-auto">
       <div className=" relative p-4">
         <div className="text-based mx-auto flex max-w-2xl flex-col items-center space-y-8 py-16">
-          <article className="prose-sm prose-invert md:prose-base lg:prose-lg prose-h1:tracking-tighter prose-h2:tracking-tighter prose-h3:tracking-tighter prose-p:text-sm prose-p:tracking-tighter prose-a:text-yellow-500 prose-a:underline prose-blockquote:text-indigo-500 prose-code:rounded-sm prose-code:text-sm prose-code:text-zinc-400 prose-pre:w-full prose-pre:whitespace-pre-wrap prose-pre:rounded-none prose-pre:bg-transparent prose-li:list-disc prose-p:md:text-base prose-code:md:text-base prose-p:lg:text-base prose-code:lg:text-lg w-full whitespace-pre-wrap font-light md:max-w-xl lg:max-w-3xl ">
+          <article className="prose-sm prose-invert w-full whitespace-pre-wrap font-light md:prose-base lg:prose-lg prose-h1:tracking-tighter prose-h2:tracking-tighter prose-h3:tracking-tighter prose-p:text-sm prose-p:tracking-tighter prose-a:text-yellow-500 prose-a:underline prose-blockquote:text-indigo-500 prose-code:rounded-sm prose-code:text-sm prose-code:text-zinc-400 prose-pre:w-full prose-pre:whitespace-pre-wrap prose-pre:rounded-none prose-pre:bg-transparent prose-li:list-disc md:max-w-xl prose-p:md:text-base prose-code:md:text-base lg:max-w-3xl prose-p:lg:text-base prose-code:lg:text-lg ">
             {content && (
               <Markdown
                 options={{

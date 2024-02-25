@@ -4,7 +4,7 @@ import { usePathname, useParams } from "next/navigation"
 /** Components */
 import SubSideNav from "@/components/layouts/nav/SubSideNav"
 /** Utitilies */
-import { getNumberOfMarkdownFiles } from "@/utils/actions/markdownActions"
+import { getNumberOfMarkdownFiles } from "@/utils/markdown"
 
 function useMarkdownFileCount(path: string): [number | null, boolean] {
   const [fileCount, setFileCount] = useState<number | null>(null)
