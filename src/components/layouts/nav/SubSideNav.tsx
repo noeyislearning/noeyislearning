@@ -12,7 +12,7 @@ import { getMetadataOfMarkdownFiles } from "@/utils/markdown"
 export default function SubSideNav() {
   const fullPathname = usePathname()
   const trimmedPathname = fullPathname.split("/").slice(0, 2).join("/")
-  const [metadata, setMetadata] = useState<any[]>([])
+  const [metadata, setMetadata] = useState<{ [key: string]: any }>({})
   const { menus } = useSelector((state: RootState) => state.menu)
 
   useEffect(() => {
@@ -36,42 +36,42 @@ export default function SubSideNav() {
             <span className="text-base font-semibold">{menuName.name}</span>
           )}
         </div>
-        {metadata.map((content, index) => (
+        {Object.keys(metadata).map((key, index) => (
           <Link
-            href={`${trimmedPathname}/${content.slug}`}
+            href={`${trimmedPathname}/${metadata[key].slug}`}
             key={index}
             className={`group rounded-md border px-2 py-1 font-medium transition-all duration-500 ease-in-out
             ${
-              fullPathname === `${trimmedPathname}/${content.slug}`
+              fullPathname === `${trimmedPathname}/${metadata[key].slug}`
                 ? "border-indigo-600 bg-indigo-700 text-indigo-100"
                 : "border-indigo-200 bg-indigo-50 text-indigo-600 hover:border-indigo-600 hover:bg-indigo-700 hover:text-indigo-100"
             }
             `}
           >
             <div className="flex flex-col items-start">
-              <p className="line-clamp-1 text-sm">{content.name}</p>
+              <p className="line-clamp-1 text-sm">{metadata[key].name}</p>
               {/* Projects */}
-              {content.dir === "projects" && (
+              {metadata[key].dir === "projects" && (
                 <p className="text-xs uppercase text-gray-400">
-                  {content.end_year}
+                  {metadata[key].end_year}
                 </p>
               )}
-              {content.dir === "notebooks" && (
+              {metadata[key].dir === "notebooks" && (
                 <p className="text-xs uppercase text-gray-400">
-                  {content.category}
+                  {metadata[key].category}
                 </p>
               )}
               {/* Coding Challenges */}
-              {content.dir === "coding-challenges" && (
+              {metadata[key].dir === "coding-challenges" && (
                 <div
                   className={`flex w-full flex-row justify-between text-xs uppercase transition-all duration-500 ease-in-out ${
-                    fullPathname === `${trimmedPathname}/${content.slug}`
+                    fullPathname === `${trimmedPathname}/${metadata[key].slug}`
                       ? "text-indigo-200"
                       : "text-zinc-400 group-hover:text-indigo-200"
                   }`}
                 >
-                  <p>{content.languages_used.join(", ")}</p>
-                  <p>{content.platform}</p>
+                  <p>{metadata[key].languages_used.join(", ")}</p>
+                  <p>{metadata[key].platform}</p>
                 </div>
               )}
             </div>
