@@ -4,10 +4,12 @@ import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
 
+const MARKDOWN_DIRECTORY = path.join("/public/markdowns")
+
 export async function getNumberOfMarkdownFiles(
   menuPath: string
 ): Promise<number> {
-  const markdownDir = path.join(process.cwd(), "src/data/markdowns", menuPath)
+  const markdownDir = path.join(process.cwd(), MARKDOWN_DIRECTORY, menuPath)
   const files = await fs.promises.readdir(markdownDir)
   const markdownFiles = files.filter((file) => path.extname(file) === ".md")
   return markdownFiles.length
@@ -16,7 +18,7 @@ export async function getNumberOfMarkdownFiles(
 export async function getMetadataOfMarkdownFiles(
   menuPath: string
 ): Promise<any[]> {
-  const markdownDir = path.join(process.cwd(), "src/data/markdowns", menuPath)
+  const markdownDir = path.join(process.cwd(), MARKDOWN_DIRECTORY, menuPath)
   const files = await fs.promises.readdir(markdownDir)
   const markdownFiles = files.filter((file) => path.extname(file) === ".md")
 
@@ -36,7 +38,7 @@ export async function getMarkdownContent(
   menuPath: string
 ): Promise<string | null> {
   try {
-    const markdownDir = path.join(process.cwd(), "src/data/markdowns", menuPath)
+    const markdownDir = path.join(process.cwd(), MARKDOWN_DIRECTORY, menuPath)
     const files = await fs.promises.readdir(markdownDir)
 
     // Assuming there's only one markdown file per menuPath
