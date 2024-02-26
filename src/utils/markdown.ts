@@ -4,13 +4,18 @@ import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
 
-const MARKDOWN_DIRECTORY =
-  process.env.NEXT_PUBLIC_MARKDOWN_DIRECTORY || "public/markdowns"
+const MARKDOWN_DIRECTORY = "public/markdowns"
 
 export async function getNumberOfMarkdownFiles(
   menuPath: string
 ): Promise<number> {
-  const markdownDir = path.join(MARKDOWN_DIRECTORY, menuPath)
+  let markdownDir: string
+
+  if (process.env.NEXT_PUBLIC_STAGE === "prod") {
+    markdownDir = path.join(__dirname, MARKDOWN_DIRECTORY, menuPath)
+  } else {
+    markdownDir = path.join(MARKDOWN_DIRECTORY, menuPath)
+  }
   console.log("markdownDir", markdownDir)
   const files = await fs.promises.readdir(markdownDir)
   const markdownFiles = files.filter((file) => path.extname(file) === ".md")
@@ -20,7 +25,13 @@ export async function getNumberOfMarkdownFiles(
 export async function getMetadataOfMarkdownFiles(
   menuPath: string
 ): Promise<any[]> {
-  const markdownDir = path.join(MARKDOWN_DIRECTORY, menuPath)
+  let markdownDir: string
+
+  if (process.env.NEXT_PUBLIC_STAGE === "prod") {
+    markdownDir = path.join(__dirname, MARKDOWN_DIRECTORY, menuPath)
+  } else {
+    markdownDir = path.join(MARKDOWN_DIRECTORY, menuPath)
+  }
   const files = await fs.promises.readdir(markdownDir)
   const markdownFiles = files.filter((file) => path.extname(file) === ".md")
 
@@ -40,7 +51,13 @@ export async function getMarkdownContent(
   menuPath: string
 ): Promise<string | null> {
   try {
-    const markdownDir = path.join(MARKDOWN_DIRECTORY, menuPath)
+    let markdownDir: string
+
+    if (process.env.NEXT_PUBLIC_STAGE === "prod") {
+      markdownDir = path.join(__dirname, MARKDOWN_DIRECTORY, menuPath)
+    } else {
+      markdownDir = path.join(MARKDOWN_DIRECTORY, menuPath)
+    }
     const files = await fs.promises.readdir(markdownDir)
 
     const filePath = path.join(markdownDir, files[0])
