@@ -24,7 +24,7 @@ import RenderIcon from "@/components/common/icons/RenderIcon"
 /** Interfaces */
 import { MenuButtonProps } from "@/types/Menu"
 /** Utitilies */
-import { getNumberOfMarkdownFiles } from "@/utils/markdown"
+import { getNumberOfMarkdownFiles } from "@/utils/actions/markdownActions"
 
 const MenuButton: React.FC<MenuButtonProps> = ({ menu, pathname }) => {
   const [numberOfMarkdownFiles, setNumberOfMarkdownFiles] = useState<number>(0)

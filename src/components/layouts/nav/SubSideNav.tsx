@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation"
 import { useSelector } from "react-redux"
 import { RootState } from "@/redux/store"
 /** Utitilies */
-import { getMetadataOfMarkdownFiles } from "@/utils/markdown"
+import { getMetadataOfMarkdownFiles } from "@/utils/actions/markdownActions"
 
 export default function SubSideNav() {
   const fullPathname = usePathname()

@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation"
 /** Components */
 import BlogArticle from "@/components/common/articles/BlogArticle"
 /** Utitilies */
-import { getMarkdownContent } from "@/utils/markdown"
+import { getMarkdownContent } from "@/utils/actions/markdownActions"
 
 export default function NotebookPage() {
   const fullPathname = usePathname()
