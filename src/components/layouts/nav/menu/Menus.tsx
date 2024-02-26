@@ -6,7 +6,7 @@ import MenuButton from "@/components/common/buttons/MenuButton"
 import { useSelector } from "react-redux"
 import { RootState } from "@/redux/store"
 
-export default function Menu() {
+export default function Menus() {
   const fullPathname = usePathname()
   const trimmedPathname = fullPathname.split("/").slice(0, 2).join("/")
   const { menus } = useSelector((state: RootState) => state.menu)
