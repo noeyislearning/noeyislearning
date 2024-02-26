@@ -11,6 +11,7 @@ export async function getNumberOfMarkdownFiles(
   menuPath: string
 ): Promise<number> {
   const markdownDir = path.join(MARKDOWN_DIRECTORY, menuPath)
+  console.log("markdownDir", markdownDir)
   const files = await fs.promises.readdir(markdownDir)
   const markdownFiles = files.filter((file) => path.extname(file) === ".md")
   return markdownFiles.length
