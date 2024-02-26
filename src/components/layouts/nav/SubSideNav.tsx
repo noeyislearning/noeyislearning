@@ -12,7 +12,7 @@ import { getMetadataOfMarkdownFiles } from "@/utils/markdown"
 export default function SubSideNav() {
   const fullPathname = usePathname()
   const trimmedPathname = fullPathname.split("/").slice(0, 2).join("/")
-  const [metadata, setMetadata] = useState<{ [key: string]: any }>({})
+  const [metadata, setMetadata] = useState<any>({})
   const { menus } = useSelector((state: RootState) => state.menu)
 
   useEffect(() => {

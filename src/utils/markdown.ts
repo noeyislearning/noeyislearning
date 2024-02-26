@@ -4,70 +4,47 @@ import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
 
-const DEV_MARKDOWN_DIRECTORY = "public/markdowns"
-const PROD_MARKDOWN_DIRECTORY = "markdowns"
-
-export async function getNumberOfMarkdownFiles(
-  menuPath: string
-): Promise<number> {
-  let markdownDir: string
-
-  if (process.env.NEXT_PUBLIC_STAGE === "prod") {
-    markdownDir = path.join(__dirname, PROD_MARKDOWN_DIRECTORY, menuPath)
-  } else {
-    markdownDir = path.join(DEV_MARKDOWN_DIRECTORY, menuPath)
-  }
-  console.log("markdownDir", markdownDir)
-  const files = await fs.promises.readdir(markdownDir)
-  const markdownFiles = files.filter((file) => path.extname(file) === ".md")
-  return markdownFiles.length
+export async function getNumberOfMarkdownFiles(dir: string): Promise<number> {
+  const files = fs.readdirSync(
+    path.join(process.cwd(), "src/data/markdowns", dir)
+  )
+  return files.filter((file) => file.endsWith(".md")).length
 }
 
 export async function getMetadataOfMarkdownFiles(
-  menuPath: string
-): Promise<any[]> {
-  let markdownDir: string
-
-  if (process.env.NEXT_PUBLIC_STAGE === "prod") {
-    markdownDir = path.join(__dirname, PROD_MARKDOWN_DIRECTORY, menuPath)
-  } else {
-    markdownDir = path.join(DEV_MARKDOWN_DIRECTORY, menuPath)
-  }
-  const files = await fs.promises.readdir(markdownDir)
-  const markdownFiles = files.filter((file) => path.extname(file) === ".md")
-
-  const metadataList = await Promise.all(
-    markdownFiles.map(async (file) => {
-      const filePath = path.join(markdownDir, file)
-      const fileContent = await fs.promises.readFile(filePath, "utf-8")
-      const { data } = matter(fileContent)
-      return data
-    })
+  dir: string
+): Promise<Record<string, any>[]> {
+  const files = fs.readdirSync(
+    path.join(process.cwd(), "src/data/markdowns", dir)
   )
-
-  return metadataList
+  return files.map((file) => {
+    const slug = file.replace(/\.md$/, "")
+    const fullPath = path.join(
+      process.cwd(),
+      "src/data/markdowns",
+      dir,
+      `${slug}.md`
+    )
+    const fileContents = fs.readFileSync(fullPath, "utf8")
+    const { data } = matter(fileContents)
+    return {
+      slug,
+      ...data,
+    }
+  })
 }
 
 export async function getMarkdownContent(
-  menuPath: string
-): Promise<string | null> {
-  try {
-    let markdownDir: string
-
-    if (process.env.NEXT_PUBLIC_STAGE === "prod") {
-      markdownDir = path.join(__dirname, PROD_MARKDOWN_DIRECTORY, menuPath)
-    } else {
-      markdownDir = path.join(DEV_MARKDOWN_DIRECTORY, menuPath)
-    }
-    const files = await fs.promises.readdir(markdownDir)
-
-    const filePath = path.join(markdownDir, files[0])
-    const fileContent = await fs.promises.readFile(filePath, "utf-8")
-    const { content } = matter(fileContent)
-
-    return content
-  } catch (error) {
-    console.error("Error reading markdown content:", error)
-    return null
-  }
+  dir: string,
+  slug: string
+): Promise<string> {
+  const fullPath = path.join(
+    process.cwd(),
+    "src/data/markdowns",
+    dir,
+    `${slug}.md`
+  )
+  const fileContents = fs.readFileSync(fullPath, "utf8")
+  const { content } = matter(fileContents)
+  return content
 }
