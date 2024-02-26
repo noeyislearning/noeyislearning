@@ -8,7 +8,7 @@ export async function getNumberOfMarkdownFiles(
   menuPath: string
 ): Promise<number> {
   try {
-    const response = await fetch(`/markdowns/${menuPath}`)
+    const response = await fetch(`/markdowns${menuPath}`)
     if (!response.ok) {
       throw new Error("Failed to fetch markdown files")
     }
@@ -26,7 +26,7 @@ export async function getMetadataOfMarkdownFiles(
 ): Promise<{ [key: string]: any }> {
   try {
     // Fetch the markdown file content from the public directory
-    const response = await fetch(`/markdowns/${menuPath}`)
+    const response = await fetch(`/markdowns${menuPath}`)
 
     if (!response.ok) {
       throw new Error("Failed to fetch markdown file")
@@ -50,7 +50,7 @@ export async function getMarkdownContent(
   menuPath: string
 ): Promise<string | null> {
   try {
-    const response = await fetch(`/markdowns/${menuPath}`)
+    const response = await fetch(`/markdowns${menuPath}`)
     if (!response.ok) {
       throw new Error("Failed to fetch markdown content")
     }
