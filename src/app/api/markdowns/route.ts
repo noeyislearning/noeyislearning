@@ -1,5 +1,5 @@
 import { NextRequest as Request } from "next/server"
-import { getNumberOfMarkdownFiles } from "@/utils/v2/markdown"
+import { getNumberOfMarkdownFiles } from "@/utils/markdown"
 
 export const GET = async (request: Request) => {
   const dir = request.nextUrl.searchParams.get("dir")

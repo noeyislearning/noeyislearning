@@ -1,18 +1,16 @@
-"use server"
 import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
+import { cache } from "react"
 
-const MARKDOWN_DIRECTORY = path.join(process.cwd(), "public/markdowns")
+const MARKDOWN_DIRECTORY = path.join(process.cwd(), "/data/markdowns")
 
-export async function getNumberOfMarkdownFiles(dir: string): Promise<number> {
+export function getNumberOfMarkdownFiles(dir: string): number {
   const files = fs.readdirSync(path.join(MARKDOWN_DIRECTORY, dir))
   return files.filter((file) => file.endsWith(".md")).length
 }
 
-export async function getMetadataOfMarkdownFiles(
-  dir: string
-): Promise<Record<string, any>[]> {
+export function getMetadataOfMarkdownFiles(dir: string): Record<string, any>[] {
   const files = fs.readdirSync(path.join(MARKDOWN_DIRECTORY, dir))
   return files.map((file) => {
     const slug = file.replace(/\.md$/, "")
@@ -26,10 +24,7 @@ export async function getMetadataOfMarkdownFiles(
   })
 }
 
-export async function getMarkdownContent(
-  dir: string,
-  slug: string
-): Promise<string> {
+export function getMarkdownContent(dir: string, slug: string): string {
   const fullPath = path.join(MARKDOWN_DIRECTORY, dir, `${slug}.md`)
   const fileContents = fs.readFileSync(fullPath, "utf8")
   const { content } = matter(fileContents)

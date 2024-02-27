@@ -37,7 +37,7 @@ const MenuButton: React.FC<MenuButtonProps> = ({ menu, pathname }) => {
     const fetchNumberOfMarkdownFiles = async () => {
       setIsLoading(true)
       try {
-        const response = await fetch(`api/markdowns?dir=${sanitizedPathname}`)
+        const response = await fetch(`/api/markdowns?dir=${sanitizedPathname}`)
         if (!response.ok) {
           throw new Error(`Error fetching data: ${response.status}`)
         }

@@ -17,7 +17,7 @@ export default function SubSideNav() {
     const fetchMetadata = async () => {
       try {
         const response = await fetch(
-          `api/markdowns/metadata?dir=${trimmedPathname}`
+          `/api/markdowns/metadata?dir=${trimmedPathname}`
         )
         if (!response.ok) {
           throw new Error(`Error fetching data: ${response.status}`)
@@ -44,10 +44,10 @@ export default function SubSideNav() {
             <span className="text-base font-semibold">{menuName.name}</span>
           )}
         </div>
-        {Object.keys(metadata).map((key, index) => (
+        {Object.keys(metadata).map((key) => (
           <Link
             href={`${trimmedPathname}/${metadata[key].slug}`}
-            key={index}
+            key={metadata[key].id}
             className={`group rounded-md border px-2 py-1 font-medium transition-all duration-500 ease-in-out
             ${
               fullPathname === `${trimmedPathname}/${metadata[key].slug}`
@@ -85,7 +85,6 @@ export default function SubSideNav() {
             </div>
           </Link>
         ))}
-        <div></div>
       </div>
     </div>
   )
