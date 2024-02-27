@@ -1,0 +1,12 @@
+{
+  "emails": [
+    {
+      "email": "hello@noeyislearning.dev",
+      "description": "Personal email"
+    },
+    {
+      "email": "feignacio@haizoen.com",
+      "description": "Work email"
+    }
+  ]
+}

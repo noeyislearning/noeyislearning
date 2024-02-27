@@ -8,6 +8,7 @@ import socialReducer from "./socials/reducers"
 import highlightReducer from "./highlights/reducers"
 import educationReducer from "./educations/reducers"
 import experienceReducer from "./experiences/reducers"
+import emailReducer from "./emails/reducers"
 import metadataReducer from "./markdown-metadata/reducers"
 
 export const store = configureStore({
@@ -18,6 +19,7 @@ export const store = configureStore({
     highlight: highlightReducer,
     education: educationReducer,
     experience: experienceReducer,
+    email: emailReducer,
     metadata: metadataReducer,
   },
 })
