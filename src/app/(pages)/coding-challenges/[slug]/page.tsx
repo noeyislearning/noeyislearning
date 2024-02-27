@@ -29,9 +29,6 @@ export default function CodingChallengePage() {
     fetchContent()
   }, [firstPath, slug])
 
-  // console log something to see if the useEffect is being called in every render
-  console.log("content", content)
-
   return (
     <div className="bg-dots h-screen overflow-y-auto">
       <div className=" relative p-4">

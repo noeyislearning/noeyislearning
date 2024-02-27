@@ -4,13 +4,17 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 
 /** Redux */
-import { useSelector } from "react-redux"
+import { useSelector, useDispatch } from "react-redux"
 import { RootState } from "@/redux/store"
+import { setMetadata } from "@/redux/markdown-metadata/reducers"
 
 export default function SubSideNav() {
+  const dispatch = useDispatch()
   const fullPathname = usePathname()
   const trimmedPathname = fullPathname.split("/").slice(0, 2).join("/")
-  const [metadata, setMetadata] = useState<any>({})
+  const metadata: { [key: string]: any } = useSelector(
+    (state: RootState) => state.metadata.metadata
+  )
   const { menus } = useSelector((state: RootState) => state.menu)
 
   useEffect(() => {
@@ -23,13 +27,13 @@ export default function SubSideNav() {
           throw new Error(`Error fetching data: ${response.status}`)
         }
         const data = await response.json()
-        setMetadata(data)
+        dispatch(setMetadata(data)) // Dispatch action to update metadata
       } catch (error) {
         console.error("Error fetching metadata:", error)
       }
     }
     fetchMetadata()
-  }, [trimmedPathname])
+  }, [dispatch, trimmedPathname])
 
   const menuName = menus.find((menu) => menu.path === trimmedPathname)
 
@@ -44,10 +48,10 @@ export default function SubSideNav() {
             <span className="text-base font-semibold">{menuName.name}</span>
           )}
         </div>
-        {Object.keys(metadata).map((key) => (
+        {Object.keys(metadata).map((key, index) => (
           <Link
             href={`${trimmedPathname}/${metadata[key].slug}`}
-            key={metadata[key].id}
+            key={index}
             className={`group rounded-md border px-2 py-1 font-medium transition-all duration-500 ease-in-out
             ${
               fullPathname === `${trimmedPathname}/${metadata[key].slug}`
