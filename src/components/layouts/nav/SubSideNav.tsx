@@ -6,8 +6,6 @@ import { usePathname } from "next/navigation"
 /** Redux */
 import { useSelector } from "react-redux"
 import { RootState } from "@/redux/store"
-/** Utitilies */
-import { getMetadataOfMarkdownFiles } from "@/utils/markdown"
 
 export default function SubSideNav() {
   const fullPathname = usePathname()
@@ -16,9 +14,19 @@ export default function SubSideNav() {
   const { menus } = useSelector((state: RootState) => state.menu)
 
   useEffect(() => {
-    async function fetchMetadata() {
-      const metadata = await getMetadataOfMarkdownFiles(trimmedPathname)
-      setMetadata(metadata)
+    const fetchMetadata = async () => {
+      try {
+        const response = await fetch(
+          `api/markdowns/metadata?dir=${trimmedPathname}`
+        )
+        if (!response.ok) {
+          throw new Error(`Error fetching data: ${response.status}`)
+        }
+        const data = await response.json()
+        setMetadata(data)
+      } catch (error) {
+        console.error("Error fetching metadata:", error)
+      }
     }
     fetchMetadata()
   }, [trimmedPathname])

@@ -51,7 +51,7 @@ const MenuButton: React.FC<MenuButtonProps> = ({ menu, pathname }) => {
     }
 
     fetchNumberOfMarkdownFiles()
-  }, [menu.path])
+  }, [menu.path, sanitizedPathname])
 
   return (
     <Link

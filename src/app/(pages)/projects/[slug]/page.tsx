@@ -1,26 +1,34 @@
 "use client"
 import { useEffect, useState } from "react"
-import { usePathname } from "next/navigation"
+import { usePathname, useParams } from "next/navigation"
 
 /** Components */
 import BlogArticle from "@/components/common/articles/BlogArticle"
-/** Utitilies */
-import { getMarkdownContent } from "@/utils/markdown"
 
 export default function ProjectPage() {
+  const { slug } = useParams()
   const fullPathname = usePathname()
+
   const firstPath = fullPathname.split("/").slice(0, 2).join("")
-  const secondPath = fullPathname.split("/").slice(2, 3).join("")
   const [content, setContent] = useState<string | null>(null)
 
   useEffect(() => {
-    async function fetchData() {
-      const markdownContent = await getMarkdownContent(firstPath, secondPath)
-      setContent(markdownContent)
+    const fetchContent = async () => {
+      try {
+        const response = await fetch(
+          `/api/markdowns/content?dir=${firstPath}&slug=${slug}`
+        )
+        if (!response.ok) {
+          throw new Error(`Error fetching data: ${response.status}`)
+        }
+        const data = await response.text()
+        setContent(data)
+      } catch (error) {
+        console.error("Error fetching content:", error)
+      }
     }
-
-    fetchData()
-  }, [firstPath, secondPath])
+    fetchContent()
+  }, [firstPath, slug])
 
   return (
     <div className="bg-dots h-screen overflow-y-auto">
