@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link"
 /** Redux */
 import { useSelector } from "react-redux"
 import { RootState } from "@/redux/store"
@@ -14,12 +15,12 @@ export default function UserProfile() {
   const { name, positions } = user
 
   return (
-    <div className="flex flex-row items-center gap-2">
+    <Link href={"/"} className="group flex flex-row items-center gap-2 ">
       <UserAvatar />
       <div className="flex flex-col items-start">
         <p className="font-semibold">{name}</p>
-        <p className="-mt-1 text-sm text-gray-500">{positions.join(", ")}</p>
+        <p className="-mt-1 text-sm text-zinc-400">{positions.join(", ")}</p>
       </div>
-    </div>
+    </Link>
   )
 }

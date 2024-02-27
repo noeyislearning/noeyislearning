@@ -64,13 +64,23 @@ export default function SubSideNav() {
               <p className="line-clamp-1 text-sm">{metadata[key].name}</p>
               {/* Projects */}
               {metadata[key].dir === "projects" && (
-                <p className="text-xs uppercase text-gray-400">
-                  {metadata[key].end_year}
-                </p>
+                <div
+                  className={`flex w-full flex-row justify-between text-xs uppercase transition-all duration-500 ease-in-out ${
+                    fullPathname === `${trimmedPathname}/${metadata[key].slug}`
+                      ? "text-indigo-200"
+                      : "text-zinc-400 group-hover:text-indigo-200"
+                  }`}
+                >
+                  <div className="flex items-center gap-1">
+                    <p>[ {metadata[key].project_type} ]</p>
+                    <p>[ {metadata[key].project_category} ] </p>
+                  </div>
+                  <p>[ {metadata[key].end_year} ]</p>
+                </div>
               )}
               {metadata[key].dir === "notebooks" && (
                 <p className="text-xs uppercase text-gray-400">
-                  {metadata[key].category}
+                  [ {metadata[key].category} ]
                 </p>
               )}
               {/* Coding Challenges */}
@@ -82,8 +92,8 @@ export default function SubSideNav() {
                       : "text-zinc-400 group-hover:text-indigo-200"
                   }`}
                 >
-                  <p>{metadata[key].languages_used.join(", ")}</p>
-                  <p>{metadata[key].platform}</p>
+                  <p>[ {metadata[key].languages_used.join(", ")} ]</p>
+                  <p>[ {metadata[key].platform} ]</p>
                 </div>
               )}
             </div>

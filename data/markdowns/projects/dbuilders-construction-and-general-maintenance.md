@@ -4,6 +4,7 @@ dir: "projects"
 slug: "dbuilders-construction-and-general-maintenance"
 name: "DBuilders Construction and General Maintenance L.L.C."
 project_type: "client"
+project_category: "web development"
 is_published: true
 end_year: 2023
 is_repo: false

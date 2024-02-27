@@ -23,7 +23,7 @@ export default function Home() {
               className="text-indigo-500 underline"
             >
               Holy Angel University
-            </Link>{" "}
+            </Link>
             , specializing in full-stack development and data science.
           </div>
           <div className="items-start">
