@@ -1,7 +1,7 @@
-// SocialButton.tsx
+import React, { ComponentType } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { ComponentType } from "react"
+
 
 /** Lucide React Icon */
 import { Linkedin, Instagram, Github, Code, Link2 } from "lucide-react"
@@ -18,7 +18,6 @@ import { HighlightButtonProps } from "@/types/Highlight"
 const HighlightButton: React.FC<HighlightButtonProps> = ({
   highlight,
   url,
-  description,
   logo_img_URL,
 }) => {
   return (

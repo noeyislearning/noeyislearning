@@ -1,6 +1,6 @@
 "use client"
 /** Components */
-import HighlightButton from "@/components/common/buttons/HighlightButton"
+import HighlightButton from "@/components/common/links/HighlightLink"
 /** Redux */
 import { useSelector } from "react-redux"
 import { RootState } from "@/redux/store"

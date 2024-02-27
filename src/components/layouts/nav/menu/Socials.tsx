@@ -1,6 +1,6 @@
 "use client"
 /** Components */
-import SocialButton from "@/components/common/buttons/SocialButton"
+import SocialButton from "@/components/common/links/SocialLink"
 /** Redux */
 import { useSelector } from "react-redux"
 import { RootState } from "@/redux/store"

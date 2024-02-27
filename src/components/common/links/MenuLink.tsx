@@ -1,5 +1,5 @@
 "use client"
-import { ComponentType, useEffect, useState } from "react"
+import React, { ComponentType, useEffect, useState } from "react"
 import Link from "next/link"
 
 /** Lucide React Icon */
@@ -23,26 +23,33 @@ const iconComponents: { [key: string]: ComponentType<{ className?: string }> } =
 import RenderIcon from "@/components/common/icons/RenderIcon"
 /** Interfaces */
 import { MenuButtonProps } from "@/types/Menu"
-/** Utitilies */
-import { getNumberOfMarkdownFiles } from "@/utils/markdown"
 
 const MenuButton: React.FC<MenuButtonProps> = ({ menu, pathname }) => {
   const [numberOfMarkdownFiles, setNumberOfMarkdownFiles] = useState<number>(0)
   const [isLoading, setIsLoading] = useState<boolean>(true)
 
   const IconComponent = iconComponents[menu.icon]
+  const sanitizedPathname = menu.path.startsWith("/")
+    ? menu.path.slice(1)
+    : menu.path
 
   useEffect(() => {
-    async function fetchNumberOfMarkdownFiles() {
+    const fetchNumberOfMarkdownFiles = async () => {
+      setIsLoading(true)
       try {
-        const number = await getNumberOfMarkdownFiles(menu.path)
-        setNumberOfMarkdownFiles(number)
+        const response = await fetch(`api/markdowns?dir=${sanitizedPathname}`)
+        if (!response.ok) {
+          throw new Error(`Error fetching data: ${response.status}`)
+        }
+        const data = await response.json()
+        setNumberOfMarkdownFiles(data.number)
       } catch (error) {
         console.error("Error fetching number of Markdown files:", error)
       } finally {
         setIsLoading(false)
       }
     }
+
     fetchNumberOfMarkdownFiles()
   }, [menu.path])
 

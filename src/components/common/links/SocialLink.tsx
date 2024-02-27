@@ -1,6 +1,5 @@
-// SocialButton.tsx
+import React, { ComponentType } from "react"
 import Link from "next/link"
-import { ComponentType } from "react"
 
 /** Lucide React Icon & React Icons*/
 import {
@@ -24,7 +23,7 @@ import RenderIcon from "@/components/common/icons/RenderIcon"
 /** Interfaces */
 import { SocialButtonProps } from "@/types/Social"
 
-const SocialButton: React.FC<SocialButtonProps> = ({ social, url, handle }) => {
+const SocialButton: React.FC<SocialButtonProps> = ({ social, url }) => {
   const IconComponent = iconComponents[social.icon]
 
   return (
