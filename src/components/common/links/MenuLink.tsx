@@ -58,7 +58,7 @@ const MenuButton: React.FC<MenuButtonProps> = ({ menu, pathname }) => {
       href={menu.path}
       className={`group flex w-full items-center justify-between rounded-lg px-2 py-2 text-gray-900 transition-all duration-500 ease-in-out ${
         pathname === menu.path
-          ? "bg-indigo-900 text-white"
+          ? "bg-indigo-700 text-white"
           : "hover:bg-indigo-100"
       }`}
     >
@@ -72,7 +72,7 @@ const MenuButton: React.FC<MenuButtonProps> = ({ menu, pathname }) => {
         <div
           className={`rounded-md border px-2 py-0.5 text-xs transition-all duration-500 ease-in-out ${
             pathname === menu.path
-              ? "border-indigo-600 bg-indigo-700 text-indigo-100"
+              ? "border-indigo-600 bg-transparent text-indigo-100"
               : "border-indigo-200 bg-indigo-50 text-indigo-600"
           }`}
         >
