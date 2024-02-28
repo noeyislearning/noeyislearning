@@ -58,13 +58,17 @@ In this analysis, we delve into the fascinating world of retail data to unlock v
 
 ## Visualizations
 
-🔗 You can find the visualizations in the notebook by clicking this [link](https://acb.noeyislearning.dev).
+🔗 You can also find the visualizations in the notebook by clicking this [link](https://acb.noeyislearning.dev).
 
 - Histograms and box plots illustrating the distribution of quantity and price.
 - Time series plot showing sales trends over months and years.
+  ![monthly-sales](https://i.imgur.com/dfKHYYL.png)
 - Bar chart visualizing the number of transactions by country.
+  ![transactions-by-country](https://i.imgur.com/1ittZIl.png)
 - Scatter plot depicting support vs. confidence for association rules.
+  ![scatter-plot](https://i.imgur.com/HT2nHfD.png)
 - Network graph showcasing the top association rules.
+  ![network-graph](https://i.imgur.com/dgOzj90.png)
 
 ## Business Recommendations:
 
