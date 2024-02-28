@@ -38,6 +38,8 @@ Given an array of integers `arr`, return true if the number of occurrences of ea
 
 ## Solution
 
+Python
+
 ```python
 from collections import Counter
 

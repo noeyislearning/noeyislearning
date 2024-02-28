@@ -37,6 +37,8 @@ Each child `i` has a greed factor `g[i]`, which is the minimum size of a cook
 
 ## Solution
 
+Python
+
 ```python
 class Solution:
     def findContentChildren(self, g: List[int], s: List[int]) -> int:
