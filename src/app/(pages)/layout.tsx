@@ -1,6 +1,8 @@
 "use client"
 import { useEffect, useState } from "react"
-import { usePathname, useParams } from "next/navigation"
+
+import { usePathname } from "next/navigation"
+
 /** Components */
 import SubSideNav from "@/components/layouts/nav/SubSideNav"
 
@@ -11,6 +13,7 @@ export default function PagesLayout({
 }>) {
   const [numberOfMarkdownFiles, setNumberOfMarkdownFiles] = useState<number>(0)
   const [isLoading, setIsLoading] = useState<boolean>(true)
+  const [isSubSideNavLoading, setIsSubSideNavLoading] = useState<boolean>(false)
   const fullPathname = usePathname()
   const trimmedPathname = fullPathname.split("/").slice(0, 2).join("/")
 
@@ -40,18 +43,17 @@ export default function PagesLayout({
 
   const hasMatchingSubmenus = numberOfMarkdownFiles > 0
 
+  const shouldRenderSubSideNav =
+    !isSubSideNavLoading &&
+    hasMatchingSubmenus &&
+    numberOfMarkdownFiles !== null
+
   return (
     <div className="h-screen w-full">
-      {isLoading ? (
-        <SubSideNav />
-      ) : (
-        <div className=" h-full">
-          {hasMatchingSubmenus && <SubSideNav />}
-          <div className={`${hasMatchingSubmenus ? "ml-[36rem]" : "ml-72"}`}>
-            {children}
-          </div>
-        </div>
-      )}
+      {shouldRenderSubSideNav && <SubSideNav />}
+      <div className={`${shouldRenderSubSideNav ? "ml-[36rem]" : "ml-72"}`}>
+        {children}
+      </div>
     </div>
   )
 }

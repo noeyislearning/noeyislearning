@@ -3,6 +3,9 @@ import { useEffect, useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
+/** Components */
+import ProjectLink from "@/components/common/links/sublinks/ProjectLink"
+import CodingChallengeLink from "@/components/common/links/sublinks/CodingChallengeLink"
 /** Redux */
 import { useSelector, useDispatch } from "react-redux"
 import { RootState } from "@/redux/store"
@@ -37,6 +40,14 @@ export default function SubSideNav() {
 
   const menuName = menus.find((menu) => menu.path === trimmedPathname)
 
+  const projects = Object.values(metadata)
+    .filter((item) => item.dir === "projects")
+    .sort((a, b) => b.end_year - a.end_year)
+
+  const codingChallenges = Object.values(metadata).filter(
+    (item) => item.dir === "coding-challenges"
+  )
+
   return (
     <div
       className="absolute left-0 top-0 z-20 ml-72 h-screen w-96 translate-x-0 overflow-y-auto border-r bg-zinc-50 transition-transform"
@@ -48,57 +59,49 @@ export default function SubSideNav() {
             <span className="text-base font-semibold">{menuName.name}</span>
           )}
         </div>
-        {Object.keys(metadata).map((key, index) => (
-          <Link
-            href={`${trimmedPathname}/${metadata[key].slug}`}
-            key={index}
-            className={`group rounded-md border px-2 py-1 font-medium transition-all duration-500 ease-in-out
-            ${
-              fullPathname === `${trimmedPathname}/${metadata[key].slug}`
-                ? "border-indigo-600 bg-indigo-700 text-indigo-100"
-                : "border-indigo-200 bg-indigo-50 text-indigo-600 hover:border-indigo-600 hover:bg-indigo-700 hover:text-indigo-100"
-            }
-            `}
-          >
-            <div className="flex flex-col items-start">
-              <p className="line-clamp-1 text-sm">{metadata[key].name}</p>
-              {/* Projects */}
-              {metadata[key].dir === "projects" && (
-                <div
-                  className={`flex w-full flex-row justify-between text-xs uppercase transition-all duration-500 ease-in-out ${
-                    fullPathname === `${trimmedPathname}/${metadata[key].slug}`
-                      ? "text-indigo-200"
-                      : "text-zinc-400 group-hover:text-indigo-200"
-                  }`}
-                >
-                  <div className="flex items-center gap-1">
-                    <p>[ {metadata[key].project_type} ]</p>
-                    <p>[ {metadata[key].project_category} ] </p>
-                  </div>
-                  <p>[ {metadata[key].end_year} ]</p>
-                </div>
-              )}
-              {metadata[key].dir === "notebooks" && (
-                <p className="text-xs uppercase text-gray-400">
-                  [ {metadata[key].category} ]
-                </p>
-              )}
-              {/* Coding Challenges */}
-              {metadata[key].dir === "coding-challenges" && (
-                <div
-                  className={`flex w-full flex-row justify-between text-xs uppercase transition-all duration-500 ease-in-out ${
-                    fullPathname === `${trimmedPathname}/${metadata[key].slug}`
-                      ? "text-indigo-200"
-                      : "text-zinc-400 group-hover:text-indigo-200"
-                  }`}
-                >
-                  <p>[ {metadata[key].languages_used.join(", ")} ]</p>
-                  <p>[ {metadata[key].platform} ]</p>
-                </div>
-              )}
-            </div>
-          </Link>
-        ))}
+        {trimmedPathname.includes("projects") &&
+          projects.map((project, index) => (
+            <ProjectLink
+              key={index}
+              metadata={project}
+              trimmedPathname={trimmedPathname}
+              fullPathname={fullPathname}
+            />
+          ))}
+        {/* Render CodingChallengeLink components */}
+        {trimmedPathname.includes("coding-challenges") &&
+          codingChallenges.map((challenge, index) => (
+            <CodingChallengeLink
+              key={index}
+              metadata={challenge}
+              trimmedPathname={trimmedPathname}
+              fullPathname={fullPathname}
+            />
+          ))}
+        {/* Render NotebookLink components */}
+        {/* {trimmedPathname.includes("notebooks") &&
+          Object.values(metadata)
+            .filter((item) => item.dir === "notebooks")
+            .map((notebook, index) => (
+              <NotebookLink
+                key={index}
+                metadata={notebook}
+                trimmedPathname={trimmedPathname}
+                fullPathname={fullPathname}
+              />
+            ))} */}
+        {/* Render BookmarkLink components */}
+        {/* {trimmedPathname.includes("bookmarks") &&
+          Object.values(metadata)
+            .filter((item) => item.dir === "bookmarks")
+            .map((bookmark, index) => (
+              <BookmarkLink
+                key={index}
+                metadata={bookmark}
+                trimmedPathname={trimmedPathname}
+                fullPathname={fullPathname}
+              />
+            ))} */}
       </div>
     </div>
   )
