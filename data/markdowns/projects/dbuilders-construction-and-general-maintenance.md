@@ -32,9 +32,9 @@ As the digital landscape continues to evolve, so does my approach to website dev
 
 ## Showcase
 
-PS: You can visit the website at [dbuilders.construction](https://dbuilders.construction/) for more details.
+You can visit the website at [dbuilders.construction](https://dbuilders.construction/) for more details.
 
-### Browser View
+### Landing Page
 
 ![DBuilders Construction](https://i.imgur.com/WiKwz6B.png)
 
@@ -48,9 +48,3 @@ PS: You can visit the website at [dbuilders.construction](https://dbuilders.cons
 - Vercel
 - GitHub
 - Web Development
-
----
-
-## Development Team
-
-- [Francis Ignacio](https://www.linkedin.com/in/noeyislearning/)

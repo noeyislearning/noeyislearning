@@ -47,9 +47,3 @@ PS: Some of the images are not presented here due to data corruption.
 - GitHub
 - Full-stack Development
 - Web Development
-
----
-
-## Development Team
-
-- [Francis Ignacio](https://www.linkedin.com/in/noeyislearning/)
