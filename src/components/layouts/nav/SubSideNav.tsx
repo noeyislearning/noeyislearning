@@ -53,7 +53,7 @@ export default function SubSideNav() {
       className="absolute left-0 top-0 z-20 ml-72 h-screen w-96 translate-x-0 overflow-y-auto border-r bg-zinc-50 transition-transform"
       aria-label="SubSidebar"
     >
-      <div className="flex h-full flex-col gap-4 p-4">
+      <div className="flex h-full flex-col gap-2 p-4">
         <div className="flex flex-row items-center justify-between">
           {menuName && (
             <span className="text-base font-semibold">{menuName.name}</span>
