@@ -13,7 +13,7 @@ export default function ProjectLink({
           ${
             fullPathname === `${trimmedPathname}/${metadata.slug}`
               ? "border-indigo-600 bg-indigo-700 text-indigo-100"
-              : "border-indigo-200 bg-indigo-50 text-indigo-600 hover:border-indigo-600 hover:bg-indigo-700 hover:text-indigo-100"
+              : "border-indigo-200 bg-zinc-100 text-indigo-600 hover:border-indigo-600 hover:bg-indigo-700 hover:text-indigo-100"
           }
         `}
       >
