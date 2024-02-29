@@ -4,6 +4,7 @@ dir: "coding-challenges"
 slug: "1207-unique-number-of-occurrences"
 name: "1207. Unique Number of Occurrences"
 platform: "LeetCode"
+difficulty: "easy"
 languages_used: ["Python"]
 ---
 
@@ -56,8 +57,6 @@ This Python code defines a class `Solution` with a method `uniqueOccurrences`. T
 
 Here's how it works:
 
-- `count_dict = Counter(arr)`: This line uses the `Counter` class from the `collections` module to create a dictionary. The keys of this dictionary are the unique elements from the list `arr`, and the corresponding values are the counts of these elements in `arr`.
-
-- `count_set = set(count_dict.values())`: This line creates a set from the values of `count_dict`. Since a set only contains unique elements, any duplicate counts will be removed.
-
-- `return len(count_dict) == len(count_set)`: This line checks if the number of unique elements in `arr` (which is the length of `count_dict`) is equal to the number of unique counts (which is the length of `count_set`). If these lengths are equal, it means that each unique element in `arr` appears a unique number of times, so the method returns `True`. Otherwise, it returns `False`.
+1. `count_dict = Counter(arr)`: This line uses the `Counter` class from the `collections` module to create a dictionary. The keys of this dictionary are the unique elements from the list `arr`, and the corresponding values are the counts of these elements in `arr`.
+2. `count_set = set(count_dict.values())`: This line creates a set from the values of `count_dict`. Since a set only contains unique elements, any duplicate counts will be removed.
+3. `return len(count_dict) == len(count_set)`: This line checks if the number of unique elements in `arr` (which is the length of `count_dict`) is equal to the number of unique counts (which is the length of `count_set`). If these lengths are equal, it means that each unique element in `arr` appears a unique number of times, so the method returns `True`. Otherwise, it returns `False`.

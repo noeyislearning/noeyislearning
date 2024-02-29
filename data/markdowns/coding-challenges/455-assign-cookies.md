@@ -4,6 +4,7 @@ dir: "coding-challenges"
 slug: "455-assign-cookies"
 name: "455. Assign Cookies"
 platform: "LeetCode"
+difficulty: "easy"
 languages_used: ["Python"]
 ---
 
@@ -59,14 +60,10 @@ This Python code defines a class `Solution` with a method `findContentChildre
 
 Here's a step-by-step explanation of the code:
 
-- The method takes two arguments: `g` and `s`, which are lists of integers. The list `g` represents the greed factor of each child, and `s` represents the size of each cookie.
-
-- Both lists are sorted in ascending order using the `sort()` method. This is done to match the smallest greed factor with the smallest cookie size, then the second smallest, and so on.
-
-- Two pointers `child_i` and `cookie_j` are initialized to 0. These pointers are used to iterate through the lists `g` and `s`.
-
-- A `while` loop is used to iterate through both lists until one of them is exhausted. Inside the loop, if the current child's greed factor is less than or equal to the current cookie's size, the child is content, and we move to the next child (`child_i += 1`). Regardless of whether the child is content or not, we always move to the next cookie (`cookie_j += 1`).
-
-- The loop continues until we've either run out of cookies or all children have been checked. The number of content children is equal to the index of the child pointer `child_i` (since it was incremented each time a child was content), which is returned as the result.
+1. The method takes two arguments: `g` and `s`, which are lists of integers. The list `g` represents the greed factor of each child, and `s` represents the size of each cookie.
+2. Both lists are sorted in ascending order using the `sort()` method. This is done to match the smallest greed factor with the smallest cookie size, then the second smallest, and so on.
+3. Two pointers `child_i` and `cookie_j` are initialized to 0. These pointers are used to iterate through the lists `g` and `s`.
+4. A `while` loop is used to iterate through both lists until one of them is exhausted. Inside the loop, if the current child's greed factor is less than or equal to the current cookie's size, the child is content, and we move to the next child (`child_i += 1`). Regardless of whether the child is content or not, we always move to the next cookie (`cookie_j += 1`).
+5. The loop continues until we've either run out of cookies or all children have been checked. The number of content children is equal to the index of the child pointer `child_i` (since it was incremented each time a child was content), which is returned as the result.
 
 Take note, this algorithm has a time complexity of O(n log n) due to the sorting operation, where n is the length of the longer list. The space complexity is O(1) as it uses a constant amount of space.
