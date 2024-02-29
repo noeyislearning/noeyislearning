@@ -9,7 +9,6 @@ import { Copy, Check } from "lucide-react"
 export default function Pre({ children }: any) {
   const { toast } = useToast()
   const [copied, setCopied] = useState(false)
-  const [, setCopySuccess] = useState("")
 
   const match = children.props.className?.match(/lang-([\w]+)/)
   const language = match ? match[1] : ""
@@ -36,13 +35,12 @@ export default function Pre({ children }: any) {
   return (
     <div className="relative">
       <SyntaxHighlighter
-        language={language}
+        language={"javascript"}
         showLineNumbers={true}
         wrapLines={true}
+        lineNumberStyle={{ color: "#A9A9A9" }}
         lineProps={(lineNumber: number) => {
-          const style: React.CSSProperties = {
-            fontSize: "14px",
-          }
+          const style: React.CSSProperties = {}
           if (lineNumber === 1) {
             style.marginTop = "24px"
           }
@@ -54,12 +52,12 @@ export default function Pre({ children }: any) {
       {!copied ? (
         <button
           onClick={handleCopyClick}
-          className="absolute right-2 top-2 z-50 rounded-md border bg-zinc-50 p-1.5 transition-all duration-500 ease-in-out hover:bg-zinc-100"
+          className="absolute right-2 top-2 z-50 rounded-md border  p-1.5 transition-all duration-500 ease-in-out hover:bg-zinc-100"
         >
           <Copy className="h-4 w-4" />
         </button>
       ) : (
-        <div className="absolute right-2 top-2 z-50 rounded-md border bg-zinc-50 p-1.5 transition-all duration-500 ease-in-out hover:bg-zinc-100">
+        <div className="absolute right-2 top-2 z-50 rounded-md border  p-1.5 transition-all duration-500 ease-in-out hover:bg-zinc-100">
           <Check className="h-4 w-4 " />
         </div>
       )}
