@@ -1,9 +1,11 @@
+@import url("../styles/fonts.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Scrollbar */
 @layer utilities {
+  /* Custom Scrollbar */
   .overflow-y-auto::-webkit-scrollbar,
   .overflow-y-scroll::-webkit-scrollbar {
     width: 4px;
@@ -31,4 +33,8 @@
 
 .bg-dots {
   @apply bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px];
+}
+
+.pre-code pre code {
+  @apply px-0;
 }

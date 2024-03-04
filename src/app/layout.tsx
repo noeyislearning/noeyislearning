@@ -1,9 +1,7 @@
 import type { Metadata } from "next"
 /** Stylesheet */
-import "@/styles/globals.css"
-/** Global Font */
-import { DM_Sans } from "next/font/google"
-const globalFont = DM_Sans({ subsets: ["latin"] })
+import "@/assets/styles/globals.css"
+import "@/assets/styles/fonts.css"
 
 export const metadata: Metadata = {
   title: "Noey Ignacio (@noeyislearning)",
@@ -20,11 +18,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${globalFont.className}`}
-      suppressHydrationWarning
-    >
+    <html lang="en" className="font-sn-pro" suppressHydrationWarning>
       <body suppressHydrationWarning>
         <main className="z-10 h-screen tracking-tight text-black antialiased">
           <div className="h-screen w-screen">

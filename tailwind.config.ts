@@ -40,6 +40,11 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        "jetbrains-mono": ["JetBrains Mono", "monospace"],
+        gelica: ["Gelica", "sans-serif"],
+        "sn-pro": ["SN Pro", "sans-serif"],
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
