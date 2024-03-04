@@ -1,16 +1,15 @@
 ---
 id: "03eea441-8696-40de-8937-770d4e74d92e"
 dir: "coding-challenges"
-slug: "2610-convert-an-array-into-a-2d-array-with-conditions"
-name: "2610. Convert an Array Into a 2D Array With Conditions"
+slug: "convert-an-array-into-a-2d-array-with-conditions"
+name: "Convert an Array Into a 2D Array With Conditions"
 platform: "leetcode"
 difficulty: "medium"
 languages_used: ["python"]
+version: "1.0"
 ---
 
-# 2610. Convert an Array Into a 2D Array With Conditions
-
-PROBLEM LINK: [Leetcode](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/)
+# Convert an Array Into a 2D Array With Conditions
 
 ## Problem Statement
 
@@ -26,21 +25,21 @@ Return the resulting _array_. If there are multiple answers, return any of them
 
 **Example 1:**
 
-> Input: `nums = [1,3,4,1,2,3,1]`  
-> Output: `[[1,3,4,2],[1,3],[1]]`  
-> Explanation: `We can create a 2D array that contains the following rows:`
+> **Input**: `nums = [1,3,4,1,2,3,1]`  
+> **Output**: `[[1,3,4,2],[1,3],[1]]`  
+> **Explanation**: `We can create a 2D array that contains the following rows:`
 >
 > - `[1,3,4,2]`
 > - `[1,3]`
 > - `[1]`
-
+>
 > `All elements of nums were used, and each row of the 2D array contains distinct integers, so it is a valid answer. It can be shown that we cannot have less than 3 rows in a valid array.`
 
 **Example 2:**
 
-> Input: `nums = [1,2,3,4]`  
-> Output: `[[4,3,2,1]]`
-> Explanation: `All elements of the array are distinct, so we can keep all of them in the first row of the 2D array.`
+> **Input**: `nums = [1,2,3,4]`  
+> **Output**: `[[4,3,2,1]]`  
+> **Explanation**: `All elements of the array are distinct, so we can keep all of them in the first row of the 2D array.`
 
 **Constraints:**
 
@@ -49,7 +48,7 @@ Return the resulting _array_. If there are multiple answers, return any of them
 
 ## Solution
 
-Python
+### Python
 
 ```python
 class Solution:
@@ -68,7 +67,7 @@ class Solution:
         return rows
 ```
 
-## Explanation
+## Explanation — Python
 
 This Python code defines a class `Solution` with a method `findMatrix`. The method is designed to organize a list of integers (`nums`) into a list of lists (`rows`), where each sublist (or row) contains unique numbers. The numbers are added to the sublists in descending order.
 
@@ -83,3 +82,7 @@ Here's a step-by-step explanation of the code:
 7. After all numbers in `nums` have been processed, `rows` is returned as the result.
 
 Take note, this algorithm has a time complexity of O(n^2) due to the nested loops, where n is the length of the list `nums`. The space complexity is O(n) as it uses a list `rows` to store the result.
+
+## Acknowledgement
+
+This problem is a LeetCode problem. The original problem can be found at [here](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/).

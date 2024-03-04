@@ -1,16 +1,15 @@
 ---
 id: "653a9c5e-8280-4693-b04c-300ffd43f85e"
 dir: "coding-challenges"
-slug: "2125-number-of-laser-beams-in-a-bank"
-name: "2125. Number of Laser Beams in a Bank"
+slug: "number-of-laser-beams-in-a-bank"
+name: "Number of Laser Beams in a Bank"
 platform: "leetcode"
 difficulty: "medium"
 languages_used: ["python"]
+version: "1.0"
 ---
 
-# 2125. Number of Laser Beams in a Bank
-
-PROBLEM LINK: [Leetcode](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)
+# Number of Laser Beams in a Bank
 
 ## Problem Statement
 
@@ -57,7 +56,7 @@ Return *the total number of laser beams in the bank*.
 
 ## Solution
 
-Python
+### Python
 
 ```python
 class Solution(object):
@@ -79,7 +78,7 @@ class Solution(object):
         return sum(int(c) for c in s)
 ```
 
-## Explanation
+## Explanation — Python
 
 The provided Python code is a class `Solution` two methods: `numberOfBeams` and `calc`.
 
@@ -97,3 +96,7 @@ Here's a step-by-step explanation of `numberOfBeams`:
 6. After iterating over all rows, return `total`.
 
 This code seems to be calculating some kind of cumulative interaction between the rows in `bank`, where the interaction is determined by the product of the sums of digits in consecutive rows.
+
+## Acknowledgement
+
+This problem is taken from LeetCode. The original problem can be found [here](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/).

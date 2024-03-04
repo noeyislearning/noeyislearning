@@ -1,72 +1,77 @@
 ---
-id: "5c90656a-4f88-4f99-8fb4-87732eac47e0"
+id: "7f9662ac-f8d3-410d-a11a-dff5ac6aaedc"
 dir: "coding-challenges"
-slug: "2870-minimum-number-of-operations-to-make-array-empty"
-name: "2870. Minimum Number of Operations to Make Array Empty"
+slug: "longest-increasing-subsequence"
+name: "Longest Increasing Subsequence"
 platform: "leetcode"
 difficulty: "medium"
 languages_used: ["python"]
+version: "1.0"
 ---
 
-# 2870. Minimum Number of Operations to Make Array Empty
-
-PROBLEM LINK: [Leetcode](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/)
+# Longest Increasing Subsequence
 
 ## Problem Statement
 
 You are given a **0-indexed** array `nums` consisting of positive integers.
 
-There are two types of operations that you can apply on the array **any** number of times:
-
-- Choose **two** elements with **equal** values and **delete** them from the array.
-- Choose **three** elements with **equal** values and **delete** them from the array.
-
-Return *the minimum number of operations required to make the array empty, or `-1` if it is not possible*.
-
 **Example 1:**
 
-> **Input**: `nums = [2,3,3,2,2,4,2,3,4]`  
+> **Input**: `nums = [10,9,2,5,3,7,101,18]`  
 > **Output**: `4`  
-> **Explanation**: `We can apply the following operations to make the array empty:`
->
-> - `Apply the first operation on the elements at indices 0 and 3. The resulting array is nums = [3,3,2,4,2,3,4].`
-> - `Apply the first operation on the elements at indices 2 and 4. The resulting array is nums = [3,3,4,3,4].`
-> - `Apply the second operation on the elements at indices 0, 1, and 3. The resulting array is nums = [4,4].`
-> - `Apply the first operation on the elements at indices 0 and 1. The resulting array is nums = [].`
-
-> ` It can be shown that we cannot make the array empty in less than 4 operations.`
+> **Explanation**: `The longest increasing subsequence is [2,3,7,101], therefore the length is 4.`
 
 **Example 2:**
 
-> **Input**: `nums = [2,1,2,2,3,3]`  
-> **Output**: `-1`  
-> **Explanation**: `It is impossible to empty the array.`
+> **Input**: `nums = [0,1,0,3,2,3]`  
+> **Output**: `4`
+
+**Example 2:**
+
+> **Input**: `nums = [7,7,7,7,7,7,7]`  
+> **Output**: `1`
 
 **Constraints:**
 
-- `2 <= nums.length <= 105`
-- `1 <= nums[i] <= 106`
+- `1 <= nums.length <= 2500`
+- `104 <= nums[i] <= 104`
 
 ## Solution
 
+### Python
+
 ```python
 class Solution:
-    def minOperations(self, nums: List[int]) -> int:
-        from collections import Counter
-        mp = Counter(nums)
+    def lengthOfLIS(self, nums: List[int]) -> int:
+        if not nums:
+            return 0
 
-        count = 0
-        for t in mp.values():
-            if t == 1:
-                return -1
-            count += t // 3
-            if t % 3:
-                count += 1
+        piles = []
+        for num in nums:
+            pile_idx = self.binary_search(piles, num)
+            if pile_idx == len(piles):
+                piles.append(num)
+            else:
+                piles[pile_idx] = num
 
-        return count
+        return len(piles)
+
+    def binary_search(self, piles, target):
+        left, right = 0, len(piles) - 1
+
+        while left <= right:
+            mid = left + (right - left) // 2
+            if piles[mid] == target:
+                return mid
+            elif piles[mid] < target:
+                left = mid + 1
+            else:
+                right = mid - 1
+
+        return left
 ```
 
-## Explanation
+## Explanation — Python
 
 The provided Python code defines a class `Solution` with a method `minOperations`. This method takes a list of integers (`nums`) as input and returns an integer. The purpose of this method seems to be to calculate the minimum number of operations required based on some criteria, but without more context, it's hard to say exactly what these operations are.
 
@@ -80,3 +85,7 @@ Here's a step-by-step breakdown of the code:
 6. If `t` is not 1, the code adds `t // 3` to `count`. The `//` operator performs integer (floor) division. This suggests that each operation can process 3 of the same number at a time.
 7. If `t` is not a multiple of 3 (i.e., `t % 3` is not 0), the code adds 1 to `count`. This suggests that an additional operation is required to process the remaining numbers.
 8. Finally, the function returns `count`, which represents the minimum number of operations required.
+
+## Acknowledgement
+
+This problem is taken from LeetCode. The original problem can be found [here](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/).

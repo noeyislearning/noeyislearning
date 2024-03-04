@@ -1,16 +1,15 @@
 ---
 id: "41cb525c-c643-4eb1-bbbc-f0ea990bae4a"
 dir: "coding-challenges"
-slug: "1291-sequential-digits"
-name: "1291. Sequential Digits"
+slug: "sequential-digits"
+name: "Sequential Digits"
 platform: "leetcode"
 difficulty: "medium"
 languages_used: ["python"]
+version: "1.0"
 ---
 
-# 1291. Sequential Digits
-
-PROBLEM LINK: [Leetcode](https://leetcode.com/problems/sequential-digits/)
+# Sequential Digits
 
 ## Problem Statement
 
@@ -34,6 +33,8 @@ Return a **sorted** list of all the integers in the range `[low, high]` inc
 
 ## Solution
 
+### Python
+
 ```python
 from typing import List
 from collections import deque
@@ -54,7 +55,7 @@ class Solution:
         return sorted(result)
 ```
 
-## Explanation
+## Explanation — Python
 
 The provided Python code defines a class `Solution` with a method `sequentialDigits`. This method generates all the sequential digits between two given numbers, `low` and `high`, and returns them in a sorted list.
 
@@ -70,3 +71,7 @@ Here's a step-by-step breakdown of the code:
 8. Finally, the function returns the `result` list sorted in ascending order.
 
 This method generates all the sequential digits (like 12, 23, 34, ..., 89, 123, 234, ..., 789, 1234, etc.) between `low` and `high`. For example, if `low` is 10 and `high` is 130, the method returns `[12, 23, 34, 45, 56, 67, 78, 89, 123]`.
+
+## Acknowledgement
+
+This problem is taken from LeetCode. The original problem can be found [here](https://leetcode.com/problems/sequential-digits/).

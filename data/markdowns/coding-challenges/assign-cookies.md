@@ -1,16 +1,15 @@
 ---
 id: "13105bd4-0d97-48cb-8d5b-01abe097c609"
 dir: "coding-challenges"
-slug: "455-assign-cookies"
-name: "455. Assign Cookies"
+slug: "assign-cookies"
+name: "Assign Cookies"
 platform: "LeetCode"
 difficulty: "easy"
 languages_used: ["Python"]
+version: "1.0"
 ---
 
-# 455. Assign Cookies
-
-PROBLEM LINK: [Leetcode](https://leetcode.com/problems/assign-cookies/)
+# Assign Cookies
 
 ## Problem Statement
 
@@ -38,7 +37,7 @@ Each child `i` has a greed factor `g[i]`, which is the minimum size of a cook
 
 ## Solution
 
-Python
+### Python
 
 ```python
 class Solution:
@@ -54,7 +53,7 @@ class Solution:
         return child_i
 ```
 
-## Explanation
+## Explanation — Python
 
 This Python code defines a class `Solution` with a method `findContentChildren.` The method is designed to solve a problem where you are given two lists: `g` representing the greed factor of each child and `s` representing the size of each cookie. The goal is to maximize the number of content children (i.e., a child is content if and only if the cookie size is greater than or equal to the child's greed factor).
 
@@ -67,3 +66,7 @@ Here's a step-by-step explanation of the code:
 5. The loop continues until we've either run out of cookies or all children have been checked. The number of content children is equal to the index of the child pointer `child_i` (since it was incremented each time a child was content), which is returned as the result.
 
 Take note, this algorithm has a time complexity of O(n log n) due to the sorting operation, where n is the length of the longer list. The space complexity is O(1) as it uses a constant amount of space.
+
+## Acknowledgement
+
+This problem is a LeetCode problem. The original problem can be found at [here](https://leetcode.com/problems/assign-cookies/).

@@ -1,16 +1,15 @@
 ---
 id: "f37f4334-2ece-4f56-a896-fc1b4fc2f081"
 dir: "coding-challenges"
-slug: "2966-divide-array-into-arrays-with-max-difference"
-name: "2966. Divide Array Into Arrays With Max Difference"
+slug: "divide-array-into-arrays-with-max-difference"
+name: "Divide Array Into Arrays With Max Difference"
 platform: "leetcode"
 difficulty: "medium"
 languages_used: ["python"]
+version: "1.0"
 ---
 
-# 2966. Divide Array Into Arrays With Max Difference
-
-PROBLEM LINK: [Leetcode](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/)
+# Divide Array Into Arrays With Max Difference
 
 ## Problem Statement
 
@@ -46,6 +45,8 @@ Return *a 2D array containing all the arrays. If it is impossible to satisfy th
 
 ## Solution
 
+### Python
+
 ```python
 class Solution:
     def divideArray(self, nums: List[int], k: int) -> List[List[int]]:
@@ -59,7 +60,7 @@ class Solution:
         return res
 ```
 
-## Explanation
+## Explanation — Python
 
 This Python code defines a method `divideArray` inside a class `Solution`. The method takes a list of integers (`nums`) and an integer (`k`) as input and returns a list of lists.
 
@@ -73,3 +74,7 @@ Here's a step-by-step explanation of what the method does:
 6. `return res`: Finally, the method returns the result list `res`, which contains all the valid groups of three numbers.
 
 This method assumes that the length of `nums` is a multiple of 3. If it's not, the code will raise an `IndexError` when it tries to access `nums[i + 2]` for the last group. You might want to add a check at the beginning of the method to handle this case.
+
+## Acknowledgement
+
+This problem is taken from LeetCode. The original problem can be found [here](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/).
