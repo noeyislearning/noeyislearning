@@ -83,6 +83,9 @@ dependencies:
   tailwindcss-bg-patterns:
     specifier: ^0.3.0
     version: 0.3.0(tailwindcss@3.4.1)
+  tech-stack-icons:
+    specifier: ^2.0.3
+    version: 2.0.3(react-dom@18.2.0)(react@18.2.0)
 
 devDependencies:
   '@types/node':
@@ -3382,6 +3385,16 @@ packages:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
     engines: {node: '>=6'}
     dev: true
+
+  /tech-stack-icons@2.0.3(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-dpLPTP+suf+6s5aqnWH+0HQmq94L9Y2gf+rP5paNvGDTrgROKF47Ec4eF+MXueQFqHuXZZKinsTGf9/6ZLvnPQ==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
 
   /text-table@0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
