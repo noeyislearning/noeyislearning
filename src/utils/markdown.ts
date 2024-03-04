@@ -1,13 +1,20 @@
 import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
-import { cache } from "react"
 
 const MARKDOWN_DIRECTORY = path.join(process.cwd(), "/data/markdowns")
 
 export function getNumberOfMarkdownFiles(dir: string): number {
   const files = fs.readdirSync(path.join(MARKDOWN_DIRECTORY, dir))
   return files.filter((file) => file.endsWith(".md")).length
+}
+
+export function getNumberOfDirectories(dir: string): number {
+  const directoryPath = path.join(MARKDOWN_DIRECTORY, dir)
+  const items = fs.readdirSync(directoryPath)
+  return items.filter((item) =>
+    fs.statSync(path.join(directoryPath, item)).isDirectory()
+  ).length
 }
 
 export function getMetadataOfMarkdownFiles(dir: string): Record<string, any>[] {
@@ -29,11 +36,4 @@ export function getMarkdownContent(dir: string, slug: string): string {
   const fileContents = fs.readFileSync(fullPath, "utf8")
   const { content } = matter(fileContents)
   return content
-}
-
-export function getDirectoriesInBookmarks(): string[] {
-  const bookmarksDir = path.join(MARKDOWN_DIRECTORY, "bookmarks")
-  return fs
-    .readdirSync(bookmarksDir)
-    .filter((file) => fs.statSync(path.join(bookmarksDir, file)).isDirectory())
 }

@@ -3,29 +3,10 @@ import Link from "next/link"
 import { BookmarkLinkProps } from "@/types/Link"
 
 export default function BookmarkLinkPage({
+  metadata,
   trimmedPathname,
   fullPathname,
 }: BookmarkLinkProps) {
-  const [directories, setDirectories] = useState<string[]>([])
-
-  const fetchDirectories = async () => {
-    try {
-      const response = await fetch("/api/directories")
-      if (response.ok) {
-        const data = await response.json()
-        setDirectories(data.directories)
-      } else {
-        throw new Error("Failed to fetch directories")
-      }
-    } catch (error) {
-      console.error("Error fetching directories:", error)
-    }
-  }
-
-  useEffect(() => {
-    fetchDirectories()
-  }, [])
-
   return (
     <Link href={`${trimmedPathname}/${metadata.slug}`}>
       <div

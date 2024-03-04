@@ -14,6 +14,7 @@ export default function PagesLayout({
   const [numberOfMarkdownFiles, setNumberOfMarkdownFiles] = useState<number>(0)
   const [isLoading, setIsLoading] = useState<boolean>(true)
   const [isSubSideNavLoading, setIsSubSideNavLoading] = useState<boolean>(false)
+
   const fullPathname = usePathname()
   const trimmedPathname = fullPathname.split("/").slice(0, 2).join("/")
 
@@ -41,12 +42,10 @@ export default function PagesLayout({
     fetchNumberOfMarkdownFiles()
   }, [sanitizedPathname, fullPathname])
 
-  const hasMatchingSubmenus = numberOfMarkdownFiles > 0
+  const hasSubmenus = numberOfMarkdownFiles > 0
 
   const shouldRenderSubSideNav =
-    !isSubSideNavLoading &&
-    hasMatchingSubmenus &&
-    numberOfMarkdownFiles !== null
+    !isSubSideNavLoading && hasSubmenus && numberOfMarkdownFiles !== null
 
   return (
     <div className="h-screen w-full">

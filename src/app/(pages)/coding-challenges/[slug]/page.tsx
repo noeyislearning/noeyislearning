@@ -1,15 +1,15 @@
 "use client"
-import { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 import { usePathname, useParams } from "next/navigation"
 
-/** Components */
 import BlogArticle from "@/components/common/articles/BlogArticle"
+// import TableOfContents from "@/components/common/articles/TableOfContents"
 
 export default function CodingChallengePage() {
   const { slug } = useParams()
   const fullPathname = usePathname()
   const firstPath = fullPathname.split("/").slice(0, 2).join("")
-  const [content, setContent] = useState<string | null>(null)
+  const [content, setContent] = useState<string>("")
 
   useEffect(() => {
     const fetchContent = async () => {
@@ -36,6 +36,9 @@ export default function CodingChallengePage() {
           <BlogArticle content={content} />
         </div>
       </div>
+      {/* <div className="fixed right-0 top-0 z-20 h-screen w-72 bg-transparent pt-40">
+        <TableOfContents content={content} />
+      </div> */}
     </div>
   )
 }

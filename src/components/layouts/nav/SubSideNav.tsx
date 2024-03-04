@@ -92,16 +92,17 @@ export default function SubSideNav() {
               />
             ))} */}
         {/* Render BookmarkLink components */}
-        {/* {trimmedPathname.includes("bookmarks") &&
+        {trimmedPathname.includes("bookmarks") &&
           Object.values(metadata)
             .filter((item) => item.dir === "bookmarks")
             .map((bookmark, index) => (
               <BookmarkLink
                 key={index}
+                metadata={bookmark}
                 trimmedPathname={trimmedPathname}
                 fullPathname={fullPathname}
               />
-            ))} */}
+            ))}
       </div>
     </div>
   )
