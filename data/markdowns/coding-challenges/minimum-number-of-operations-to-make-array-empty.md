@@ -3,7 +3,7 @@ id: "5c90656a-4f88-4f99-8fb4-87732eac47e0"
 dir: "coding-challenges"
 slug: "minimum-number-of-operations-to-make-array-empty"
 name: "Minimum Number of Operations to Make Array Empty"
-platform: "leetcode"
+platform: "LeetCode"
 difficulty: "medium"
 languages_used: ["python"]
 version: "1.0"

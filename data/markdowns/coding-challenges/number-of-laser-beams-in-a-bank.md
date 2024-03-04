@@ -3,7 +3,7 @@ id: "653a9c5e-8280-4693-b04c-300ffd43f85e"
 dir: "coding-challenges"
 slug: "number-of-laser-beams-in-a-bank"
 name: "Number of Laser Beams in a Bank"
-platform: "leetcode"
+platform: "LeetCode"
 difficulty: "medium"
 languages_used: ["python"]
 version: "1.0"

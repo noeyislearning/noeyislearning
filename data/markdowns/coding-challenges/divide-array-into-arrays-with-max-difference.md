@@ -3,7 +3,7 @@ id: "f37f4334-2ece-4f56-a896-fc1b4fc2f081"
 dir: "coding-challenges"
 slug: "divide-array-into-arrays-with-max-difference"
 name: "Divide Array Into Arrays With Max Difference"
-platform: "leetcode"
+platform: "LeetCode"
 difficulty: "medium"
 languages_used: ["python"]
 version: "1.0"

@@ -3,7 +3,7 @@ id: "03eea441-8696-40de-8937-770d4e74d92e"
 dir: "coding-challenges"
 slug: "convert-an-array-into-a-2d-array-with-conditions"
 name: "Convert an Array Into a 2D Array With Conditions"
-platform: "leetcode"
+platform: "LeetCode"
 difficulty: "medium"
 languages_used: ["python"]
 version: "1.0"

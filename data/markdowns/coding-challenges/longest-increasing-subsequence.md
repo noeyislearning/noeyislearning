@@ -3,7 +3,7 @@ id: "7f9662ac-f8d3-410d-a11a-dff5ac6aaedc"
 dir: "coding-challenges"
 slug: "longest-increasing-subsequence"
 name: "Longest Increasing Subsequence"
-platform: "leetcode"
+platform: "LeetCode"
 difficulty: "medium"
 languages_used: ["python"]
 version: "1.0"

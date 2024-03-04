@@ -3,7 +3,7 @@ id: "30d4001f-c8f2-4db3-b470-5e93437b8e8d"
 dir: "coding-challenges"
 slug: "to-be-or-not-to-be"
 name: "To Be or Not to Be"
-platform: "leetcode"
+platform: "LeetCode"
 difficulty: "medium"
 languages_used: ["python"]
 version: "1.0"

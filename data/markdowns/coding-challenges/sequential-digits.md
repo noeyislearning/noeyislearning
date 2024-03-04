@@ -3,7 +3,7 @@ id: "41cb525c-c643-4eb1-bbbc-f0ea990bae4a"
 dir: "coding-challenges"
 slug: "sequential-digits"
 name: "Sequential Digits"
-platform: "leetcode"
+platform: "LeetCode"
 difficulty: "medium"
 languages_used: ["python"]
 version: "1.0"
