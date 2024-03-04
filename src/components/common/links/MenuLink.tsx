@@ -26,6 +26,7 @@ import { MenuButtonProps } from "@/types/Menu"
 
 const MenuButton: React.FC<MenuButtonProps> = ({ menu, pathname }) => {
   const [numberOfMarkdownFiles, setNumberOfMarkdownFiles] = useState<number>(0)
+  const [numberOfDirectories, setNumberOfDirectories] = useState<number>(0)
   const [isLoading, setIsLoading] = useState<boolean>(true)
 
   const IconComponent = iconComponents[menu.icon]
@@ -53,12 +54,34 @@ const MenuButton: React.FC<MenuButtonProps> = ({ menu, pathname }) => {
     fetchNumberOfMarkdownFiles()
   }, [menu.path, sanitizedPathname])
 
+  useEffect(() => {
+    const fetchData = async () => {
+      setIsLoading(true)
+      try {
+        const response = await fetch(`/api/markdowns/bookmarks`)
+        if (!response.ok) {
+          throw new Error(`Error fetching data: ${response.status}`)
+        }
+        const data = await response.json()
+        setNumberOfDirectories(data.directories)
+      } catch (error) {
+        console.error("Error fetching number of directories:", error)
+      } finally {
+        setIsLoading(false)
+      }
+    }
+
+    if (menu.path === "/bookmarks") {
+      fetchData()
+    }
+  }, [menu.path])
+
   return (
     <Link
       href={menu.path}
-      className={`group flex w-full items-center justify-between rounded-lg px-2 py-2 text-gray-900 transition-all duration-500 ease-in-out ${
+      className={`group flex w-full items-center justify-between rounded-lg px-2 py-2 text-gray-900 ${
         pathname === menu.path
-          ? "bg-indigo-700 text-white"
+          ? "bg-indigo-700 text-indigo-100 transition-all duration-500 ease-in-out"
           : "hover:bg-indigo-100"
       }`}
     >
@@ -68,7 +91,7 @@ const MenuButton: React.FC<MenuButtonProps> = ({ menu, pathname }) => {
         )}
         <span className="text-sm">{menu.name}</span>
       </div>
-      {numberOfMarkdownFiles ? (
+      {numberOfMarkdownFiles || numberOfDirectories ? (
         <div
           className={`rounded-md border px-2 py-0.5 text-xs transition-all duration-500 ease-in-out ${
             pathname === menu.path
@@ -76,7 +99,11 @@ const MenuButton: React.FC<MenuButtonProps> = ({ menu, pathname }) => {
               : "border-indigo-200 bg-indigo-50 text-indigo-600"
           }`}
         >
-          {isLoading ? <Loader className="h-4 w-4" /> : numberOfMarkdownFiles}
+          {isLoading ? (
+            <Loader className="h-4 w-4" />
+          ) : (
+            numberOfMarkdownFiles || numberOfDirectories
+          )}
         </div>
       ) : (
         <div

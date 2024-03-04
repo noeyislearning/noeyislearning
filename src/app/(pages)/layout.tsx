@@ -1,17 +1,13 @@
 "use client"
 import { useEffect, useState } from "react"
-
 import { usePathname } from "next/navigation"
-
-/** Components */
 import SubSideNav from "@/components/layouts/nav/SubSideNav"
 
 export default function PagesLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   const [numberOfMarkdownFiles, setNumberOfMarkdownFiles] = useState<number>(0)
+  const [hasDirectories, setHasDirectories] = useState<boolean>(false)
   const [isLoading, setIsLoading] = useState<boolean>(true)
   const [isSubSideNavLoading, setIsSubSideNavLoading] = useState<boolean>(false)
 
@@ -23,29 +19,39 @@ export default function PagesLayout({
     : trimmedPathname
 
   useEffect(() => {
-    const fetchNumberOfMarkdownFiles = async () => {
+    const fetchMetadata = async () => {
       setIsLoading(true)
       try {
-        const response = await fetch(`/api/markdowns?dir=${sanitizedPathname}`)
-        if (!response.ok) {
-          throw new Error(`Error fetching data: ${response.status}`)
+        let responseData
+        if (trimmedPathname === "/bookmarks") {
+          const response = await fetch(`/api/markdowns/bookmarks`)
+          if (!response.ok) {
+            throw new Error(`Error fetching data: ${response.status}`)
+          }
+          responseData = await response.json()
+          setHasDirectories(responseData.directories > 0)
+        } else {
+          const response = await fetch(
+            `/api/markdowns?dir=${sanitizedPathname}`
+          )
+          if (!response.ok) {
+            throw new Error(`Error fetching data: ${response.status}`)
+          }
+          responseData = await response.json()
+          setNumberOfMarkdownFiles(responseData.number)
         }
-        const data = await response.json()
-        setNumberOfMarkdownFiles(data.number)
       } catch (error) {
-        console.error("Error fetching number of Markdown files:", error)
+        console.error("Error fetching metadata:", error)
       } finally {
         setIsLoading(false)
       }
     }
 
-    fetchNumberOfMarkdownFiles()
-  }, [sanitizedPathname, fullPathname])
-
-  const hasSubmenus = numberOfMarkdownFiles > 0
+    fetchMetadata()
+  }, [trimmedPathname, sanitizedPathname])
 
   const shouldRenderSubSideNav =
-    !isSubSideNavLoading && hasSubmenus && numberOfMarkdownFiles !== null
+    !isSubSideNavLoading && (numberOfMarkdownFiles > 0 || hasDirectories)
 
   return (
     <div className="h-screen w-full">

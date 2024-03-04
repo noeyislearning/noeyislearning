@@ -15,29 +15,60 @@ import { setMetadata } from "@/redux/markdown-metadata/reducers"
 export default function SubSideNav() {
   const dispatch = useDispatch()
   const fullPathname = usePathname()
+
+  const [directories, setDirectories] = useState<string[]>([])
+
   const trimmedPathname = fullPathname.split("/").slice(0, 2).join("/")
   const metadata: { [key: string]: any } = useSelector(
     (state: RootState) => state.metadata.metadata
   )
+  const sanitizedPathname = trimmedPathname.startsWith("/")
+    ? trimmedPathname.slice(1)
+    : trimmedPathname
+
   const { menus } = useSelector((state: RootState) => state.menu)
 
   useEffect(() => {
     const fetchMetadata = async () => {
       try {
-        const response = await fetch(
-          `/api/markdowns/metadata?dir=${trimmedPathname}`
-        )
-        if (!response.ok) {
-          throw new Error(`Error fetching data: ${response.status}`)
+        let responseData
+        if (sanitizedPathname === "bookmarks") {
+          const response = await fetch(`/api/markdowns/bookmarks`)
+          if (!response.ok) {
+            throw new Error(`Error fetching data: ${response.status}`)
+          }
+          responseData = await response.json()
+        } else {
+          const response = await fetch(
+            `/api/markdowns/metadata?dir=${sanitizedPathname}`
+          )
+          if (!response.ok) {
+            throw new Error(`Error fetching data: ${response.status}`)
+          }
+          responseData = await response.json()
         }
-        const data = await response.json()
-        dispatch(setMetadata(data)) // Dispatch action to update metadata
+        dispatch(setMetadata(responseData))
       } catch (error) {
         console.error("Error fetching metadata:", error)
       }
     }
+
+    const fetchDirectories = async () => {
+      try {
+        const response = await fetch(`/api/markdowns/bookmarks/directory-name`)
+        if (!response.ok) {
+          throw new Error(`Error fetching directories: ${response.status}`)
+        }
+        const data = await response.json()
+        setDirectories(data.directories)
+      } catch (error) {
+        console.error("Error fetching directories:", error)
+      }
+    }
+
     fetchMetadata()
-  }, [dispatch, trimmedPathname])
+    fetchDirectories()
+  }, [dispatch, sanitizedPathname])
 
   const menuName = menus.find((menu) => menu.path === trimmedPathname)
 
@@ -93,16 +124,14 @@ export default function SubSideNav() {
             ))} */}
         {/* Render BookmarkLink components */}
         {trimmedPathname.includes("bookmarks") &&
-          Object.values(metadata)
-            .filter((item) => item.dir === "bookmarks")
-            .map((bookmark, index) => (
-              <BookmarkLink
-                key={index}
-                metadata={bookmark}
-                trimmedPathname={trimmedPathname}
-                fullPathname={fullPathname}
-              />
-            ))}
+          directories.map((directory, index) => (
+            <BookmarkLink
+              key={index}
+              metadata={{ name: directory }}
+              trimmedPathname={trimmedPathname}
+              fullPathname={fullPathname}
+            />
+          ))}
       </div>
     </div>
   )

@@ -14,7 +14,7 @@ const UserAvatar = () => {
 
   return (
     <Image
-      className="h-10 w-10 rounded-full border border-indigo-500"
+      className="h-10 w-10 rounded-full border border-zinc-500"
       src={user_img_URL}
       alt="user avatar"
       loading="lazy"

@@ -2,7 +2,6 @@ import React, { ComponentType } from "react"
 import Link from "next/link"
 import Image from "next/image"
 
-
 /** Lucide React Icon */
 import { Linkedin, Instagram, Github, Code, Link2 } from "lucide-react"
 const iconComponents: { [key: string]: ComponentType<{ className?: string }> } =
@@ -32,7 +31,7 @@ const HighlightButton: React.FC<HighlightButtonProps> = ({
           alt={highlight.name}
           width={24}
           height={24}
-          className="rounded-full border border-indigo-500"
+          className="rounded-full border border-zinc-500"
           loading="lazy"
         />
         <div className="flex flex-col items-start">
