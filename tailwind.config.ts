@@ -42,8 +42,8 @@ const config = {
     extend: {
       fontFamily: {
         "jetbrains-mono": ["JetBrains Mono", "monospace"],
-        gelica: ["Gelica", "sans-serif"],
-        "sn-pro": ["SN Pro", "sans-serif"],
+        gelica: ["var(--font-gelica)", "sans-serif"],
+        "sn-pro": ["var(--font-sn-pro)", "sans-serif"],
       },
       keyframes: {
         "accordion-down": {
