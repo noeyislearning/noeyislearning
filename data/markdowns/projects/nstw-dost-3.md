@@ -34,7 +34,7 @@ PS: Some of the images are not presented here due to data corruption.
 
 ---
 
-## Skills Used
+## Technology Used
 
 - Python
 - Django
