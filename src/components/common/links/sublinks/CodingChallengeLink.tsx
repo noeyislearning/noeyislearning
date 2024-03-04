@@ -21,13 +21,11 @@ export default function CodingChallengePage({
       >
         <div className="flex flex-col items-start">
           <div className="flex w-full flex-row items-center justify-between gap-1">
-            <p className="line-clamp-1 w-full text-sm font-medium">
-              {metadata.name}
-            </p>
+            <p className="line-clamp-1 w-full text-sm">{metadata.name}</p>
             <span className="text-xs text-zinc-300">v{metadata.version}</span>
           </div>
           <div
-            className={`flex w-full flex-row justify-between text-sm font-light lowercase transition-all duration-500 ease-in-out ${
+            className={`flex w-full flex-row justify-between text-xs font-light capitalize transition-all duration-500 ease-in-out ${
               fullPathname === `${trimmedPathname}/${metadata.slug}`
                 ? "text-indigo-200"
                 : "text-zinc-400"

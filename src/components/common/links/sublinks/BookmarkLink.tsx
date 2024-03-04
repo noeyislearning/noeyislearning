@@ -51,7 +51,7 @@ export default function BookmarkLinkPage({
         `}
       >
         <div className="flex w-full flex-row items-center justify-between">
-          <p className="line-clamp-1 w-full text-sm font-medium capitalize">
+          <p className="line-clamp-1 w-full text-sm capitalize">
             {formattedMetadata.name}
           </p>
           {numberOfMarkdownFiles ? (

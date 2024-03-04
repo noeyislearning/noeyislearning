@@ -18,11 +18,9 @@ export default function ProjectLinkPage({
         `}
       >
         <div className="flex flex-col items-start">
-          <p className="line-clamp-1 w-full text-sm font-medium">
-            {metadata.name}
-          </p>
+          <p className="line-clamp-1 w-full text-sm">{metadata.name}</p>
           <div
-            className={`flex w-full flex-row justify-between text-sm font-light lowercase ${
+            className={`flex w-full flex-row justify-between text-xs font-light capitalize ${
               fullPathname === `${trimmedPathname}/${metadata.slug}`
                 ? "text-indigo-200 transition-all duration-500 ease-in-out"
                 : "text-zinc-400 "
