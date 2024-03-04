@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { CodingChallengeLinkProps } from "@/types/Link"
 
-export default function ProjectLink({
+export default function CodingChallengePage({
   metadata,
   trimmedPathname,
   fullPathname,

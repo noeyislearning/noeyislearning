@@ -18,7 +18,7 @@ export default function UserProfile() {
     <Link href={"/"} className="group flex flex-row items-center gap-2 ">
       <UserAvatar />
       <div className="flex flex-col items-start">
-        <p className="font-semibold">{name}</p>
+        <p className="font-medium">{name}</p>
         <p className="-mt-1 text-sm text-zinc-400">{positions.join(", ")}</p>
       </div>
     </Link>

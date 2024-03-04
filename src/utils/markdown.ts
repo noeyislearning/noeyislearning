@@ -30,3 +30,10 @@ export function getMarkdownContent(dir: string, slug: string): string {
   const { content } = matter(fileContents)
   return content
 }
+
+export function getDirectoriesInBookmarks(): string[] {
+  const bookmarksDir = path.join(MARKDOWN_DIRECTORY, "bookmarks")
+  return fs
+    .readdirSync(bookmarksDir)
+    .filter((file) => fs.statSync(path.join(bookmarksDir, file)).isDirectory())
+}

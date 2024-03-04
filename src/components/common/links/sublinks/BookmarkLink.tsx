@@ -1,11 +1,31 @@
+import { useEffect, useState } from "react"
 import Link from "next/link"
-import { ProjectLinkProps } from "@/types/Link"
+import { BookmarkLinkProps } from "@/types/Link"
 
-export default function ProjectLinkPage({
-  metadata,
+export default function BookmarkLinkPage({
   trimmedPathname,
   fullPathname,
-}: ProjectLinkProps) {
+}: BookmarkLinkProps) {
+  const [directories, setDirectories] = useState<string[]>([])
+
+  const fetchDirectories = async () => {
+    try {
+      const response = await fetch("/api/directories")
+      if (response.ok) {
+        const data = await response.json()
+        setDirectories(data.directories)
+      } else {
+        throw new Error("Failed to fetch directories")
+      }
+    } catch (error) {
+      console.error("Error fetching directories:", error)
+    }
+  }
+
+  useEffect(() => {
+    fetchDirectories()
+  }, [])
+
   return (
     <Link href={`${trimmedPathname}/${metadata.slug}`}>
       <div
@@ -27,10 +47,12 @@ export default function ProjectLinkPage({
             }`}
           >
             <div className="flex items-center gap-1">
-              <p>[ {metadata.project_type} ]</p>
-              <p>[ {metadata.project_category} ] </p>
+              {metadata.languages_used ? (
+                <p>[ {metadata.languages_used.join(", ")} ]</p>
+              ) : null}
+              <p>[ {metadata.difficulty} ]</p>
             </div>
-            <p>[ {metadata.end_year} ]</p>
+            <p>[ {metadata.platform} ] </p>
           </div>
         </div>
       </div>

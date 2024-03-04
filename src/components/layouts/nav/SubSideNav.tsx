@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation"
 /** Components */
 import ProjectLink from "@/components/common/links/sublinks/ProjectLink"
 import CodingChallengeLink from "@/components/common/links/sublinks/CodingChallengeLink"
+import BookmarkLink from "@/components/common/links/sublinks/BookmarkLink"
 /** Redux */
 import { useSelector, useDispatch } from "react-redux"
 import { RootState } from "@/redux/store"
@@ -56,7 +57,7 @@ export default function SubSideNav() {
       <div className="flex h-full flex-col gap-2 p-4">
         <div className="flex flex-row items-center justify-between">
           {menuName && (
-            <span className="text-base font-semibold">{menuName.name}</span>
+            <span className="text-base font-medium">{menuName.name}</span>
           )}
         </div>
         {trimmedPathname.includes("projects") &&
@@ -91,17 +92,16 @@ export default function SubSideNav() {
               />
             ))} */}
         {/* Render BookmarkLink components */}
-        {/* {trimmedPathname.includes("bookmarks") &&
+        {trimmedPathname.includes("bookmarks") &&
           Object.values(metadata)
             .filter((item) => item.dir === "bookmarks")
             .map((bookmark, index) => (
               <BookmarkLink
                 key={index}
-                metadata={bookmark}
                 trimmedPathname={trimmedPathname}
                 fullPathname={fullPathname}
               />
-            ))} */}
+            ))}
       </div>
     </div>
   )

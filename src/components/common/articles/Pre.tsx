@@ -1,13 +1,11 @@
 "use client"
 import { useState } from "react"
 import { PrismLight as SyntaxHighlighter } from "react-syntax-highlighter"
+import { base16AteliersulphurpoolLight } from "react-syntax-highlighter/dist/cjs/styles/prism"
 
-import { Toaster } from "@/components/common/shadcn/ui/toaster"
-import { useToast } from "@/components/common/shadcn/ui/use-toast"
 import { Copy, Check } from "lucide-react"
 
 export default function Pre({ children }: any) {
-  const { toast } = useToast()
   const [copied, setCopied] = useState(false)
 
   const match = children.props.className?.match(/lang-([\w]+)/)
@@ -23,19 +21,13 @@ export default function Pre({ children }: any) {
         setTimeout(() => setCopied(false), 3000)
       })
       .catch(() => setCopied(false))
-
-    toast({
-      title: "Copied to clipboard",
-      description: "The code snippet has been copied to your clipboard",
-      duration: 3000,
-      variant: "success",
-    })
   }
 
   return (
-    <div className="relative">
+    <div className="pre-code relative">
       <SyntaxHighlighter
         language={"javascript"}
+        style={base16AteliersulphurpoolLight}
         showLineNumbers={true}
         wrapLines={true}
         lineNumberStyle={{ color: "#A9A9A9" }}
@@ -52,16 +44,15 @@ export default function Pre({ children }: any) {
       {!copied ? (
         <button
           onClick={handleCopyClick}
-          className="absolute right-2 top-2 z-50 rounded-md border  p-1.5 transition-all duration-500 ease-in-out hover:bg-zinc-100"
+          className="absolute right-2 top-2 z-50 rounded-md border p-1.5 transition-all duration-500 ease-in-out hover:bg-zinc-100"
         >
           <Copy className="h-4 w-4" />
         </button>
       ) : (
-        <div className="absolute right-2 top-2 z-50 rounded-md border  p-1.5 transition-all duration-500 ease-in-out hover:bg-zinc-100">
+        <div className="absolute right-2 top-2 z-50 rounded-md border p-1.5 transition-all duration-500 ease-in-out hover:bg-zinc-100">
           <Check className="h-4 w-4 " />
         </div>
       )}
-      <Toaster />
     </div>
   )
 }

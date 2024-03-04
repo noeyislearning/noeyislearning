@@ -1,5 +1,5 @@
 "use client"
-import { useEffect, useState } from "react"
+import { Suspense, useEffect, useState } from "react"
 import { usePathname, useParams } from "next/navigation"
 
 /** Components */
@@ -34,7 +34,9 @@ export default function ProjectPage() {
     <div className="bg-dots h-screen overflow-y-auto">
       <div className=" relative p-4">
         <div className="text-based mx-auto flex max-w-2xl flex-col items-center space-y-8 py-16">
-          <BlogArticle content={content} />
+          <Suspense fallback={<div>Loading...</div>}>
+            <BlogArticle content={content} />
+          </Suspense>
         </div>
       </div>
     </div>
