@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation"
 import ProjectLink from "@/components/common/links/sublinks/ProjectLink"
 import CodingChallengeLink from "@/components/common/links/sublinks/CodingChallengeLink"
 import BookmarkLink from "@/components/common/links/sublinks/BookmarkLink"
+import NotebookLink from "@/components/common/links/sublinks/NotebookLink"
 
 import { useSelector, useDispatch } from "react-redux"
 import { RootState } from "@/redux/store"
@@ -107,7 +108,7 @@ export default function SubSideNav() {
               fullPathname={fullPathname}
             />
           ))}
-        {/* {trimmedPathname.includes("notebooks") &&
+        {trimmedPathname.includes("notebooks") &&
           Object.values(metadata)
             .filter((item) => item.dir === "notebooks")
             .map((notebook, index) => (
@@ -117,7 +118,7 @@ export default function SubSideNav() {
                 trimmedPathname={trimmedPathname}
                 fullPathname={fullPathname}
               />
-            ))} */}
+            ))}
         {trimmedPathname.includes("bookmarks") &&
           directories.map((directory, index) => (
             <BookmarkLink

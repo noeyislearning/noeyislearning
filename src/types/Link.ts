@@ -7,3 +7,4 @@ interface LinkProps {
 export interface ProjectLinkProps extends LinkProps {}
 export interface CodingChallengeLinkProps extends LinkProps {}
 export interface BookmarkLinkProps extends LinkProps {}
+export interface NotebookLinkProps extends LinkProps {}
