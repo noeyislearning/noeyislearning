@@ -1,7 +1,6 @@
 import Markdown from "markdown-to-jsx"
 
 import Pre from "@/components/common/articles/Pre"
-import TableOfContents from "@/components/common/articles/TableOfContents"
 
 export default function BlogArticle({ content }: { content: string | null }) {
   return (

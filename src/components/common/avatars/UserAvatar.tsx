@@ -1,15 +1,12 @@
 "use client"
 import Image from "next/image"
 
-/** Redux */
 import { useSelector } from "react-redux"
 import { RootState } from "@/redux/store"
 
 const UserAvatar = () => {
-  // Select the user data from the Redux store
   const user = useSelector((state: RootState) => state.user.user)
 
-  // Destructure user data
   const { user_img_URL } = user
 
   return (

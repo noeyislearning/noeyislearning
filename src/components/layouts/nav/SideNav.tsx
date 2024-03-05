@@ -1,4 +1,3 @@
-/** Components */
 import UserProfile from "@/components/layouts/user/UserProfile"
 import Menus from "@/components/layouts/nav/menu/Menus"
 import Socials from "@/components/layouts/nav/menu/Socials"

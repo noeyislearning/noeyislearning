@@ -1,10 +1,9 @@
 import Link from "next/link"
 
-/** Components */
 import EducationTimeline from "@/components/layouts/timeline/EducationTimeline"
 import ExperienceTimeline from "@/components/layouts/timeline/ExperienceTimeline"
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div className="ml-72 h-full overflow-y-scroll">
       <div className="items relative z-10 h-full p-4">

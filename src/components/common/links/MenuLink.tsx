@@ -2,7 +2,6 @@
 import React, { ComponentType, useEffect, useState } from "react"
 import Link from "next/link"
 
-/** Lucide React Icon */
 import {
   Swords,
   SlashSquare,
@@ -11,6 +10,9 @@ import {
   Bookmark,
   Loader,
 } from "lucide-react"
+import RenderIcon from "@/components/common/icons/RenderIcon"
+import { MenuLinkProps } from "@/types/Menu"
+
 const iconComponents: { [key: string]: ComponentType<{ className?: string }> } =
   {
     slashsquare: SlashSquare,
@@ -19,12 +21,8 @@ const iconComponents: { [key: string]: ComponentType<{ className?: string }> } =
     librarybig: LibraryBig,
     bookmark: Bookmark,
   }
-/** Components */
-import RenderIcon from "@/components/common/icons/RenderIcon"
-/** Interfaces */
-import { MenuButtonProps } from "@/types/Menu"
 
-const MenuButton: React.FC<MenuButtonProps> = ({ menu, pathname }) => {
+const MenuLink: React.FC<MenuLinkProps> = ({ menu, pathname }) => {
   const [numberOfMarkdownFiles, setNumberOfMarkdownFiles] = useState<number>(0)
   const [numberOfDirectories, setNumberOfDirectories] = useState<number>(0)
   const [isLoading, setIsLoading] = useState<boolean>(true)
@@ -120,4 +118,4 @@ const MenuButton: React.FC<MenuButtonProps> = ({ menu, pathname }) => {
   )
 }
 
-export default MenuButton
+export default MenuLink

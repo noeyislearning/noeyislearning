@@ -1,9 +1,7 @@
 "use client"
-/** Lucide React Icons */
-import { Building2, School2, FlameIcon } from "lucide-react"
-/** Components */
+
 import ExperienceIcon from "@/components/common/icons/ExperienceIcon"
-/** Redux */
+
 import { useSelector } from "react-redux"
 import { RootState } from "@/redux/store"
 
@@ -18,7 +16,7 @@ export default function ExperienceTimeline() {
           <time className="mb-1 text-sm font-normal leading-none text-zinc-400">
             {experience.dates.start} - {experience.dates.end || "Present"}
           </time>
-          <h3 className="text-lg font-medium text-zinc-900">
+          <h3 className="font-gelica text-lg text-zinc-900">
             {experience.position}
           </h3>
           <div className="flex flex-row items-center text-base font-normal text-zinc-500">
@@ -26,9 +24,11 @@ export default function ExperienceTimeline() {
             <p className="ml-2">{experience.company}</p>
             <span className="ml-1 text-xs">({experience.employment_type})</span>
           </div>
-          <p className="mb-4 text-base font-normal text-zinc-400">
-            {experience.location} • {experience.setup}
-          </p>
+          <div className="mb-4 flex flex-row items-center gap-1 text-base font-normal text-zinc-400">
+            {experience.location}
+            <span className="rounded-full bg-zinc-400 p-0.5"></span>
+            {experience.setup}
+          </div>
         </li>
       ))}
     </ol>

@@ -1,13 +1,11 @@
 "use client"
 import { useEffect, useState } from "react"
-import Link from "next/link"
 import { usePathname } from "next/navigation"
 
-/** Components */
 import ProjectLink from "@/components/common/links/sublinks/ProjectLink"
 import CodingChallengeLink from "@/components/common/links/sublinks/CodingChallengeLink"
 import BookmarkLink from "@/components/common/links/sublinks/BookmarkLink"
-/** Redux */
+
 import { useSelector, useDispatch } from "react-redux"
 import { RootState } from "@/redux/store"
 import { setMetadata } from "@/redux/markdown-metadata/reducers"
@@ -100,7 +98,6 @@ export default function SubSideNav() {
               fullPathname={fullPathname}
             />
           ))}
-        {/* Render CodingChallengeLink components */}
         {trimmedPathname.includes("coding-challenges") &&
           codingChallenges.map((challenge, index) => (
             <CodingChallengeLink
@@ -110,7 +107,6 @@ export default function SubSideNav() {
               fullPathname={fullPathname}
             />
           ))}
-        {/* Render NotebookLink components */}
         {/* {trimmedPathname.includes("notebooks") &&
           Object.values(metadata)
             .filter((item) => item.dir === "notebooks")
@@ -122,7 +118,6 @@ export default function SubSideNav() {
                 fullPathname={fullPathname}
               />
             ))} */}
-        {/* Render BookmarkLink components */}
         {trimmedPathname.includes("bookmarks") &&
           directories.map((directory, index) => (
             <BookmarkLink

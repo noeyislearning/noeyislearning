@@ -1,8 +1,6 @@
 "use client"
 
-/** Lucide React Icons */
 import { Forward } from "lucide-react"
-/** Redux */
 import { useSelector } from "react-redux"
 import { RootState } from "@/redux/store"
 

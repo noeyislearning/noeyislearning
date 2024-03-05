@@ -2,8 +2,8 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
 
-import { BookmarkLinkProps } from "@/types/Link"
 import { Loader } from "lucide-react"
+import { BookmarkLinkProps } from "@/types/Link"
 
 export default function BookmarkLinkPage({
   metadata,

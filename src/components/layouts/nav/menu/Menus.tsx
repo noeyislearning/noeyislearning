@@ -1,8 +1,8 @@
 "use client"
 import { usePathname } from "next/navigation"
-/** Components */
+
 import MenuButton from "@/components/common/links/MenuLink"
-/** Redux */
+
 import { useSelector } from "react-redux"
 import { RootState } from "@/redux/store"
 

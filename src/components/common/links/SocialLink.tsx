@@ -1,7 +1,6 @@
 import React, { ComponentType } from "react"
 import Link from "next/link"
 
-/** Lucide React Icon & React Icons*/
 import {
   Linkedin,
   Instagram,
@@ -10,6 +9,9 @@ import {
   Link2,
   Clapperboard,
 } from "lucide-react"
+import RenderIcon from "@/components/common/icons/RenderIcon"
+import { SocialLinkProps } from "@/types/Social"
+
 const iconComponents: { [key: string]: ComponentType<{ className?: string }> } =
   {
     linkedin: Linkedin,
@@ -18,12 +20,8 @@ const iconComponents: { [key: string]: ComponentType<{ className?: string }> } =
     code: Code,
     clapperboard: Clapperboard,
   }
-/** Components */
-import RenderIcon from "@/components/common/icons/RenderIcon"
-/** Interfaces */
-import { SocialButtonProps } from "@/types/Social"
 
-const SocialButton: React.FC<SocialButtonProps> = ({ social, url }) => {
+const SocialLink: React.FC<SocialLinkProps> = ({ social, url }) => {
   const IconComponent = iconComponents[social.icon]
 
   return (
@@ -46,4 +44,4 @@ const SocialButton: React.FC<SocialButtonProps> = ({ social, url }) => {
   )
 }
 
-export default SocialButton
+export default SocialLink

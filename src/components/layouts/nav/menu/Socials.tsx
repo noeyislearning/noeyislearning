@@ -1,9 +1,10 @@
 "use client"
-/** Components */
+
 import SocialButton from "@/components/common/links/SocialLink"
-/** Redux */
+
 import { useSelector } from "react-redux"
 import { RootState } from "@/redux/store"
+
 export default function Socials() {
   const { socials } = useSelector((state: RootState) => state.social)
   return (

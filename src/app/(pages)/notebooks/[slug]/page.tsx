@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react"
 import { usePathname, useParams } from "next/navigation"
 
-/** Components */
 import BlogArticle from "@/components/common/articles/BlogArticle"
 
 export default function NotebookPage() {

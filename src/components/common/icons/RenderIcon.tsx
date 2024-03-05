@@ -1,4 +1,3 @@
-// RenderIcon.tsx
 import { ComponentType, ReactNode } from "react"
 
 interface RenderIconProps {

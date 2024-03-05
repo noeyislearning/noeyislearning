@@ -9,7 +9,7 @@ export interface Highlight {
   url: string
 }
 
-export interface HighlightButtonProps {
+export interface HighlightLinkProps {
   highlight: Highlight
   description: string
   url: string

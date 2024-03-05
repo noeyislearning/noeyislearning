@@ -1,7 +1,7 @@
 "use client"
-/** Components */
-import HighlightButton from "@/components/common/links/HighlightLink"
-/** Redux */
+
+import HighlightLink from "@/components/common/links/HighlightLink"
+
 import { useSelector } from "react-redux"
 import { RootState } from "@/redux/store"
 
@@ -11,7 +11,7 @@ export default function Highlights() {
     <ul className="space-y-1 font-medium">
       {highlights.map((highlight, index: number) => (
         <li key={index}>
-          <HighlightButton
+          <HighlightLink
             highlight={highlight}
             description={highlight.description}
             url={highlight.url}

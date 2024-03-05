@@ -16,7 +16,7 @@ export interface SubMenu {
   icon: string
 }
 
-export interface MenuButtonProps {
+export interface MenuLinkProps {
   menu: Menu
   pathname: string
   markdownCounts?: Record<string, number>

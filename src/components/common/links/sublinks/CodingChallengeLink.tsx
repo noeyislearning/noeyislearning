@@ -1,7 +1,7 @@
 import Link from "next/link"
-import { CodingChallengeLinkProps } from "@/types/Link"
 
 import StackIcon from "tech-stack-icons"
+import { CodingChallengeLinkProps } from "@/types/Link"
 
 export default function CodingChallengePage({
   metadata,

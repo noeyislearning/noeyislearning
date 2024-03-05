@@ -2,8 +2,9 @@ import React, { ComponentType } from "react"
 import Link from "next/link"
 import Image from "next/image"
 
-/** Lucide React Icon */
 import { Linkedin, Instagram, Github, Code, Link2 } from "lucide-react"
+import { HighlightLinkProps } from "@/types/Highlight"
+
 const iconComponents: { [key: string]: ComponentType<{ className?: string }> } =
   {
     linkedin: Linkedin,
@@ -11,10 +12,8 @@ const iconComponents: { [key: string]: ComponentType<{ className?: string }> } =
     github: Github,
     code: Code,
   }
-/** Interfaces */
-import { HighlightButtonProps } from "@/types/Highlight"
 
-const HighlightButton: React.FC<HighlightButtonProps> = ({
+const HighlightLink: React.FC<HighlightLinkProps> = ({
   highlight,
   url,
   logo_img_URL,
@@ -46,4 +45,4 @@ const HighlightButton: React.FC<HighlightButtonProps> = ({
   )
 }
 
-export default HighlightButton
+export default HighlightLink

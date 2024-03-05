@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react"
 import { usePathname, useParams } from "next/navigation"
 
 import BlogArticle from "@/components/common/articles/BlogArticle"
-// import TableOfContents from "@/components/common/articles/TableOfContents"
 
 export default function CodingChallengePage() {
   const { slug } = useParams()
@@ -36,9 +35,6 @@ export default function CodingChallengePage() {
           <BlogArticle content={content} />
         </div>
       </div>
-      {/* <div className="fixed right-0 top-0 z-20 h-screen w-72 bg-transparent pt-40">
-        <TableOfContents content={content} />
-      </div> */}
     </div>
   )
 }

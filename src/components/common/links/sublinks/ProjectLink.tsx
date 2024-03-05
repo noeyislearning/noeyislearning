@@ -1,4 +1,5 @@
 import Link from "next/link"
+
 import { ProjectLinkProps } from "@/types/Link"
 
 export default function ProjectLinkPage({

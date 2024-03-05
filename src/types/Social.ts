@@ -9,7 +9,7 @@ export interface Social {
   icon: string
 }
 
-export interface SocialButtonProps {
+export interface SocialLinkProps {
   social: Social
   handle: string
   url: string

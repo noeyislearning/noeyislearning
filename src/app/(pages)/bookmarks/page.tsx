@@ -1,5 +1,3 @@
-import Link from "next/link"
-
 export default function BookmarksPage() {
   return (
     <div className="bg-dots h-screen overflow-y-auto bg-transparent">

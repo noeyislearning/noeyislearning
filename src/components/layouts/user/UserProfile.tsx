@@ -1,17 +1,14 @@
 "use client"
 import Link from "next/link"
-/** Redux */
+
 import { useSelector } from "react-redux"
 import { RootState } from "@/redux/store"
 
-/** Components */
-import UserAvatar from "../../common/avatars/UserAvatar"
+import UserAvatar from "@/components/common/avatars/UserAvatar"
 
 export default function UserProfile() {
-  // Select the user data from the Redux store
   const user = useSelector((state: RootState) => state.user.user)
 
-  // Destructure user data
   const { name, positions } = user
 
   return (

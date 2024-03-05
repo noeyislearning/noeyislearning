@@ -1,9 +1,9 @@
 "use client"
 import { useState } from "react"
-import { PrismLight as SyntaxHighlighter } from "react-syntax-highlighter"
-import { base16AteliersulphurpoolLight } from "react-syntax-highlighter/dist/cjs/styles/prism"
 
 import { Copy, Check } from "lucide-react"
+import { PrismLight as SyntaxHighlighter } from "react-syntax-highlighter"
+import { base16AteliersulphurpoolLight } from "react-syntax-highlighter/dist/cjs/styles/prism"
 
 export default function Pre({ children }: any) {
   const [copied, setCopied] = useState(false)
