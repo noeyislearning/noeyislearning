@@ -1,4 +1,3 @@
-## <!-- [![Noeyislearning](https://github.com/noeyislearning/noeyislearning/assets/132775768/f3a9f2b5-8b20-425a-b8c1-a08776d48a32)](https://noeyislearning.dev)-->
 
 ### Hello! I'm Noey. 👋
 
