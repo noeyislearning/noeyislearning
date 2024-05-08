@@ -1,26 +1,21 @@
+![Banner](https://github.com/noeyislearning/noeyislearning/assets/132775768/20d3fe76-37d5-4ac0-89ba-9fc3d1656ce4)
 
-### Hello! I'm Noey. 👋
+<div align="center">
+  
+##### This account, [@noeyislearning](https://github.com/noeyislearning), serves as my professional portfolio; projects completed for companies, clients, and other work-related endeavors. For my data science explorations and personal projects, head over to [@noeydoesscience](https://github.com/noeydoesscience). This profile acts as a hub for my professional coding journey, while the other focuses on the exciting world of data science!
 
-##### My professional journey has been imbued with a profound enthusiasm for the captivating realm of data science. Currently, I am diligently engaged in a transformative pursuit as I transition into the role of a data scientist.
+</div>
 
-🌱 Profiles
+<div align="center">
 
-[![Personal Portfolio](https://img.shields.io/badge/Personal%20Portfolio-3636ac?style=flat-square&logo=About.me&logoColor=e5b20f)](https://noeyislearning.dev)
-[![GitHub](https://img.shields.io/badge/GitHub-3636ac?style=flat-square&logo=github&logoColor=e5b20f)](https://github.com/noeyislearning)
-[![Leetcode](https://img.shields.io/badge/Leetcode-3636ac?style=flat-square&logo=leetcode&logoColor=e5b20f)](https://leetcode.com/noeyislearning)
+[![Personal Portfolio](https://img.shields.io/badge/Personal%20Portfolio-0c52c7?style=for-the-badge&logo=About.me&logoColor=fff)](https://noeyislearning.dev)
+[![GitHub](https://img.shields.io/badge/@noeyislearning-0c52c7?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/noeyislearning)
+[![GitHub](https://img.shields.io/badge/@noeydoesscience-0c52c7?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/noeydoesscience)
 
-<!-- [![Google Developer](https://img.shields.io/badge/Google_Developer-3636ac?style=flat-square&logo=Google-chrome&logoColor=e5b20f)](https://g.dev/noeyislearning)
-[![Microsoft Learn](https://img.shields.io/badge/Microsoft_Learn-3636ac?style=flat-square&logo=microsoft&logoColor=e5b20f)](https://learn.microsoft.com/en-us/users/noeyislearning)
-[![DataCamp](https://img.shields.io/badge/DataCamp-3636ac?style=flat-square&logo=datacamp&logoColor=e5b20f)](https://www.datacamp.com/portfolio/noeyislearning)
-[![Kaggle](https://img.shields.io/badge/Kaggle-3636ac?style=flat-square&logo=kaggle&logoColor=e5b20f)](https://www.kaggle.com/noeyislearning)
-[![HackerRank](https://img.shields.io/badge/HackerRank-3636ac?style=flat-square&logo=hackerrank&logoColor=e5b20f)](https://www.hackerrank.com/noeyislearning)
--->
+</div>
 
-<!--
-📚 E-books
-
-[![Gumroad](https://img.shields.io/badge/Gumroad_(Ebooks)-3636ac?style=flat-square&logo=gumroad&logoColor=e5b20f)](https://noeylearning.gumroad.com)
-[![libro](https://img.shields.io/badge/Libro_by_Kooest-3636ac?style=flat-square&logo=Safari&logoColor=e5b20f)](https://libro.kooest.com/)
--->
-
+<div align="center">
+  
 ###### I have consolidated all my previous projects onto a single GitHub account, [this account](https://github.com/noeyislearning), encompassing work (projects, README notes, and etc) from my college days to the present.
+
+</div>
