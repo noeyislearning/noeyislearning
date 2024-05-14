@@ -10,8 +10,8 @@
 
 [![Personal Portfolio](https://img.shields.io/badge/Personal%20Portfolio-0c52c7?style=for-the-badge&logo=About.me&logoColor=fff)](https://noeyislearning.dev)
 [![GitHub](https://img.shields.io/badge/@noeyislearning-0c52c7?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/noeyislearning)
-[![GitHub Org](https://img.shields.io/badge/@cogxen-fc5b38?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/cogxen)
-[![GitHub Org](https://img.shields.io/badge/@haizoen-faf59b?style=for-the-badge&logo=github&logoColor=0d1016)](https://github.com/haizoen)
+[![GitHub Org](https://img.shields.io/badge/org:%20@cogxen-22272e?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/cogxen)
+[![GitHub Org](https://img.shields.io/badge/org:%20@haizoen-22272e?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/haizoen)
 
 </div>
 
