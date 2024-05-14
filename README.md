@@ -2,7 +2,7 @@
 
 <div align="center">
   
-##### This account, [@noeyislearning](https://github.com/noeyislearning), serves as my professional portfolio; projects completed for companies, clients, and other work-related endeavors. For my data science explorations and personal projects, head over to [@noeydoesscience](https://github.com/noeydoesscience). This profile acts as a hub for my professional coding journey, while the other focuses on the exciting world of data science!
+##### This account, [@noeyislearning](https://github.com/noeyislearning), serves as my professional portfolio; projects completed for companies, clients, and other work-related endeavors.
 
 </div>
 
@@ -10,7 +10,8 @@
 
 [![Personal Portfolio](https://img.shields.io/badge/Personal%20Portfolio-0c52c7?style=for-the-badge&logo=About.me&logoColor=fff)](https://noeyislearning.dev)
 [![GitHub](https://img.shields.io/badge/@noeyislearning-0c52c7?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/noeyislearning)
-[![GitHub](https://img.shields.io/badge/@noeydoesscience-0c52c7?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/noeydoesscience)
+[![GitHub Org](https://img.shields.io/badge/@cogxen-fc5b38?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/cogxen)
+[![GitHub Org](https://img.shields.io/badge/@haizoen-faf59b?style=for-the-badge&logo=github&logoColor=0d1016)](https://github.com/haizoen)
 
 </div>
 
