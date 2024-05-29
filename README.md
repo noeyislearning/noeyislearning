@@ -2,21 +2,30 @@
 
 <div align="center">
   
-##### This account, [@noeyislearning](https://github.com/noeyislearning), serves as my professional portfolio; projects completed for companies, clients, and other work-related endeavors.
+##### Greetings! 👋🏻 I'm Noey, a dedicated back-end engineer and a computer engineering professor with a experience in the tech industry. Currently, I am transitioning into a career in Machine Learning Engineering.
 
 </div>
 
 <div align="center">
 
-[![Personal Portfolio](https://img.shields.io/badge/Personal%20Portfolio-0c52c7?style=for-the-badge&logo=About.me&logoColor=fff)](https://noeyislearning.dev)
-[![GitHub](https://img.shields.io/badge/@noeyislearning-0c52c7?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/noeyislearning)
-[![GitHub Org](https://img.shields.io/badge/org:%20@cogxen-22272e?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/cogxen)
-[![GitHub Org](https://img.shields.io/badge/org:%20@haizoen-22272e?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/haizoen)
+[![Peerlist](https://github-readme-badge.peerlist.io/api/noeyislearning?style=for-the-badge)](https://peerlist.io/noeyislearning)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/noeyislearning/)
+
+</div>
+
+<div align="center">
+
+#### Technical Education & Open Source Contributions Organizations
+
+##### This organization, **[Haizoen](https://github.com/thehaizoen)**, fosters a collaborative learning environment for university students, especially at [Holy Angel University](https://github.com/thehaizoen). We provide mentorship and resources to help students in computer engineering master various subjects, including web development (full-stack), microprocessors, and more. In the other hand, **[Cogxen](https://github.com/cogxen)** focuses on data science, machine learning, and AI-focused organization. Contributions are welcome and highly appreciated; from students, external collaborators, and anyone passionate about the field. We aim to build a strong community for learning and growth.
+
+[![GitHub Org](https://img.shields.io/badge/@cogxen-22272e?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/cogxen)
+[![GitHub Org](https://img.shields.io/badge/@haizoen-22272e?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/thehaizoen)
 
 </div>
 
 <div align="center">
   
-###### I have consolidated all my previous projects onto a single GitHub account, [this account](https://github.com/noeyislearning), encompassing work (projects, README notes, and etc) from my college days to the present.
+###### I have consolidated all my previous projects onto a single GitHub account, [this account](https://github.com/noeyislearning), this includes everything from college days to the present, with a focus on consolidating my knowledge-based notes. That's why you'll see a steady stream of contributions over the years!
 
 </div>
