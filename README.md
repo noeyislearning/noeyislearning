@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[![Peerlist](https://github-readme-badge.peerlist.io/api/noeyislearning?style=for-the-badge)](https://peerlist.io/noeyislearning)
+[![Peerlist](https://github-readme-badge.peerlist.io/api/noeyislearning?style=for-the-badge)](https://resume.noeyislearning.dev/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/noeyislearning/)
 
 </div>
