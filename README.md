@@ -2,7 +2,7 @@
 
 <div align="center">
   
-##### Greetings! 👋🏻 I'm Noey, a dedicated back-end engineer and a computer engineering professor with a experience in the tech industry. Currently, I am transitioning into a career in Machine Learning Engineering.
+##### Greetings! 👋🏻 I'm Noey, a software developer and a computer engineering professor with a experience in the tech industry. Currently, I am transitioning into a career in Machine Learning Engineering.
 
 </div>
 
