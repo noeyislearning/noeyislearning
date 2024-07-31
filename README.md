@@ -2,7 +2,7 @@
 
 <div align="center">
   
-##### Greetings! 👋🏻 I'm Noey, a software developer and a computer engineering professor with a experience in the tech industry. Currently, I am transitioning into a career in Machine Learning Engineering.
+##### Hello, I'm Noey, a software developer and computer engineering professor at [Holy Angel University](https://hau.edu.ph). Presently, I'm starting on a career transition to become a data professional.
 
 </div>
 
@@ -15,12 +15,11 @@
 
 <div align="center">
 
-#### Technical Education & Open Source Contributions Organizations
+#### Student-Led Organization
 
-##### This organization, **[Haizoen](https://github.com/thehaizoen)**, fosters a collaborative learning environment for university students, especially at [Holy Angel University](https://github.com/thehaizoen). We provide mentorship and resources to help students in computer engineering master various subjects, including web development (full-stack), microprocessors, and more. In the other hand, **[Cogxen](https://github.com/cogxen)** focuses on data science, machine learning, and AI-focused organization. Contributions are welcome and highly appreciated; from students, external collaborators, and anyone passionate about the field. We aim to build a strong community for learning and growth.
+##### **[Cogxen](https://github.com/cogxen)**, student-led organization passionate about empowering data enthusiasts and future leaders to unlock the transformative potential of data science, machine learning, and Artificial Intelligence (AI). We believe that these fields hold immense power to solve real-world problems and shape the future.
 
 [![GitHub Org](https://img.shields.io/badge/@cogxen-22272e?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/cogxen)
-[![GitHub Org](https://img.shields.io/badge/@haizoen-22272e?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/thehaizoen)
 
 </div>
 
